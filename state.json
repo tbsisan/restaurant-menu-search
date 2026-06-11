@@ -1,0 +1,13 @@
+{
+  "title": "Restaurant Menu Search",
+  "slug": "restaurant-menu-search",
+  "status": "active",
+  "stage": "concept",
+  "priority": 3,
+  "owner": "incubator",
+  "next_action": "run_critique_pass",
+  "last_pass_type": "idea_intake",
+  "last_updated": "2026-06-09T15:35:40Z",
+  "tags": ["food", "local-search", "ai-agent", "pickup-ordering"],
+  "verdict": "needs_work"
+}
