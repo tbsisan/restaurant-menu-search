@@ -48,10 +48,13 @@ Use this file for working product, strategy, pilot, and implementation decisions
 - Payment flow: v1 default is pay at pickup rather than paying through the product.
 - Failure handling: if a dish is unavailable, the price differs, or the restaurant refuses AI-agent ordering, contact the user by text message and resolve the issue with them.
 
-### Human-in-the-loop / automation
+### Operations: Human vs machine
 - **Status:** Tentative
-- Early versions should assume human-in-the-loop or constrained automation for order placement and exception handling.
-- Fully autonomous phone ordering should not be assumed until the workflow is proven reliable.
+- Automated/system-handled work: menu ingestion, dish search, source freshness tracking, and constrained order-placement workflows where reliable.
+- Human judgment or manual work: early order supervision, exception handling when dishes/prices/availability differ, and user contact when the restaurant refuses or cannot complete an order.
+- Ongoing maintenance burden: monitor scraper/source reliability, resolve recurring menu-data conflicts, and review ordering failure patterns.
+- Automation later: fully autonomous phone ordering and broader exception handling should wait until the workflow is proven reliable.
+
 
 ## Data-source decisions
 

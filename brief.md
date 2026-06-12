@@ -60,6 +60,12 @@ Potential stronger moat over time:
 - proprietary feedback loops about menu accuracy and fulfillment reliability 
 - Strong "Pro mom and pop" brand and user habit
 
+### Marketing ideas
+- **Status:** Open
+- Audience/channel ideas: Southgate/Metro Detroit pickup customers, food explorers, price-sensitive diners, local restaurant groups, and social posts around specific dish cravings.
+- Messaging angles: find the exact dish nearby, avoid delivery-app markups, order from more restaurants than delivery apps cover, and discover local menu items hidden inside PDFs/images.
+- Launch/distribution experiments: small local dish-search demos, "where can I get X nearby?" posts, and comparison examples showing restaurant-menu prices versus delivery-app prices.
+
 ---
 
 ## Shape
