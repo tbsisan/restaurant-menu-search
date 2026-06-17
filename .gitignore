@@ -1,0 +1,4 @@
+# Project external-data convention: raw external downloads are local-only.
+/external-data/raw-untracked/
+# Large local derived external data; keep small curated outputs/samples tracked deliberately.
+/external-data/derived-untracked/
