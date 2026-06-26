@@ -83,12 +83,16 @@ The MVP should test whether users actually search by dish often enough, whether 
 ### Weird angle
 The weird edge is not just "restaurant search"; it is search-first ordering at the dish level plus an AI phone agent that bypasses marketplace ordering rails and tries to preserve normal in-store prices. The user does not start with a restaurant brand. They start with a craving: "who nearby has this dish?"
 
-### Variants
+### Variants, offshoots, and complementary products
 - Dish finder only: search nearby menus for specific dishes, then hand off to the restaurant's existing ordering method.
 - Pickup concierge: search plus AI/human phone ordering for restaurants without online ordering.
 - Price-aware anti-markup tool: compare delivery-app-style ordering against direct pickup prices, if price data can be obtained accurately.
 - Include owner profile to make the transaction more personal
 - Try to get restaurants to do dynamic pricing based on their foot traffic
+- Gluten free finder
+- Handicap access site
+- Soup daddy, soup of the day listings
+- Daily specials
 
 ---
 

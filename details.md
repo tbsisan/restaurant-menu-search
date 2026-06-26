@@ -84,15 +84,20 @@ Use this file for working product, strategy, pilot, and implementation decisions
 
 ### Data and normalization requirements
 - **Status:** Tentative
-- Dish names will need normalization and alias handling, for example mapping similar labels like "veggie tacos" and "vegetarian tacos."
+- Dish names will need normalization and alias handling, for example mapping similar labels like "veggie tacos" and "vegetarian tacos", or use proprietary names like "Dan's ultimate" for a multi-meat sandwhich.
 - Search quality will likely depend on storing multiple names, ingredients, and possibly preparation/style variants for a dish.
+- Ingredients may use implied names, so melted swiss = swiss cheese
 - We will likely need source confidence, freshness, and provenance fields for menu items, prices, ratings, and reviews.
+- We need to scrape or generate categories (Entree, Senior, etc) and tags (Healthy, gluten-free, etc)
 
 ### Known gotchas
 - **Status:** Tentative
 - "Build your own" or highly configurable dishes may be hard to represent cleanly.
 - Add-ons, options, and substitutions may affect price in ways that are difficult to scrape and normalize.
 - Menu pricing details may not appear right next to the dish listing.
+- Opening hours may be inaccurate
+- restaurants may not pick up the phone if no one is available
+- some restaurants may update their menu more often
 - Aggressive scraping of third-party menu sources could create reliability, blocking, or policy issues, so request pacing and source strategy matter.
 
 ### Schema / design follow-ups
