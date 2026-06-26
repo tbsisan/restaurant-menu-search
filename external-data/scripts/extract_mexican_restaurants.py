@@ -6,7 +6,7 @@ Rules:
   2. Include cuisine values containing "tex-mex" / "tex mex".
   3. Include records whose name/brand/website/url fields look Mexican by
      specific restaurant terms, e.g. taco, taqueria, burrito, chipotle, qdoba.
-  4. Include a small set of strong Spanish/Mexican name patterns found in this
+  4. Include those with strong Spanish/Mexican name patterns found in this
      file when cuisine is missing, with lower confidence noted in match info.
 
 The output preserves the full original OSM-derived JSON object and adds a
