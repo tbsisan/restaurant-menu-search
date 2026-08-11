@@ -1,0 +1,356 @@
+{
+  "input": "external-data/google-results/camino-real-page-3.json",
+  "models_attempted": 26,
+  "models_succeeded": 23,
+  "models_failed": 3,
+  "max_input_cost": 1.0,
+  "requested_max_tokens": 20000,
+  "aggregate": {
+    "results": [
+      {
+        "index": 1,
+        "title": "El Camino Real Mexican Grill",
+        "url": "https://elcaminoreal01.com/",
+        "avg_score": 2.957,
+        "average_usefulness": "high",
+        "variance": 0.042,
+        "confidence": "high",
+        "judgment_count": 23,
+        "counts": {
+          "high": 22,
+          "medium": 1,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 2,
+        "title": "Order Camino Real Mexican Grill",
+        "url": "https://www.doordash.com/store/camino-real-mexican-grill-238625/?srsltid=AfmBOorQ1d2-LGroafgHN70aWghdOznVIjcL20dD8M-Zfiu3r93_tvi9",
+        "avg_score": 2.826,
+        "average_usefulness": "high",
+        "variance": 0.144,
+        "confidence": "high",
+        "judgment_count": 23,
+        "counts": {
+          "high": 19,
+          "medium": 4,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 3,
+        "title": "https://www.mycaminoreal.net/",
+        "url": "https://www.mycaminoreal.net/",
+        "avg_score": 1.565,
+        "average_usefulness": "medium",
+        "variance": 0.594,
+        "confidence": "medium",
+        "judgment_count": 23,
+        "counts": {
+          "high": 4,
+          "medium": 5,
+          "low": 14,
+          "none": 0
+        }
+      },
+      {
+        "index": 4,
+        "title": "Camino Real Mexican Restaurants",
+        "url": "https://caminorealmexicanrestaurants.com/",
+        "avg_score": 2.826,
+        "average_usefulness": "high",
+        "variance": 0.144,
+        "confidence": "high",
+        "judgment_count": 23,
+        "counts": {
+          "high": 19,
+          "medium": 4,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 5,
+        "title": "Online Menu of Camino Real Mexican Grill ... - Zmenu",
+        "url": "https://www.zmenu.com/camino-real-mexican-grill-wyandotte-online-menu/",
+        "avg_score": 2.652,
+        "average_usefulness": "high",
+        "variance": 0.227,
+        "confidence": "high",
+        "judgment_count": 23,
+        "counts": {
+          "high": 15,
+          "medium": 8,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 6,
+        "title": "Carryout or Doordash now for Mother's day! @ Camino ...",
+        "url": "https://x.com/CaminoRealGrill/status/1259517893332463616",
+        "avg_score": 1.696,
+        "average_usefulness": "medium",
+        "variance": 0.386,
+        "confidence": "medium",
+        "judgment_count": 23,
+        "counts": {
+          "high": 2,
+          "medium": 12,
+          "low": 9,
+          "none": 0
+        }
+      },
+      {
+        "index": 7,
+        "title": "Camino Real Mexican Restaurant",
+        "url": "https://www.caminorealonline.com/",
+        "avg_score": 2.696,
+        "average_usefulness": "high",
+        "variance": 0.299,
+        "confidence": "medium",
+        "judgment_count": 23,
+        "counts": {
+          "high": 17,
+          "medium": 5,
+          "low": 1,
+          "none": 0
+        }
+      },
+      {
+        "index": 8,
+        "title": "CAMINO REAL",
+        "url": "https://www.caminorealmex.com/",
+        "avg_score": 2.739,
+        "average_usefulness": "high",
+        "variance": 0.28,
+        "confidence": "medium",
+        "judgment_count": 23,
+        "counts": {
+          "high": 18,
+          "medium": 4,
+          "low": 1,
+          "none": 0
+        }
+      },
+      {
+        "index": 9,
+        "title": "Camino Real Mexican Restaurants - Sam Ridley",
+        "url": "https://samridley.caminorealmexicanrestaurants.com/",
+        "avg_score": 2.609,
+        "average_usefulness": "high",
+        "variance": 0.238,
+        "confidence": "high",
+        "judgment_count": 23,
+        "counts": {
+          "high": 14,
+          "medium": 9,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 10,
+        "title": "Camino Real Mexican Grill - Detroit",
+        "url": "https://www.facebook.com/caminorealmexicangrilldetroit/",
+        "avg_score": 3.0,
+        "average_usefulness": "high",
+        "variance": 0,
+        "confidence": "high",
+        "judgment_count": 23,
+        "counts": {
+          "high": 23,
+          "medium": 0,
+          "low": 0,
+          "none": 0
+        }
+      }
+    ]
+  },
+  "model_runs": [
+    {
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "ok": false,
+      "elapsed_seconds": 0.781,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-google__gemma-4-26b-a4b-it-free.error.json",
+      "parsed_count": null
+    },
+    {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "ok": false,
+      "elapsed_seconds": 0.997,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-nvidia__nemotron-3-ultra-550b-a55b-free.error.json",
+      "parsed_count": null
+    },
+    {
+      "model": "openai/gpt-oss-120b:free",
+      "ok": false,
+      "elapsed_seconds": 1.169,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-openai__gpt-oss-120b-free.error.json",
+      "parsed_count": null
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "ok": true,
+      "elapsed_seconds": 4.01,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-google__gemini-3.1-flash-lite.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "inclusionai/ling-2.6-flash",
+      "ok": true,
+      "elapsed_seconds": 6.466,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-inclusionai__ling-2.6-flash.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "minimax/minimax-m2.5",
+      "ok": true,
+      "elapsed_seconds": 8.809,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-minimax__minimax-m2.5.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "arcee-ai/trinity-large-thinking",
+      "ok": true,
+      "elapsed_seconds": 11.567,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-arcee-ai__trinity-large-thinking.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "mistralai/mistral-large-2512",
+      "ok": true,
+      "elapsed_seconds": 12.04,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-mistralai__mistral-large-2512.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "z-ai/glm-5",
+      "ok": true,
+      "elapsed_seconds": 16.094,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-z-ai__glm-5.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash",
+      "ok": true,
+      "elapsed_seconds": 16.917,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-deepseek__deepseek-v4-flash.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "qwen/qwen3-vl-235b-a22b-instruct",
+      "ok": true,
+      "elapsed_seconds": 17.143,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-qwen__qwen3-vl-235b-a22b-instruct.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "ok": true,
+      "elapsed_seconds": 18.042,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-google__gemma-4-31b-it.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "ok": true,
+      "elapsed_seconds": 19.026,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-deepseek__deepseek-v3.2.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "ok": true,
+      "elapsed_seconds": 21.702,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-nvidia__nemotron-3-super-120b-a12b-free.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "moonshotai/kimi-k2.5",
+      "ok": true,
+      "elapsed_seconds": 24.108,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-moonshotai__kimi-k2.5.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "deepseek/deepseek-v3.1-terminus",
+      "ok": true,
+      "elapsed_seconds": 29.946,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-deepseek__deepseek-v3.1-terminus.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "minimax/minimax-m2.7",
+      "ok": true,
+      "elapsed_seconds": 30.302,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-minimax__minimax-m2.7.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "qwen/qwen3.6-35b-a3b",
+      "ok": true,
+      "elapsed_seconds": 34.922,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-qwen__qwen3.6-35b-a3b.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "tencent/hy3-preview",
+      "ok": true,
+      "elapsed_seconds": 40.239,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-tencent__hy3-preview.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "xiaomi/mimo-v2.5-pro",
+      "ok": true,
+      "elapsed_seconds": 41.083,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-xiaomi__mimo-v2.5-pro.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "ok": true,
+      "elapsed_seconds": 48.046,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-deepseek__deepseek-v4-pro.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "z-ai/glm-5.1",
+      "ok": true,
+      "elapsed_seconds": 57.463,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-z-ai__glm-5.1.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "z-ai/glm-4.7",
+      "ok": true,
+      "elapsed_seconds": 66.471,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-z-ai__glm-4.7.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "qwen/qwen3.5-397b-a17b",
+      "ok": true,
+      "elapsed_seconds": 90.115,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-qwen__qwen3.5-397b-a17b.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "stepfun/step-3.5-flash",
+      "ok": true,
+      "elapsed_seconds": 138.24,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-stepfun__step-3.5-flash.response.md",
+      "parsed_count": 10
+    },
+    {
+      "model": "moonshotai/kimi-k2.6",
+      "ok": true,
+      "elapsed_seconds": 275.275,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-page-3-rewards-skymiles-v1-moonshotai__kimi-k2.6.response.md",
+      "parsed_count": 10
+    }
+  ]
+}

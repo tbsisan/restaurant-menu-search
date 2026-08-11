@@ -1,0 +1,25 @@
+{
+  "query": "camino real mexican grill wyandotte",
+  "tab_id": "39ae0223-7e34-4e95-b6c8-7c69e23fa151",
+  "requested_url": "https://www.google.com/search?q=camino%20real%20mexican%20grill%20wyandotte",
+  "pages_requested": 2,
+  "pages": [
+    {
+      "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamino%2520real%2520mexican%2520grill%2520wyandotte%26sei%3DF5JIasDrKcGVmLQPrLjhqQs&q=EhAmB_uRF-eYWpQRyf_-CGAoGJikotIGIjD0nnNUuXN8TS0pXztZnrf33HALU8bxsNToFQU76Ghh-IwA9fPhHor7Qo2WSzB65xQyAVJaAUM",
+      "title": "https://www.google.com/search?q=camino%20real%20mexican%20grill%20wyandotte&sei=F5JIasDrKcGVmLQPrLjhqQs",
+      "result_count": 0,
+      "results": [],
+      "body_text": "About this page Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen? IP address: 2607:fb91:17e7:985a:9411:c9ff:fe08:6028 Time: 2026-07-04T04:54:48Z URL: https://www.google.com/search?q=camino%20real%20mexican%20grill%20wyandotte&sei=F5JIasDrKcGVmLQPrLjhqQs",
+      "page": 1
+    },
+    {
+      "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamino%2Breal%2Bmexican%2Bgrill%2Bwyandotte%26start%3D10%26sei%3DIJJIaviABbSLruEPya_N6QY&q=EhAmB_uRF-eYWpQRyf_-CGAoGKCkotIGIjCzkIDBlziT_N8wP8Wwgj_0XNwyQRlgX3rDMC_gEDLPr0Y34FOAIf6eu_Em0R-GYiIyAVJaAUM",
+      "title": "https://www.google.com/search?q=camino+real+mexican+grill+wyandotte&start=10&sei=IJJIaviABbSLruEPya_N6QY",
+      "result_count": 0,
+      "results": [],
+      "body_text": "About this page Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen? IP address: 2607:fb91:17e7:985a:9411:c9ff:fe08:6028 Time: 2026-07-04T04:54:57Z URL: https://www.google.com/search?q=camino+real+mexican+grill+wyandotte&start=10&sei=IJJIaviABbSLruEPya_N6QY",
+      "page": 2
+    }
+  ],
+  "results": []
+}

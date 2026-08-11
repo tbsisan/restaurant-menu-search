@@ -1,0 +1,17 @@
+{
+  "query": "camino real mexican grill wyandotte",
+  "tab_id": "5dac5a5d-9f4e-4c60-ac9b-921c00398d6b",
+  "requested_url": "https://www.google.com/search?q=camino%20real%20mexican%20grill%20wyandotte",
+  "pages_requested": 1,
+  "pages": [
+    {
+      "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamino%2520real%2520mexican%2520grill%2520wyandotte%26sei%3DgJJIauCxMNjGp84P5JXW4Qg&q=EhAmB_uRF-eYWpQRyf_-CGAoGIGlotIGIjDjIdD5PySql35ZdYwPp_djqeHekfusZ-vB5ThLIJfOzYGblUFoJH3i6ndhE6BSKCYyAVJaAUM",
+      "title": "https://www.google.com/search?q=camino%20real%20mexican%20grill%20wyandotte&sei=gJJIauCxMNjGp84P5JXW4Qg",
+      "result_count": 0,
+      "results": [],
+      "body_text": "About this page Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen? IP address: 2607:fb91:17e7:985a:9411:c9ff:fe08:6028 Time: 2026-07-04T04:56:33Z URL: https://www.google.com/search?q=camino%20real%20mexican%20grill%20wyandotte&sei=gJJIauCxMNjGp84P5JXW4Qg",
+      "page": 1
+    }
+  ],
+  "results": []
+}

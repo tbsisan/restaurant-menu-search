@@ -1,0 +1,468 @@
+{
+  "input": "external-data/google-results/camino-real.json",
+  "models_attempted": 26,
+  "models_succeeded": 22,
+  "models_failed": 4,
+  "max_input_cost": 1.0,
+  "requested_max_tokens": 20000,
+  "aggregate": {
+    "results": [
+      {
+        "index": 1,
+        "title": "Must-Visit Restaurant in Wyandotte | Camino Real",
+        "url": "https://restaurantcaminoreal.com/",
+        "avg_score": 3.0,
+        "average_usefulness": "high",
+        "variance": 0,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 22,
+          "medium": 0,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 2,
+        "title": "CAMINO REAL MEXICAN GRILL - Restaurant Reviews",
+        "url": "https://www.yelp.com/biz/camino-real-mexican-grill-wyandotte",
+        "avg_score": 3.0,
+        "average_usefulness": "high",
+        "variance": 0,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 22,
+          "medium": 0,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 3,
+        "title": "Camino Real Mexican Grill - Wyandotte",
+        "url": "https://www.facebook.com/caminorealmexicangrillwyandotte/",
+        "avg_score": 3.0,
+        "average_usefulness": "high",
+        "variance": 0,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 22,
+          "medium": 0,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 4,
+        "title": "Camino Real Mexican Grill - Wyandotte Restaurants",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g42834-d7616095-Reviews-Camino_Real_Mexican_Grill-Wyandotte_Michigan.html",
+        "avg_score": 3.0,
+        "average_usefulness": "high",
+        "variance": 0,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 22,
+          "medium": 0,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 5,
+        "title": "Order Camino Real Mexican Grill - Wyandotte, MI ...",
+        "url": "https://www.doordash.com/en/store/camino-real-mexican-grill-wyandotte-238625/?srsltid=AfmBOopZc2exUCHJ4S2HanyzEYY1XiH-dePMdqhNZof7qAZ_u8OgaKDj",
+        "avg_score": 2.955,
+        "average_usefulness": "high",
+        "variance": 0.043,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 21,
+          "medium": 1,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 6,
+        "title": "Camino Real Mexican Grill (@caminorealgrill)",
+        "url": "https://www.instagram.com/caminorealgrill/",
+        "avg_score": 2.636,
+        "average_usefulness": "high",
+        "variance": 0.231,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 14,
+          "medium": 8,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 7,
+        "title": "Camino Real Mexican Grill - Wyandotte",
+        "url": "https://maps.apple.com/place?place-id=I702541FF86129CCA",
+        "avg_score": 1.818,
+        "average_usefulness": "medium",
+        "variance": 0.149,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 0,
+          "medium": 18,
+          "low": 4,
+          "none": 0
+        }
+      },
+      {
+        "index": 8,
+        "title": "Camino Real Mexican Grill Delivery Menu | Order Online",
+        "url": "https://www.grubhub.com/restaurant/camino-real-mexican-grill-3851-fort-st-wyandotte/6882728",
+        "avg_score": 2.864,
+        "average_usefulness": "high",
+        "variance": 0.118,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 19,
+          "medium": 3,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 9,
+        "title": "Order Camino Real Mexican Grill (Wyandotte) - Uber Eats",
+        "url": "https://www.ubereats.com/store/camino-real-mexican-grill-wyandotte/QXhsSH0yVSeESCNVX6sQDQ?srsltid=AfmBOorOOhnx1zCLbxK36vA2NnO4Jmd_p9iexbKOGhIkf21KBGBAhAWg",
+        "avg_score": 2.864,
+        "average_usefulness": "high",
+        "variance": 0.118,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 19,
+          "medium": 3,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 10,
+        "title": "Camino Real Mexican Grill, 3851 Fort St, Wyandotte, MI ...",
+        "url": "https://www.mapquest.com/us/michigan/camino-real-mexican-grill-358845823",
+        "avg_score": 1.318,
+        "average_usefulness": "low",
+        "variance": 0.217,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 0,
+          "medium": 7,
+          "low": 15,
+          "none": 0
+        }
+      },
+      {
+        "index": 11,
+        "title": "Camino Real Mexican Grill | Eater Detroit",
+        "url": "https://detroit.eater.com/venue/13978/camino-real-mexican-grill",
+        "avg_score": 2.636,
+        "average_usefulness": "high",
+        "variance": 0.231,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 14,
+          "medium": 8,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 12,
+        "title": "Camino Real | The Bite Tonight",
+        "url": "https://thebitetonight.wordpress.com/2016/03/22/camino-real/",
+        "avg_score": 2.136,
+        "average_usefulness": "medium",
+        "variance": 0.209,
+        "confidence": "high",
+        "judgment_count": 22,
+        "counts": {
+          "high": 4,
+          "medium": 17,
+          "low": 1,
+          "none": 0
+        }
+      },
+      {
+        "index": 13,
+        "title": "Camino Real Mexican Grill Menu - Wyandotte | Order Online",
+        "url": "https://www.fivestar.express/order/restaurant/camino-real-mexican-grill-menu/83622",
+        "avg_score": 2.5,
+        "average_usefulness": "medium",
+        "variance": 0.341,
+        "confidence": "medium",
+        "judgment_count": 22,
+        "counts": {
+          "high": 12,
+          "medium": 9,
+          "low": 1,
+          "none": 0
+        }
+      },
+      {
+        "index": 14,
+        "title": "Camino Real Mexican Grill - Home - Wyandotte, Michigan",
+        "url": "https://www.facebook.com/1753855248174403",
+        "avg_score": 1.227,
+        "average_usefulness": "low",
+        "variance": 0.267,
+        "confidence": "medium",
+        "judgment_count": 22,
+        "counts": {
+          "high": 1,
+          "medium": 3,
+          "low": 18,
+          "none": 0
+        }
+      },
+      {
+        "index": 15,
+        "title": "Camino Real Mexican Grill Near Me - Pickup and Delivery",
+        "url": "https://order.online/business/CaminoRealMexicanGrill-121531",
+        "avg_score": 2.5,
+        "average_usefulness": "medium",
+        "variance": 0.432,
+        "confidence": "medium",
+        "judgment_count": 22,
+        "counts": {
+          "high": 13,
+          "medium": 7,
+          "low": 2,
+          "none": 0
+        }
+      },
+      {
+        "index": 16,
+        "title": "Camino Real Mexican Grill - Wyandotte, MI",
+        "url": "https://www.aadvantagedining.com/merchants/167929",
+        "avg_score": 3.0,
+        "average_usefulness": "high",
+        "variance": 0,
+        "confidence": "high",
+        "judgment_count": 21,
+        "counts": {
+          "high": 21,
+          "medium": 0,
+          "low": 0,
+          "none": 0
+        }
+      },
+      {
+        "index": 17,
+        "title": "Order Camino Real Mexican Grill - Wyandotte, MI ...",
+        "url": "https://www.doordash.com/en/store/camino-real-mexican-grill-238625/?srsltid=AfmBOop3XIK3mbTDyJnXhnVIRUHysv085Zm2MsofvUNQ8rdsd628Fpjk",
+        "avg_score": 1.0,
+        "average_usefulness": "low",
+        "variance": 0,
+        "confidence": "high",
+        "judgment_count": 21,
+        "counts": {
+          "high": 0,
+          "medium": 0,
+          "low": 21,
+          "none": 0
+        }
+      }
+    ]
+  },
+  "model_runs": [
+    {
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "ok": false,
+      "elapsed_seconds": 0.529,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-google__gemma-4-26b-a4b-it-free.error.json",
+      "parsed_count": null
+    },
+    {
+      "model": "openai/gpt-oss-120b:free",
+      "ok": false,
+      "elapsed_seconds": 0.974,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-openai__gpt-oss-120b-free.error.json",
+      "parsed_count": null
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "ok": true,
+      "elapsed_seconds": 6.644,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-google__gemini-3.1-flash-lite.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "minimax/minimax-m2.7",
+      "ok": true,
+      "elapsed_seconds": 9.209,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-minimax__minimax-m2.7.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "inclusionai/ling-2.6-flash",
+      "ok": true,
+      "elapsed_seconds": 9.504,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-inclusionai__ling-2.6-flash.response.md",
+      "parsed_count": 15
+    },
+    {
+      "model": "xiaomi/mimo-v2.5-pro",
+      "ok": true,
+      "elapsed_seconds": 18.028,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-xiaomi__mimo-v2.5-pro.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "z-ai/glm-4.7",
+      "ok": true,
+      "elapsed_seconds": 18.038,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-z-ai__glm-4.7.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "arcee-ai/trinity-large-thinking",
+      "ok": true,
+      "elapsed_seconds": 20.588,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-arcee-ai__trinity-large-thinking.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "minimax/minimax-m2.5",
+      "ok": true,
+      "elapsed_seconds": 21.295,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-minimax__minimax-m2.5.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "mistralai/mistral-large-2512",
+      "ok": true,
+      "elapsed_seconds": 22.843,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-mistralai__mistral-large-2512.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "ok": true,
+      "elapsed_seconds": 28.403,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-google__gemma-4-31b-it.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "qwen/qwen3-vl-235b-a22b-instruct",
+      "ok": true,
+      "elapsed_seconds": 35.996,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-qwen__qwen3-vl-235b-a22b-instruct.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash",
+      "ok": true,
+      "elapsed_seconds": 37.82,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-deepseek__deepseek-v4-flash.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "ok": false,
+      "elapsed_seconds": 40.81,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-deepseek__deepseek-v4-pro.error.json",
+      "parsed_count": null
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "ok": true,
+      "elapsed_seconds": 54.649,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-nvidia__nemotron-3-super-120b-a12b-free.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "z-ai/glm-5.1",
+      "ok": true,
+      "elapsed_seconds": 62.682,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-z-ai__glm-5.1.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "deepseek/deepseek-v3.1-terminus",
+      "ok": true,
+      "elapsed_seconds": 70.827,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-deepseek__deepseek-v3.1-terminus.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "qwen/qwen3.5-397b-a17b",
+      "ok": true,
+      "elapsed_seconds": 79.559,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-qwen__qwen3.5-397b-a17b.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "ok": true,
+      "elapsed_seconds": 86.21,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-nvidia__nemotron-3-ultra-550b-a55b-free.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "qwen/qwen3.6-35b-a3b",
+      "ok": true,
+      "elapsed_seconds": 90.851,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-qwen__qwen3.6-35b-a3b.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "ok": true,
+      "elapsed_seconds": 129.964,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-deepseek__deepseek-v3.2.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "tencent/hy3-preview",
+      "ok": true,
+      "elapsed_seconds": 143.851,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-tencent__hy3-preview.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "moonshotai/kimi-k2.5",
+      "ok": true,
+      "elapsed_seconds": 149.762,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-moonshotai__kimi-k2.5.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "moonshotai/kimi-k2.6",
+      "ok": true,
+      "elapsed_seconds": 195.487,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-moonshotai__kimi-k2.6.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "z-ai/glm-5",
+      "ok": true,
+      "elapsed_seconds": 286.958,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-z-ai__glm-5.response.md",
+      "parsed_count": 17
+    },
+    {
+      "model": "stepfun/step-3.5-flash",
+      "ok": false,
+      "elapsed_seconds": 300.563,
+      "output": "/home/tbsisan/Projects/restaurant-menu-search/external-data/google-results-link-eval/batch/camino-real-cheap-models-rewards-skymiles-v1-stepfun__step-3.5-flash.error.json",
+      "parsed_count": null
+    }
+  ]
+}
