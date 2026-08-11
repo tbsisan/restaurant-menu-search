@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grubhub Menu Scraper"
+  short_description: "Extract structured Grubhub menus"
+  default_prompt: "Use $grubhub-menu-scraper to capture and parse a Grubhub restaurant menu."

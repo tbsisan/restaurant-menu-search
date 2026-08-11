@@ -1,0 +1,4 @@
+interface:
+  display_name: "DoorDash Menu Scraper"
+  short_description: "Extract structured DoorDash menu JSON-LD"
+  default_prompt: "Use $doordash-menu-scraper to capture and parse a DoorDash restaurant menu."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grubhub Reviews Scraper"
+  short_description: "Extract Grubhub restaurant reviews"
+  default_prompt: "Use $grubhub-reviews-scraper to scrape Grubhub reviews for a restaurant."

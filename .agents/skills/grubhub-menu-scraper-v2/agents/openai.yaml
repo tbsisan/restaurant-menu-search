@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grubhub Menu Scraper v2"
+  short_description: "Extract structured Grubhub menus (camofox-browser server)"
+  default_prompt: "Use $grubhub-menu-scraper-v2 to capture and parse a Grubhub restaurant menu."
