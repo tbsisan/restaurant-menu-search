@@ -1,0 +1,243 @@
+[
+  {
+    "file": "external-data/review-scraping/camino_real_wyandotte_spike/doordash-store-238625.curl.html",
+    "title": "Icon Loading",
+    "text_path": "external-data/review-scraping/camino_real_wyandotte_spike/doordash-store-238625.curl.parsed-text.txt",
+    "html_chars": 2720934,
+    "text_chars": 4028,
+    "json_script_count": 5,
+    "structured_ratings": [
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "name": "Camino Real Mexican Grill",
+        "ratingValue": 4.4,
+        "reviewCount": 50,
+        "bestRating": 5,
+        "raw": {
+          "@type": "AggregateRating",
+          "ratingCount": 50,
+          "worstRating": 1,
+          "bestRating": 5,
+          "reviewCount": 50,
+          "ratingValue": 4.4
+        }
+      }
+    ],
+    "rating_candidates": [
+      {
+        "rating": "1",
+        "context": "Seafood Caldos Sides Desserts Beverages Delivery Pickup Group Order $0 delivery fee, first order pricing & fees Enter address to see delivery time Featured Items Corn Taco 6 Pack $15.99 • 93% (339) #2 Most liked Enchiladas Dinner $13.59 • 94% (353) #1 Most liked large chips and salsa $11.99 • 91% (216) #3 Most liked Quesadilla Dinner $15.80 • 88% (158) Burrito Dinner $14.59 • 94% (200) Chimichanga Dinner (Dinner) $14.65 • 95% (179) Revi"
+      },
+      {
+        "rating": "1",
+        "context": "tems Corn Taco 6 Pack $15.99 • 93% (339) #2 Most liked Enchiladas Dinner $13.59 • 94% (353) #1 Most liked large chips and salsa $11.99 • 91% (216) #3 Most liked Quesadilla Dinner $15.80 • 88% (158) Burrito Dinner $14.59 • 94% (200) Chimichanga Dinner (Dinner) $14.65 • 95% (179) Reviews 10k+ ratings • 100+ public reviews 4.4 of 5 stars D Debra W 6 contributions Loved • 7/18/24 • DoorDash order You just can go wrong with the Chicken Chimi"
+      },
+      {
+        "rating": "4.4",
+        "context": "216) #3 Most liked Quesadilla Dinner $15.80 • 88% (158) Burrito Dinner $14.59 • 94% (200) Chimichanga Dinner (Dinner) $14.65 • 95% (179) Reviews 10k+ ratings • 100+ public reviews 4.4 of 5 stars D Debra W 6 contributions Loved • 7/18/24 • DoorDash order You just can go wrong with the Chicken Chimichanga Dinner (Dinner) Two big Chimis and they put the sauce in a seperate container! A bonus for me who will heat the 2nd one up tomorrow in"
+      },
+      {
+        "rating": "1",
+        "context": "g but this order was correct. The ice cream was also good and a very large portion. Tasty, affordable, large portions - I will order from here again! H heather P Emerging Expert • 15 contributions Loved • 1/6/23 • DoorDash order fuego authentic & delicious food, delivered and the restaurant environment is great. amazing servers clean and large portions. the chimichangas are amazing, i love the sauce thats on top. i always get tres leche"
+      },
+      {
+        "rating": "2",
+        "context": "n and large portions. the chimichangas are amazing, i love the sauce thats on top. i always get tres leches, and its the best I've ever had R Robin D 2 contributions Loved • 10/11/25 • DoorDash order The nachos were out of this world. Exactly what I had wanted. This was the first time I ordered it this restaurant and I will definitely be ordering there often. The small nachos were more than one person could eat. So fresh. See All Most O"
+      }
+    ],
+    "count_candidates": [],
+    "review_objects": [
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@context\": \"http://schema.org\", \"@type\": \"Restaurant\", \"address\": {\"@type\": \"PostalAddress\", \"addressCountry\": \"US\", \"addressLocality\": \"Wyandotte\", \"addressRegion\": \"MI\", \"streetAddress\": \"3851 Fort Street\"}, \"aggregateRating\": {\"@type\": \"AggregateRating\", \"bestRating\": 5, \"ratingCount\": 50, \"ratingValue\": 4.4, \"reviewCount\": 50, \"worstRating\": 1}, \"geo\": {\"@type\": \"GeoCoordinates\", \"latitude\": \"42.193503\", \"longitude\": \"-83.179575\"}, \"hasMenu\": {\"@type\": \"Menu\", \"hasMenuSection\": [[{\"hasMenuItem\": [{\"@type\": \"MenuItem\", \"description\": \"Three fried corn tortillas dipped in red or green enchilada sauce, filled with your choice of melted cheese, Ground Beef, or Shredded Chicken, topped with melted cheese. Enchiladas are served with lettuce, tomato, and sour cream.\", \"name\": \"Enchiladas Dinner\", \"offers\": {\"@type\": \"Offer\", \"price\": \"$13.59\"}}, {\"@type\": \"MenuItem\", \"description\": \"Six tacos of corn tortilla served with up to two choices of meats. Tacos come with two toppings of either"
+      }
+    ],
+    "ratingish_objects": [
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@context\": \"http://schema.org\", \"@type\": \"Restaurant\", \"address\": {\"@type\": \"PostalAddress\", \"addressCountry\": \"US\", \"addressLocality\": \"Wyandotte\", \"addressRegion\": \"MI\", \"streetAddress\": \"3851 Fort Street\"}, \"aggregateRating\": {\"@type\": \"AggregateRating\", \"bestRating\": 5, \"ratingCount\": 50, \"ratingValue\": 4.4, \"reviewCount\": 50, \"worstRating\": 1}, \"geo\": {\"@type\": \"GeoCoordinates\", \"latitude\": \"42.193503\", \"longitude\": \"-83.179575\"}, \"hasMenu\": {\"@type\": \"Menu\", \"hasMenuSection\": [[{\"hasMenuItem\": [{\"@type\": \"MenuItem\", \"description\": \"Three fried corn tortillas dipped in red or green enchilada sauce, filled with your choice of melted cheese, Ground Beef, or Shredded Chicken, topped with melted cheese. Enchiladas are served with lettuce, tomato, and sour cream.\", \"name\": \"Enchiladas Dinner\", \"offers\": {\"@type\": \"Offer\", \"price\": \"$13.59\"}}, {\"@type\": \"MenuItem\", \"description\": \"Six tacos of corn tortilla served with up to two choices of meats. Tacos come with two toppings of either onions and cilantro or lettuce and tomato.\", \"name\": \"Corn Taco 6 Pack\", \"offers\": {\"@type\": \"Offer\", \"price\": \"$15.99\"}}, {\"@type\": \"MenuItem\", \"description\": \"one large chips and large salsa your choose hot or mild\", \"name\": \"large chips and salsa\", \"offers\": {\"@type\": \"Offer\", \"price\": \"$11.99\"}}, {\"@type\": \"MenuItem\", \"description\": \"Seasoned rice cooked with tomatoes, onions, and bell pepper"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"MenuItem\", \"description\": \"Handmade smash beef Patty with American cheese lettuce tomatoes onions mayonnaise pickles mustard and ketchup and French fries\", \"name\": \"Hamburger combo\", \"offers\": {\"@type\": \"Offer\", \"price\": \"$11.99\"}}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Review\", \"author\": {\"@type\": \"Person\", \"name\": \"Debra W\"}, \"publisher\": \"DoorDash\", \"reviewBody\": \"You just can go wrong with the Chicken Chimichanga Dinner (Dinner) Two big Chimis and they put the sauce in a seperate container! A bonus for me who will heat the 2nd one up tomorrow in airfryer, it will still be crispy with the yummy sauce added after!!! \", \"reviewRating\": {\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Review\", \"author\": {\"@type\": \"Person\", \"name\": \"Rachel K\"}, \"publisher\": \"DoorDash\", \"reviewBody\": \"my favorite local mexican place, birria tacos are to die for and so delicious! I'd recommend this to anyone who wants some genuine authentic Mexican food, very good portions for even better prices, very fresh! 10/10 \", \"reviewRating\": {\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Review\", \"author\": {\"@type\": \"Person\", \"name\": \"Deborah S\"}, \"publisher\": \"DoorDash\", \"reviewBody\": \"I had the Burrito dinner and it was very good. The beef was very tender with no gristle. I like my burritos with just meat and cheese and usually my order is wrong but this order was correct. The ice cream was also good and a very large portion. Tasty, affordable, large portions - I will order from here again!\", \"reviewRating\": {\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Review\", \"author\": {\"@type\": \"Person\", \"name\": \"heather P\"}, \"publisher\": \"DoorDash\", \"reviewBody\": \"fuego authentic & delicious food, delivered and the restaurant environment is great. amazing servers clean and large portions. the chimichangas are amazing, i love the sauce thats on top. i always get tres leches, and its the best I've ever had\", \"reviewRating\": {\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Review\", \"author\": {\"@type\": \"Person\", \"name\": \"Robin D\"}, \"publisher\": \"DoorDash\", \"reviewBody\": \"The nachos were out of this world. Exactly what I had wanted. This was the first time I ordered it this restaurant and I will definitely be ordering there often. The small nachos were more than one person could eat. So fresh.\", \"reviewRating\": {\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"bestRating\": 5, \"ratingValue\": 5, \"worstRating\": 1}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"AggregateRating\", \"bestRating\": 5, \"ratingCount\": 50, \"ratingValue\": 4.4, \"reviewCount\": 50, \"worstRating\": 1}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@context\": \"http://schema.org\", \"@type\": \"Organization\", \"name\": \"DoorDash\", \"sameAs\": [\"https://www.facebook.com/doordash\", \"https://twitter.com/doordash\", \"https://www.linkedin.com/company/doordash\"], \"url\": \"http://www.doordash.com\"}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"MenuItem\", \"description\": \"Handmade smash beef Patty with American cheese lettuce tomatoes onions mayonnaise pickles mustard and ketchup and French fries\", \"name\": \"Hamburger combo\", \"offers\": {\"@type\": \"Offer\", \"price\": \"$11.99\"}}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@context\": \"http://schema.org/\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Camino Real Mexican Grill is located at 3851 Fort St, Wyandotte, MI 48192, USA. This is where you will go to get DoorDash Pickup orders, and where Dashers will go to get your DoorDash delivery orders.\"}, \"name\": \"What is the Camino Real Mexican Grill's address?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You can browse Camino Real Mexican Grill’s menu and place an order for both Delivery and Pickup on DoorDash. Camino Real Mexican Grill may also offer delivery and pickup on their own or through other delivery services.\"}, \"name\": \"Does Camino Real Mexican Grill offer delivery or pickup?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The dishes most commonly ordered by DoorDash customers at Camino Real Mexican Grill are Enchiladas Dinner, Corn Taco 6 Pack and large chips and salsa.\"}, \"name\": \"What are the most popular dishes at Camino Real Mexican Grill?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Camino Real Mexican Grill offers DashPass benefits like $0 delivery, reduced service fees, and $5 credits back on Pickup orders. If you want to know if a store is DashPass eligible, you can look for the DashPass icon next to their name.\"}, \"name\": \"Is Camino Real Mexic"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Camino Real Mexican Grill is located at 3851 Fort St, Wyandotte, MI 48192, USA. This is where you will go to get DoorDash Pickup orders, and where Dashers will go to get your DoorDash delivery orders.\"}, \"name\": \"What is the Camino Real Mexican Grill's address?\"}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Answer\", \"text\": \"Camino Real Mexican Grill is located at 3851 Fort St, Wyandotte, MI 48192, USA. This is where you will go to get DoorDash Pickup orders, and where Dashers will go to get your DoorDash delivery orders.\"}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You can browse Camino Real Mexican Grill’s menu and place an order for both Delivery and Pickup on DoorDash. Camino Real Mexican Grill may also offer delivery and pickup on their own or through other delivery services.\"}, \"name\": \"Does Camino Real Mexican Grill offer delivery or pickup?\"}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Answer\", \"text\": \"You can browse Camino Real Mexican Grill’s menu and place an order for both Delivery and Pickup on DoorDash. Camino Real Mexican Grill may also offer delivery and pickup on their own or through other delivery services.\"}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The dishes most commonly ordered by DoorDash customers at Camino Real Mexican Grill are Enchiladas Dinner, Corn Taco 6 Pack and large chips and salsa.\"}, \"name\": \"What are the most popular dishes at Camino Real Mexican Grill?\"}"
+      },
+      {
+        "script_id": "",
+        "script_type": "application/ld+json",
+        "context": "{\"@type\": \"Answer\", \"text\": \"The dishes most commonly ordered by DoorDash customers at Camino Real Mexican Grill are Enchiladas Dinner, Corn Taco 6 Pack and large chips and salsa.\"}"
+      }
+    ],
+    "review_lines": [
+      "DoorDash",
+      "DoorDash Merchant",
+      "Get DoorDash for Business",
+      "© 2026 DoorDash",
+      "Order Camino Real Mexican Grill - Wyandotte, MI Menu Delivery [Menu & Prices] | Wyandotte - DoorDash",
+      "Reviews",
+      "10k+ ratings • 100+ public reviews",
+      "of 5 stars",
+      "• DoorDash order"
+    ]
+  },
+  {
+    "file": "external-data/review-scraping/camino_real_wyandotte_spike/grubhub-6882728.curl.html",
+    "title": "Prepare your taste buds...",
+    "text_path": "external-data/review-scraping/camino_real_wyandotte_spike/grubhub-6882728.curl.parsed-text.txt",
+    "html_chars": 13596,
+    "text_chars": 28,
+    "json_script_count": 0,
+    "structured_ratings": [],
+    "rating_candidates": [],
+    "count_candidates": [],
+    "review_objects": [],
+    "ratingish_objects": [],
+    "review_lines": []
+  },
+  {
+    "file": "external-data/review-scraping/camino_real_wyandotte_spike/order-online-store-238625.curl.html",
+    "title": "Camino Real Mexican Grill 3851 Fort Street – Order pickup and delivery",
+    "text_path": "external-data/review-scraping/camino_real_wyandotte_spike/order-online-store-238625.curl.parsed-text.txt",
+    "html_chars": 1253294,
+    "text_chars": 1930,
+    "json_script_count": 0,
+    "structured_ratings": [],
+    "rating_candidates": [
+      {
+        "rating": "1",
+        "context": "rill 3851 Fort St, Wyandotte, MI 48192, USA Online ordering hours: 11:00 AM - 8:40 PM Opens 11:00 AM Order for later Delivery Pickup Featured Items #2 Most liked Corn Taco 6 Pack $15.99 #1 Most liked Enchiladas Dinner $13.59 #3 Most liked large chips and salsa $11.99 Quesadilla Dinner $15.80 Burrito Dinner $13.59 Chimichanga Dinner (Dinner) $14.65 Corn Taco Dinner $12.80 Quesabirria $14.50 Arroz (Mexican Rice) $3.99 Botana LG (your choi"
+      },
+      {
+        "rating": "1",
+        "context": "for later Delivery Pickup Featured Items #2 Most liked Corn Taco 6 Pack $15.99 #1 Most liked Enchiladas Dinner $13.59 #3 Most liked large chips and salsa $11.99 Quesadilla Dinner $15.80 Burrito Dinner $13.59 Chimichanga Dinner (Dinner) $14.65 Corn Taco Dinner $12.80 Quesabirria $14.50 Arroz (Mexican Rice) $3.99 Botana LG (your choice of meat) $16.99 Super Nacho LG $12.75 Mexican Sandwich $11.99 Quesadilla $3.39 Wet Super Burrito $13.99"
+      },
+      {
+        "rating": "4.2",
+        "context": "rroz (Mexican Rice) $3.99 Botana LG (your choice of meat) $16.99 Super Nacho LG $12.75 Mexican Sandwich $11.99 Quesadilla $3.39 Wet Super Burrito $13.99 Cheese Dip $8.50 Horchata $4.25 Camino Real Dinner $16.99 Flour Taco 6 pack $18.99 Full Guacamole $9.99 Camino Real Burrito $13.99 chicharron $13.75 Chicken Fajitas $17.99 Caldo de Res $14.99 California Super Burrito $12.99 Flour Taco Dinner $13.25 Full Menu 11:00 am - 8:40 pm Most Orde"
+      },
+      {
+        "rating": "2",
+        "context": "co 6 pack $18.99 Full Guacamole $9.99 Camino Real Burrito $13.99 chicharron $13.75 Chicken Fajitas $17.99 Caldo de Res $14.99 California Super Burrito $12.99 Flour Taco Dinner $13.25 Full Menu 11:00 am - 8:40 pm Most Ordered Tortas & Mexican Sub Tacos Appetizers Burritos Chimichangas Tostadas Quesadillas Enchiladas Traditional Dinners Combinations Vegetarian What's on the Grill Fajitas Seafood Caldos Sides Desserts Beverages Most Ordere"
+      }
+    ],
+    "count_candidates": [],
+    "review_objects": [],
+    "ratingish_objects": [],
+    "review_lines": [
+      "DoorDash Commerce Platform",
+      "© 2026 DoorDash"
+    ]
+  },
+  {
+    "file": "external-data/review-scraping/camino_real_wyandotte_spike/ubereats-QXhsSH0yVSeESCNVX6sQDQ.curl.html",
+    "title": "",
+    "text_path": "external-data/review-scraping/camino_real_wyandotte_spike/ubereats-QXhsSH0yVSeESCNVX6sQDQ.curl.parsed-text.txt",
+    "html_chars": 9,
+    "text_chars": 9,
+    "json_script_count": 0,
+    "structured_ratings": [],
+    "rating_candidates": [],
+    "count_candidates": [],
+    "review_objects": [],
+    "ratingish_objects": [],
+    "review_lines": []
+  }
+]

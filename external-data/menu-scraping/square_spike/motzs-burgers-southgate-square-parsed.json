@@ -1,0 +1,112 @@
+{
+  "source": {
+    "response_path": "external-data/menu-scraping/square_spike/motzs-burgers-southgate-square-dom-extraction.json"
+  },
+  "menu_sections": [
+    {
+      "section": "Fresh Beef Sliders",
+      "items": [
+        {
+          "title": "HAMBURGER(S)*",
+          "ingredients_or_description": "Fresh beef single hamburger slider with caramelized onions, pickles, ketchup, and mustard.",
+          "price": "$2.85"
+        },
+        {
+          "title": "CHEESEBURGER(S)*",
+          "ingredients_or_description": "Fresh beef single cheeseburger slider with caramelized onions, pickles, ketchup, and mustard.",
+          "price": "$3.10"
+        },
+        {
+          "title": "DBL CHEESEBURGER(S)*",
+          "ingredients_or_description": "Fresh beef double cheeseburger slider with caramelized onions, pickles, ketchup, and mustard.",
+          "price": "$4.95"
+        },
+        {
+          "title": "DBL HAMBURGER(S)*",
+          "ingredients_or_description": "Fresh beef double hamburger slider with caramelized onions, pickles, ketchup, and mustard.",
+          "price": "$4.45"
+        }
+      ]
+    },
+    {
+      "section": "Sandwich(es)",
+      "items": [
+        {
+          "title": "FISH",
+          "ingredients_or_description": "Deep fried breaded loin on a toasted bun with cheese and tartar sauce.",
+          "price": "$5.99"
+        },
+        {
+          "title": "CHICKEN*",
+          "ingredients_or_description": "Deep fried breaded chicken breast on a toasted bun with spicy mayo and pickles.",
+          "price": "$5.99"
+        }
+      ]
+    },
+    {
+      "section": "Sides",
+      "items": [
+        {
+          "title": "FRENCH FRIES",
+          "ingredients_or_description": "Golden shoestring french fries.",
+          "price": "$3.99"
+        },
+        {
+          "title": "ONION RINGS",
+          "ingredients_or_description": "Golden brown thick cut battered onion rings.",
+          "price": "$4.99"
+        }
+      ]
+    },
+    {
+      "section": "Soda Pop",
+      "items": [
+        {
+          "title": "MOUNTAIN DEW",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "PEPSI",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "ROOT BEER",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "ORANGE CRUSH",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "STARRY",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        }
+      ]
+    },
+    {
+      "section": "Shakes",
+      "items": [
+        {
+          "title": "VANILLA SHAKE(S)",
+          "ingredients_or_description": "Farm fresh dairy milk and vanilla ice cream.",
+          "price": "$5.75"
+        },
+        {
+          "title": "CHOCOLATE SHAKE(S)",
+          "ingredients_or_description": "Farm fresh dairy milk and vanilla ice cream mixed with chocolate syrup.",
+          "price": "$5.75"
+        },
+        {
+          "title": "STRAWBERRY SHAKE(S)",
+          "ingredients_or_description": "Farm fresh dairy milk and vanilla ice cream mixed with strawberry syrup.",
+          "price": "$5.75"
+        }
+      ]
+    }
+  ]
+}

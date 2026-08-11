@@ -1,0 +1,116 @@
+{
+  "result": [
+    {
+      "category": "Fresh Beef Sliders",
+      "name": "HAMBURGER(S)*",
+      "description": "Fresh beef single hamburger slider with caramelized onions, pickles, ketchup, and mustard.",
+      "price": "$2.85",
+      "badge": null
+    },
+    {
+      "category": "Fresh Beef Sliders",
+      "name": "CHEESEBURGER(S)*",
+      "description": "Fresh beef single cheeseburger slider with caramelized onions, pickles, ketchup, and mustard.",
+      "price": "$3.10",
+      "badge": null
+    },
+    {
+      "category": "Fresh Beef Sliders",
+      "name": "DBL CHEESEBURGER(S)*",
+      "description": "Fresh beef double cheeseburger slider with caramelized onions, pickles, ketchup, and mustard.",
+      "price": "$4.95",
+      "badge": null
+    },
+    {
+      "category": "Fresh Beef Sliders",
+      "name": "DBL HAMBURGER(S)*",
+      "description": "Fresh beef double hamburger slider with caramelized onions, pickles, ketchup, and mustard.",
+      "price": "$4.45",
+      "badge": null
+    },
+    {
+      "category": "Sandwich(es)",
+      "name": "FISH",
+      "description": "Deep fried breaded loin on a toasted bun with cheese and tartar sauce.",
+      "price": "$5.99",
+      "badge": null
+    },
+    {
+      "category": "Sandwich(es)",
+      "name": "CHICKEN*",
+      "description": "Deep fried breaded chicken breast on a toasted bun with spicy mayo and pickles.",
+      "price": "$5.99",
+      "badge": null
+    },
+    {
+      "category": "Sides",
+      "name": "FRENCH FRIES",
+      "description": "Golden shoestring french fries.",
+      "price": "$3.99",
+      "badge": null
+    },
+    {
+      "category": "Sides",
+      "name": "ONION RINGS",
+      "description": "Golden brown thick cut battered onion rings.",
+      "price": "$4.99",
+      "badge": null
+    },
+    {
+      "category": "Soda Pop",
+      "name": "MOUNTAIN DEW",
+      "description": "",
+      "price": "$2.99",
+      "badge": null
+    },
+    {
+      "category": "Soda Pop",
+      "name": "PEPSI",
+      "description": "",
+      "price": "$2.99",
+      "badge": null
+    },
+    {
+      "category": "Soda Pop",
+      "name": "ROOT BEER",
+      "description": "",
+      "price": "$2.99",
+      "badge": null
+    },
+    {
+      "category": "Soda Pop",
+      "name": "ORANGE CRUSH",
+      "description": "",
+      "price": "$2.99",
+      "badge": null
+    },
+    {
+      "category": "Soda Pop",
+      "name": "STARRY",
+      "description": "",
+      "price": "$2.99",
+      "badge": null
+    },
+    {
+      "category": "Shakes",
+      "name": "VANILLA SHAKE(S)",
+      "description": "Farm fresh dairy milk and vanilla ice cream.",
+      "price": "$5.75",
+      "badge": null
+    },
+    {
+      "category": "Shakes",
+      "name": "CHOCOLATE SHAKE(S)",
+      "description": "Farm fresh dairy milk and vanilla ice cream mixed with chocolate syrup.",
+      "price": "$5.75",
+      "badge": null
+    },
+    {
+      "category": "Shakes",
+      "name": "STRAWBERRY SHAKE(S)",
+      "description": "Farm fresh dairy milk and vanilla ice cream mixed with strawberry syrup.",
+      "price": "$5.75",
+      "badge": null
+    }
+  ]
+}

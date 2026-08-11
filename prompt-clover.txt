@@ -1,0 +1,23 @@
+Here is a restaurant that uses clover for their online ordering so that you can make a script for scraping. remember to check for any json-ld to make it less brittle. One interesting thing for this one is that some items have a price $0.00 because you select an option in a popup. So have the python script click those items and get the optoions. The options with prices are in this html:
+
+<div><div class="mb-4 border-b border-[#E5E5E5] pb-4 "><label class="flex items-center justify-between cursor-pointer"><div class="flex items-center"><input class="mr-2" data-testid="modifier-input-XT7ZSYB5E6Y96" aria-label="Cup $4.49" type="radio" value="XT7ZSYB5E6Y96" name="J11D60HE9QPGC" style="width: 20px; height: 20px; cursor: pointer; accent-color: rgb(34, 136, 0); flex-shrink: 0;"><div class="text-black cursor-pointer">Cup</div></div><span data-testid="modifier-price-XT7ZSYB5E6Y96" class="text-right font-normal text-[15px] text-grayDark">+$4.49</span></label></div><div class="mb-4 border-b border-[#E5E5E5] pb-4 "><label class="flex items-center justify-between cursor-pointer"><div class="flex items-center"><input class="mr-2" data-testid="modifier-input-4W5TBS6PXNS72" aria-label="Bowl $5.49" type="radio" value="4W5TBS6PXNS72" name="J11D60HE9QPGC" style="width: 20px; height: 20px; cursor: pointer; accent-color: rgb(34, 136, 0); flex-shrink: 0;"><div class="text-black cursor-pointer">Bowl</div></div><span data-testid="modifier-price-4W5TBS6PXNS72" class="text-right font-normal text-[15px] text-grayDark">+$5.49</span></label></div><div class="mb-4 border-b border-[#E5E5E5] pb-4 "><label class="flex items-center justify-between cursor-pointer"><div class="flex items-center"><input class="mr-2" data-testid="modifier-input-VSPCEX7B246V8" aria-label="Quart $10.99" type="radio" value="VSPCEX7B246V8" name="J11D60HE9QPGC" style="width: 20px; height: 20px; cursor: pointer; accent-color: rgb(34, 136, 0); flex-shrink: 0;"><div class="text-black cursor-pointer">Quart</div></div><span data-testid="modifier-price-VSPCEX7B246V8" class="text-right font-normal text-[15px] text-grayDark">+$10.99</span></label></div></div>
+
+The text with instructions for how many options must be chosen is in this html:
+
+<div id="badge-J11D60HE9QPGC" class="bg-[#E5E5E5] rounded-2xl px-3 py-1 text-center ml-2" data-testid="modifier-group-rule-J11D60HE9QPGC" aria-live="polite" aria-atomic="true"><span class="text-sm font-medium" style="color: rgb(57, 57, 57);">1 required</span></div>
+
+We need to save it in our data.  It's also perhaps useful to see that this particular set of options are radio buttons which implies only selecting one item. It's worth checking that the text instruction agrees with the selector type, and flagging mismatch for review. There is also the possibilty for more than one selection zone there might be one to pick a side item, and a second for choosing a soup option. Assume that all zones will have the same html as above.
+
+Follow our rule about no items with a price of $0.00 and change it to the lowest value as a default. Then the higher priced options chould be added to the description section.
+
+Some options picker might have options all at the same price, for example choosing a flavor. Change the $0.00 price to the common price and add the options to the description.
+
+The "x" to close the window has the following html:
+
+<button class="absolute top-4 right-4 p-2 rounded-full z-50 top-4 right-4" aria-label="Close modal"><svg aria-hidden="true" data-testid="x icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></button>
+
+Another odd thing about this menu is that there are no descriptions. To aid you in writing the code to extract all the menu items, here is the html for a single item:
+
+<li><a id="item-card-KYJCSS3W3DEJ8-29B8CVTGEARYG" class="block h-full w-full" data-testid="item-name" href="/menu/mixed-kabob-KYJCSS3W3DEJ8"><div data-testid="single-product" class="flex relative h-[120px] shadow-md rounded-b-md cursor-pointer bg-white"><div class="w-full flex flex-col justify-between px-3 pt-4 pb-3 flex-grow min-w-0"><div class="flex justify-between"><h3 class="flex flex-col sm:flex-row overflow-hidden"><span data-testid="item-name" class="line-clamp-1 text-lg font-medium text-ellipsis">Mixed Kabob</span></h3><div class="m-0"><span data-testid="product-price" class="pt-[3px] text-sm font-medium pl-3">$21.99</span></div></div><p data-testid="product-description" class="text-wrap line-clamp-2 text-[15px] m-0 text-ellipsis" title=""></p></div></div></a></li>
+
+Write the script to extract the menu to json.

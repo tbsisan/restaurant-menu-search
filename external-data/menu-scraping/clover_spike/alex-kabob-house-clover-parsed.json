@@ -1,0 +1,723 @@
+{
+  "source": {
+    "response_path": "external-data/menu-scraping/clover_spike/alex-kabob-house-clover-capture.json",
+    "url": "https://alex-kabob-house-southgate.cloveronline.com/menu/garlic-sauce-1GSJ8SCVR2AN6",
+    "json_ld_used": false
+  },
+  "menu_sections": [
+    {
+      "section": "SOUP",
+      "items": [
+        {
+          "title": "Crushed Lentil",
+          "ingredients_or_description": "SOUP: Bowl ($5.49), Quart ($10.99) available for an extra charge",
+          "price": "$4.49"
+        },
+        {
+          "title": "Chicken Veg",
+          "ingredients_or_description": "SOUP: Bowl ($5.49), Quart ($10.99) available for an extra charge",
+          "price": "$4.49"
+        },
+        {
+          "title": "Lamb Veg",
+          "ingredients_or_description": "SOUP: Bowl ($5.49), Quart ($10.99) available for an extra charge",
+          "price": "$4.49"
+        }
+      ]
+    },
+    {
+      "section": "LUNCH SPECIALS",
+      "items": [
+        {
+          "title": "L-S Lamb Kabob",
+          "ingredients_or_description": "",
+          "price": "$12.99"
+        },
+        {
+          "title": "L-S Shish Tawook",
+          "ingredients_or_description": "",
+          "price": "$12.99"
+        },
+        {
+          "title": "L-S Chicken Shawarma",
+          "ingredients_or_description": "",
+          "price": "$12.99"
+        },
+        {
+          "title": "L-S Meat Shawarma",
+          "ingredients_or_description": "",
+          "price": "$12.99"
+        },
+        {
+          "title": "L-S Kafta",
+          "ingredients_or_description": "",
+          "price": "$12.99"
+        },
+        {
+          "title": "L-S Lamb Chops",
+          "ingredients_or_description": "",
+          "price": "$15.49"
+        },
+        {
+          "title": "L-S Vegie Plate",
+          "ingredients_or_description": "",
+          "price": "$12.99"
+        }
+      ]
+    },
+    {
+      "section": "SANDWICHES",
+      "items": [
+        {
+          "title": "Sandwich Combo",
+          "ingredients_or_description": "",
+          "price": "$12.99"
+        },
+        {
+          "title": "Chicken Shawarma Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Shish Kabob Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Shish Tawook Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Shish Kafta Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Shish Tawook & Tabouli Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Meat Shawarma Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Meat Galabah Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.75"
+        },
+        {
+          "title": "Veggie Grape Leave Sandwich",
+          "ingredients_or_description": "",
+          "price": "$6.99"
+        },
+        {
+          "title": "Chicken Galabah Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.75"
+        },
+        {
+          "title": "Chicken Shawarma Salad Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Sojok Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Falafel Sandwich",
+          "ingredients_or_description": "",
+          "price": "$6.99"
+        },
+        {
+          "title": "Meat Grape Leaves Sandwich",
+          "ingredients_or_description": "",
+          "price": "$7.49"
+        },
+        {
+          "title": "Hommus & Tabouli Sandwich",
+          "ingredients_or_description": "",
+          "price": "$6.99"
+        },
+        {
+          "title": "Majdara Sandwich",
+          "ingredients_or_description": "",
+          "price": "$6.99"
+        }
+      ]
+    },
+    {
+      "section": "MAIN ENTRES",
+      "items": [
+        {
+          "title": "Mixed Kabob",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        },
+        {
+          "title": "Shish Kabob",
+          "ingredients_or_description": "",
+          "price": "$22.99"
+        },
+        {
+          "title": "Shish Tawook",
+          "ingredients_or_description": "",
+          "price": "$21.49"
+        },
+        {
+          "title": "Shish Kafta",
+          "ingredients_or_description": "",
+          "price": "$20.99"
+        },
+        {
+          "title": "Chicken Kafta",
+          "ingredients_or_description": "",
+          "price": "$20.99"
+        },
+        {
+          "title": "Shawarma Combo",
+          "ingredients_or_description": "",
+          "price": "$21.49"
+        },
+        {
+          "title": "Meat Shawarma",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        },
+        {
+          "title": "Chicken Shawarma",
+          "ingredients_or_description": "",
+          "price": "$20.99"
+        },
+        {
+          "title": "Lamb Chops Din",
+          "ingredients_or_description": "",
+          "price": "$34.99"
+        },
+        {
+          "title": "Chicken Cream Chops",
+          "ingredients_or_description": "",
+          "price": "$21.49"
+        },
+        {
+          "title": "Sauteed Lamb",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        },
+        {
+          "title": "Sauteed Chicken",
+          "ingredients_or_description": "",
+          "price": "$20.99"
+        },
+        {
+          "title": "Chicken Special",
+          "ingredients_or_description": "",
+          "price": "$17.49"
+        },
+        {
+          "title": "Half Deboned Chicken",
+          "ingredients_or_description": "",
+          "price": "$20.99"
+        },
+        {
+          "title": "Whole Deboned Chicken",
+          "ingredients_or_description": "",
+          "price": "$26.99"
+        },
+        {
+          "title": "Classic Chicken Galabah",
+          "ingredients_or_description": "",
+          "price": "$21.49"
+        },
+        {
+          "title": "Classic Meat Galabah",
+          "ingredients_or_description": "",
+          "price": "$21.49"
+        },
+        {
+          "title": "Veggie Galabah",
+          "ingredients_or_description": "",
+          "price": "$19.99"
+        },
+        {
+          "title": "Chicken Liver",
+          "ingredients_or_description": "",
+          "price": "$20.99"
+        },
+        {
+          "title": "Mjadara",
+          "ingredients_or_description": "",
+          "price": "$16.99"
+        },
+        {
+          "title": "Hommus With Lamb",
+          "ingredients_or_description": "SIDES 1: choose one - Rice, Fries, Grilled Veggies, Hommos, Home Fries",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "David Basha",
+          "ingredients_or_description": "",
+          "price": "$21.49"
+        },
+        {
+          "title": "Small Lamb Combo",
+          "ingredients_or_description": "SIDES 1: choose one - Rice, Fries, Grilled Veggies, Hommos, Home Fries",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "SEA FOOD",
+      "items": [
+        {
+          "title": "Salamon Galabah",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        },
+        {
+          "title": "Shrimp Galabah",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        },
+        {
+          "title": "Shish Shrimp Kabob",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        },
+        {
+          "title": "Fried Shrimp",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        },
+        {
+          "title": "Sauteed Shrimp",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        },
+        {
+          "title": "Fish & Chips",
+          "ingredients_or_description": "",
+          "price": "$21.99"
+        }
+      ]
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "items": [
+        {
+          "title": "Alex Veggie Combo",
+          "ingredients_or_description": "",
+          "price": "$34.99"
+        },
+        {
+          "title": "Shish Combo",
+          "ingredients_or_description": "",
+          "price": "$24.99"
+        },
+        {
+          "title": "Shish Cambo For 2",
+          "ingredients_or_description": "",
+          "price": "$35.99"
+        },
+        {
+          "title": "Sampler Plate",
+          "ingredients_or_description": "",
+          "price": "$45.99"
+        },
+        {
+          "title": "Alex Plate",
+          "ingredients_or_description": "",
+          "price": "$44.99"
+        },
+        {
+          "title": "Alex Feast Tray",
+          "ingredients_or_description": "",
+          "price": "$134.99"
+        },
+        {
+          "title": "Tray For 4",
+          "ingredients_or_description": "",
+          "price": "$64.99"
+        },
+        {
+          "title": "Tray For 6-8",
+          "ingredients_or_description": "",
+          "price": "$109.99"
+        },
+        {
+          "title": "Tray For 10-12",
+          "ingredients_or_description": "",
+          "price": "$154.99"
+        }
+      ]
+    },
+    {
+      "section": "APPETIZERS",
+      "items": [
+        {
+          "title": "Hommus",
+          "ingredients_or_description": "HOMMUS SIZE: Large ($9.99) available for an extra charge",
+          "price": "$7.99"
+        },
+        {
+          "title": "Baba Ghanooj",
+          "ingredients_or_description": "BABA SIZE: Large ($9.99) available for an extra charge",
+          "price": "$7.99"
+        },
+        {
+          "title": "Hommus Topped Lamb",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Starter Combo",
+          "ingredients_or_description": "",
+          "price": "$15.99"
+        },
+        {
+          "title": "Sojok",
+          "ingredients_or_description": "",
+          "price": "$11.99"
+        },
+        {
+          "title": "Fried Kibbee 5 Pc",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Meat Grape Leaves Appetizer",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Veggie Grape Leaves",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Falafel Plate",
+          "ingredients_or_description": "FALAFEL: 8 Pc ($11.99) available for an extra charge",
+          "price": "$7.99"
+        },
+        {
+          "title": "Foul",
+          "ingredients_or_description": "",
+          "price": "$11.99"
+        },
+        {
+          "title": "Meat Pie 4 Pc",
+          "ingredients_or_description": "",
+          "price": "$8.49"
+        },
+        {
+          "title": "Spnach Pie 4 Pc",
+          "ingredients_or_description": "",
+          "price": "$8.49"
+        },
+        {
+          "title": "Chicken Sautee",
+          "ingredients_or_description": "",
+          "price": "$13.49"
+        },
+        {
+          "title": "Bbq Chicken Wings 8 Pc",
+          "ingredients_or_description": "",
+          "price": "$10.99"
+        },
+        {
+          "title": "Traditional Arayis",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "FRESH SALADS",
+      "items": [
+        {
+          "title": "Small Salad",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Small Fattoush",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Small Fattoush Tawook",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Small Tabouli",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Small Rice Almond Salad",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Greek Salad",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Small Meat Shawarma Salad",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Small Chicken Shawarma Salad",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Small Village Salad",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Small Spinach Salad",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "KIDS MENU",
+      "items": [
+        {
+          "title": "Hamburger",
+          "ingredients_or_description": "",
+          "price": "$10.99"
+        },
+        {
+          "title": "Chicken Nuggets",
+          "ingredients_or_description": "",
+          "price": "$9.99"
+        },
+        {
+          "title": "Chicken Tenders",
+          "ingredients_or_description": "",
+          "price": "$9.99"
+        },
+        {
+          "title": "Fried Shrimp",
+          "ingredients_or_description": "",
+          "price": "$9.99"
+        },
+        {
+          "title": "Grilled Cheese",
+          "ingredients_or_description": "",
+          "price": "$9.99"
+        }
+      ]
+    },
+    {
+      "section": "DRINKS",
+      "items": [
+        {
+          "title": "Can Pop",
+          "ingredients_or_description": "",
+          "price": "$1.49"
+        },
+        {
+          "title": "Smoothie",
+          "ingredients_or_description": "",
+          "price": "$5.99"
+        },
+        {
+          "title": "Any Quart Juice",
+          "ingredients_or_description": "",
+          "price": "$5.99"
+        },
+        {
+          "title": "Soft Drink",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "Coffee",
+          "ingredients_or_description": "",
+          "price": "$2.49"
+        },
+        {
+          "title": "Hot Tea",
+          "ingredients_or_description": "",
+          "price": "$2.49"
+        },
+        {
+          "title": "Iced Tea",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "Arabic Coffee",
+          "ingredients_or_description": "",
+          "price": "$3.49"
+        }
+      ]
+    },
+    {
+      "section": "SIDE ORDERS",
+      "items": [
+        {
+          "title": "Small Rice",
+          "ingredients_or_description": "",
+          "price": "$4.99"
+        },
+        {
+          "title": "Large Rice",
+          "ingredients_or_description": "",
+          "price": "$5.99"
+        },
+        {
+          "title": "Side Fries",
+          "ingredients_or_description": "",
+          "price": "$5.49"
+        },
+        {
+          "title": "Spicy Potatoes",
+          "ingredients_or_description": "",
+          "price": "$9.49"
+        },
+        {
+          "title": "Garlic Sauce",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "review_flags": [
+            "price still $0.00 after checking modifiers - no required priced option found"
+          ]
+        },
+        {
+          "title": "Hot Bread",
+          "ingredients_or_description": "",
+          "price": "$1.49"
+        },
+        {
+          "title": "Grilled Veggies",
+          "ingredients_or_description": "",
+          "price": "$5.99"
+        },
+        {
+          "title": "Skewer Kabob",
+          "ingredients_or_description": "",
+          "price": "$6.99"
+        },
+        {
+          "title": "Skewer Tawook",
+          "ingredients_or_description": "",
+          "price": "$6.49"
+        },
+        {
+          "title": "Skewer Kafta",
+          "ingredients_or_description": "",
+          "price": "$5.49"
+        },
+        {
+          "title": "Skewer Shrimp 6 Pc",
+          "ingredients_or_description": "",
+          "price": "$8.49"
+        },
+        {
+          "title": "Salmon Filet",
+          "ingredients_or_description": "",
+          "price": "$10.49"
+        },
+        {
+          "title": "Chicken Breast",
+          "ingredients_or_description": "",
+          "price": "$3.99"
+        }
+      ]
+    },
+    {
+      "section": "DESSERT",
+      "items": [
+        {
+          "title": "Carrot Cake",
+          "ingredients_or_description": "",
+          "price": "$4.99"
+        },
+        {
+          "title": "Rice Pudding",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "Beklava",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        }
+      ]
+    },
+    {
+      "section": "UNCATEGORIZED",
+      "items": [
+        {
+          "title": "Shish Kabob",
+          "ingredients_or_description": "",
+          "price": "$12.49"
+        }
+      ]
+    }
+  ]
+}

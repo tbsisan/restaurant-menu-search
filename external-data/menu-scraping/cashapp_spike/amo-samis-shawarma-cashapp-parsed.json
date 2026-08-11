@@ -1,0 +1,147 @@
+{
+  "source": {
+    "response_path": "external-data/menu-scraping/cashapp_spike/amo-samis-shawarma-cashapp-dom-extraction.json"
+  },
+  "menu_sections": [
+    {
+      "section": "#samistyle sammies",
+      "items": [
+        {
+          "title": "The Beef Shawarma Sami",
+          "ingredients_or_description": "Our prime cut marinated USDA beef tenderloin topped with onions, tomatoes, pickled turnips, and tahini sauce wrapped in our famous toasted #Samistyle pita",
+          "price": "$14.99"
+        },
+        {
+          "title": "The Chicken Shawarma Sami",
+          "ingredients_or_description": "Our marinated all white meat chicken breast grilled to perfection. Finished with Lebanese pickles and house-made garlic toum in our signature crispy #SamiStyle Pita.",
+          "price": "$13.99"
+        },
+        {
+          "title": "The Falafel Sami",
+          "ingredients_or_description": "Scratch-made falafel, crisp outside and herb-bright inside. Finished with lettuce, tomatoes, sport peppers, Lebanese pickles, turnips, and smooth tahini — wrapped in our signature crispy #SamiStyle Pita.",
+          "price": "$12.99"
+        },
+        {
+          "title": "The Beirut Sami",
+          "ingredients_or_description": "Our marinated all white meat chicken breast, grilled to perfection, topped with tomatoes, shredded cabbage, Lebanese Pickles, and crispy fries, drizzled with our signature garlic sauce wrapped in our famous crispy #Samistyle pita",
+          "price": "$14.99"
+        },
+        {
+          "title": "The Chicken Fattoush Sami",
+          "ingredients_or_description": "Our marinated all white meat chicken breast grilled to perfection, topped with our award-winning Fattoush salad, Lebanese pickles and drizzled with our signature garlic sauce, wrapped in our famous crispy #Samistyle pita.",
+          "price": "$14.99"
+        },
+        {
+          "title": "The Sujok Sami",
+          "ingredients_or_description": "A Dearborn twist to a Bourj Hamoud favorite. Richly spiced Lebanese sujuk sausage, seared and layered to perfection topped with lettuce, tomato, Lebanese pickles, a little mayo action, drizzled with our signature garlic sauce with a hint of fresh squeezed lemon — served in our golden-crispy #SamiStyle Pita.",
+          "price": null
+        },
+        {
+          "title": "The Batata Sami",
+          "ingredients_or_description": "Our crispy seasoned coated fries, topped with shredded cabbage, Lebanese pickles, drizzled with sweet cedar sauce, wrapped in our famous toasted #SamiStyle pita.",
+          "price": "$12.99"
+        },
+        {
+          "title": "The Amo Sami",
+          "ingredients_or_description": "Hold up! Wait a minute! Amo Sami threw TAWOOK up in it! Topped with Lebanese Pickles, house made coleslaw, crispy seasoned coated fries, and drizzled with our signature garlic sauce and sweet ketchup, wrapped in our world-famous toasted #SamiStyle pita.",
+          "price": "$14.99"
+        }
+      ]
+    },
+    {
+      "section": "#samistyle cheegan shawarmas",
+      "items": [
+        {
+          "title": "The OOPSIE! Vegan Beef Shawarma Sami",
+          "ingredients_or_description": "OOPSIE, we did it again, made you think it was beef! Our slow marinated savory plant-based beef grilled to perfection and layered with onions, tomatoes, pickled turnips, and tahini — wrapped in our golden, crispy #SamiStyle Pita.",
+          "price": "$16.99"
+        },
+        {
+          "title": "The Scoot Over Cheek'n Shawarma Sami",
+          "ingredients_or_description": "Our slow marinated Plant-based Cheek’n breast with Lebanese pickles and house garlic sauce, finished in our signature crispy #SamiStyle Pita. You might just think you're cheating with real chicken!",
+          "price": "$16.99"
+        }
+      ]
+    },
+    {
+      "section": "Loaded bowls",
+      "items": [
+        {
+          "title": "Sami's Fattoush Salad",
+          "ingredients_or_description": "Our award - winning blend of fresh romaine lettuce, tomato, cucumber, red onion, shredded cabbage, freshly baked Sami-Style pita chips in our famous house dressing. Add protein to your salad for an upcharge.",
+          "price": "$9.99"
+        },
+        {
+          "title": "Breadless Shawarma Bowls",
+          "ingredients_or_description": "Breadless bowls packed with your choice of protein.",
+          "price": "$18.99"
+        }
+      ]
+    },
+    {
+      "section": "Sides n' stuff",
+      "items": [
+        {
+          "title": "Falafel Chips",
+          "ingredients_or_description": "Our scratch made falafel are a tahini dip favorite! Fried to frittered chips, topped over your favorite falafel veggies, served with our tahini sauce.",
+          "price": "$11.99"
+        },
+        {
+          "title": "Fries",
+          "ingredients_or_description": "A generous portion of golden crispy French fries. Your choice of Classic, Lemon Pepper, or Cajun.",
+          "price": "$6.00"
+        },
+        {
+          "title": "Pickles",
+          "ingredients_or_description": "Lebanese Pickles",
+          "price": "$2.00"
+        },
+        {
+          "title": "Pickled Turnips",
+          "ingredients_or_description": "Pickled Turnips",
+          "price": "$2.00"
+        },
+        {
+          "title": "Fattoush Dressing",
+          "ingredients_or_description": "Amo Sami's Famous Fattoush Dressing",
+          "price": "$2.00"
+        },
+        {
+          "title": "Pita chips",
+          "ingredients_or_description": "",
+          "price": "$3.99"
+        },
+        {
+          "title": "Ranch",
+          "ingredients_or_description": "2 oz cup of Ranch",
+          "price": "$2.00"
+        },
+        {
+          "title": "Side of bread",
+          "ingredients_or_description": "2 LOAFS OF PITA BREAD",
+          "price": "$1.00"
+        },
+        {
+          "title": "Tahini",
+          "ingredients_or_description": "2 oz cup of Tahini",
+          "price": "$1.00"
+        },
+        {
+          "title": "Hummus Spread",
+          "ingredients_or_description": "Amo Sami's award winning hummus with bread",
+          "price": "$2.00+"
+        },
+        {
+          "title": "Garlic Spread",
+          "ingredients_or_description": "Amo Sami's signature garlic sauce with bread",
+          "price": "$2.00+"
+        },
+        {
+          "title": "Side of Protein",
+          "ingredients_or_description": "",
+          "price": "$6.00+"
+        }
+      ]
+    }
+  ]
+}

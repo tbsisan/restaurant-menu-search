@@ -1,0 +1,1114 @@
+{
+  "source": {
+    "response_path": "external-data/menu-scraping/rezku_spike/marias-mexican-grill-capture.json",
+    "url": "https://order.rezku.com/c355d3a8-0c6e-48f0-87fb-a19aae29ab6b",
+    "order_mode": "preview"
+  },
+  "menu_sections": [
+    {
+      "section": "Lunch Specials",
+      "items": [
+        {
+          "title": "Street Taco Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Traditional Taco Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Burrito Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Chimichanga Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tamale Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Enchilada Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Enchilada Suiza Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Fish Tacos Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tostadas Lunch",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Dinners",
+      "items": [
+        {
+          "title": "Traditional Taco Dinner",
+          "ingredients_or_description": "",
+          "price": "$12.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Street Taco Dinner",
+          "ingredients_or_description": "",
+          "price": "$13.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Burrito Dinner",
+          "ingredients_or_description": "",
+          "price": "$13.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Enchilada Dinner",
+          "ingredients_or_description": "",
+          "price": "$13.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Chimichanga Dinner",
+          "ingredients_or_description": "",
+          "price": "$14.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tamale Dinner",
+          "ingredients_or_description": "",
+          "price": "$12.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Fajita Dinner",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Fajita Combo Dinner",
+          "ingredients_or_description": "",
+          "price": "$24.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Grilled Burrito Dinner",
+          "ingredients_or_description": "",
+          "price": "$14.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Quesadilla Dinner",
+          "ingredients_or_description": "",
+          "price": "$14.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Enchilada Suiza Dinner",
+          "ingredients_or_description": "",
+          "price": "$13.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Fish Tacos Dinner",
+          "ingredients_or_description": "",
+          "price": "$14.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tostadas Dinner",
+          "ingredients_or_description": "",
+          "price": "$12.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Signature Items",
+      "items": [
+        {
+          "title": "Botana",
+          "ingredients_or_description": "",
+          "price": "$14.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Nachos",
+          "ingredients_or_description": "",
+          "price": "$12.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Rice Bowl",
+          "ingredients_or_description": "",
+          "price": "$12.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Marias Chili",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Half Dozen Tamales",
+          "ingredients_or_description": "",
+          "price": "$10.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Ensalada (SALAD)",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Maria's Chili Papas",
+          "ingredients_or_description": "",
+          "price": "$9.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tamales (DOZEN)",
+          "ingredients_or_description": "",
+          "price": "$18.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Maria's Combo",
+          "ingredients_or_description": "",
+          "price": "$12.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Single Items",
+      "items": [
+        {
+          "title": "Traditional Taco",
+          "ingredients_or_description": "",
+          "price": "$2.75",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Street Taco",
+          "ingredients_or_description": "",
+          "price": "$3.25",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Chimi",
+          "ingredients_or_description": "",
+          "price": "$4.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tamale",
+          "ingredients_or_description": "",
+          "price": "$3.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Enchilada",
+          "ingredients_or_description": "",
+          "price": "$3.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Enchilada Suiza",
+          "ingredients_or_description": "",
+          "price": "$3.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Burrito",
+          "ingredients_or_description": "",
+          "price": "$3.25",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Fish Taco",
+          "ingredients_or_description": "",
+          "price": "$4.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tostada",
+          "ingredients_or_description": "",
+          "price": "$3.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Additional Sides",
+      "items": [
+        {
+          "title": "Chips",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Salsa",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Chips & Salsa",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Guacamole & Chips (16 OZ)",
+          "ingredients_or_description": "",
+          "price": "$15.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Guacamole only (8oz)",
+          "ingredients_or_description": "",
+          "price": "$5.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Guacamole only (16oz)",
+          "ingredients_or_description": "",
+          "price": "$10.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Pico de Gallo & Chips",
+          "ingredients_or_description": "",
+          "price": "$7.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Pico De Gallo (LARGE W/ CHIPS)",
+          "ingredients_or_description": "",
+          "price": "$11.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Pico (SMALL NO CHIPS)",
+          "ingredients_or_description": "",
+          "price": "$3.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Pico (LARGE NO CHIPS)",
+          "ingredients_or_description": "",
+          "price": "$5.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Side of Beans",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Side of Rice",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Side of Beans & Rice OR Papas",
+          "ingredients_or_description": "",
+          "price": "$6.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Side of Papas",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Lettuce (half pint)",
+          "ingredients_or_description": "",
+          "price": "$2.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tomato (2oz)",
+          "ingredients_or_description": "",
+          "price": "$0.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Cheese (half pint)",
+          "ingredients_or_description": "",
+          "price": "$3.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Sour Cream",
+          "ingredients_or_description": "",
+          "price": "$0.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Onion (2oz)",
+          "ingredients_or_description": "",
+          "price": "$0.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Cilantro (2oz)",
+          "ingredients_or_description": "",
+          "price": "$0.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Lime (4)",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tortilla",
+          "ingredients_or_description": "",
+          "price": "$0.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Jalapeño (2oz)",
+          "ingredients_or_description": "",
+          "price": "$0.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Guacamole (2oz)",
+          "ingredients_or_description": "",
+          "price": "$1.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Avocado (4)",
+          "ingredients_or_description": "",
+          "price": "$1.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Wet Sauce (half pint)",
+          "ingredients_or_description": "",
+          "price": "$2.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Enchilada Sauce (half pint)",
+          "ingredients_or_description": "",
+          "price": "$2.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tomatillo Sauce (half pint)",
+          "ingredients_or_description": "",
+          "price": "$2.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "SIDE OF PICO (2oz)",
+          "ingredients_or_description": "",
+          "price": "$0.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Maria's Queso (2oz)",
+          "ingredients_or_description": "",
+          "price": "$1.25",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Maria's Queso & Chips (8 OZ)",
+          "ingredients_or_description": "",
+          "price": "$7.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Maria's Queso & Chips (16 OZ)",
+          "ingredients_or_description": "",
+          "price": "$13.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Pint of ground beef",
+          "ingredients_or_description": "",
+          "price": "$6.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Pint of shredded chicken",
+          "ingredients_or_description": "",
+          "price": "$6.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Sauces With Order",
+      "items": [
+        {
+          "title": "Mild (1oz)",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Medium (1oz)",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Hot (1oz)",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Creamy Verde (1oz)",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Chunky (1oz)",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "No Sauce",
+          "ingredients_or_description": "",
+          "price": "$0.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Drinks",
+      "items": [
+        {
+          "title": "Coke",
+          "ingredients_or_description": "",
+          "price": "$2.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Water",
+          "ingredients_or_description": "",
+          "price": "$1.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Jarrito",
+          "ingredients_or_description": "",
+          "price": "$2.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Iced Tea",
+          "ingredients_or_description": "",
+          "price": "$2.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Diet Coke",
+          "ingredients_or_description": "",
+          "price": "$2.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Kids Menu",
+      "items": [
+        {
+          "title": "Kids Burrito",
+          "ingredients_or_description": "",
+          "price": "$6.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Kids Enchilada",
+          "ingredients_or_description": "",
+          "price": "$6.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Kids Taco",
+          "ingredients_or_description": "",
+          "price": "$6.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Kids Quesadilla",
+          "ingredients_or_description": "",
+          "price": "$6.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Kids Tostada",
+          "ingredients_or_description": "",
+          "price": "$5.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Party Trays",
+      "items": [
+        {
+          "title": "Family Pack",
+          "ingredients_or_description": "",
+          "price": "$40.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Daily Specials",
+      "items": [
+        {
+          "title": "1.50 Taco (TUESDAY)",
+          "ingredients_or_description": "",
+          "price": "$1.50",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "$2 Burritos (WEDNESDAY)",
+          "ingredients_or_description": "",
+          "price": "$2.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Borracho Burrito (THURSDAY)",
+          "ingredients_or_description": "",
+          "price": "$8.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Birria (FRIDAY)",
+          "ingredients_or_description": "",
+          "price": "$4.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Street Taco (SATURDAY)",
+          "ingredients_or_description": "",
+          "price": "$2.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Chili Cheese Burrito (SUNDAY)",
+          "ingredients_or_description": "",
+          "price": "$3.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Merchandise",
+      "items": [
+        {
+          "title": "T-Shirt",
+          "ingredients_or_description": "",
+          "price": "$15.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Dessert",
+      "items": [
+        {
+          "title": "Sopapillas",
+          "ingredients_or_description": "",
+          "price": "$6.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Lent",
+      "items": [
+        {
+          "title": "Shrimp Tacos",
+          "ingredients_or_description": "",
+          "price": "$14.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Fish Tacos",
+          "ingredients_or_description": "",
+          "price": "$15.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Veggie Fajita",
+          "ingredients_or_description": "",
+          "price": "$13.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Tostadas",
+          "ingredients_or_description": "",
+          "price": "$13.00",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        },
+        {
+          "title": "Mushroom Quesadilla",
+          "ingredients_or_description": "",
+          "price": "Not available",
+          "options": {},
+          "missing_options": true,
+          "review_flags": [
+            "options not scraped: restaurant closed with no preorder slots available - could not enter Start order flow to reach item modals"
+          ]
+        }
+      ]
+    }
+  ]
+}

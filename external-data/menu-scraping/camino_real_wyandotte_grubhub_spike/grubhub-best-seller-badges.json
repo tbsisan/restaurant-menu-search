@@ -1,0 +1,594 @@
+{
+  "result": [
+    {
+      "item_id": "23089112161",
+      "category": "Tacos",
+      "is_best_seller": true
+    },
+    {
+      "item_id": "23089111567",
+      "category": "Appetizers",
+      "is_best_seller": true
+    },
+    {
+      "item_id": "23089111583",
+      "category": "Sides",
+      "is_best_seller": true
+    },
+    {
+      "item_id": "23089112018",
+      "category": "Appetizers",
+      "is_best_seller": true
+    },
+    {
+      "item_id": "23089112104",
+      "category": "Tortas & Mexican Sub",
+      "is_best_seller": true
+    },
+    {
+      "item_id": "23089111866",
+      "category": "Tortas & Mexican Sub",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111590",
+      "category": "Tortas & Mexican Sub",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112109",
+      "category": "Tortas & Mexican Sub",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111999",
+      "category": "Tortas & Mexican Sub",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "270232664969",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111566",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111804",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111985",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112106",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263693416001",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263693415993",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263693415985",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263690240073",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263690240041",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263690240057",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263690240065",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263690240049",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "263695028433",
+      "category": "Tacos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112005",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111829",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112141",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111526",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111662",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112082",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111704",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111772",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111787",
+      "category": "Appetizers",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111906",
+      "category": "Burritos",
+      "is_best_seller": true
+    },
+    {
+      "item_id": "23089111677",
+      "category": "Burritos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111943",
+      "category": "Burritos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111717",
+      "category": "Burritos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111640",
+      "category": "Burritos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111800",
+      "category": "Chimichangas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111820",
+      "category": "Chimichangas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111632",
+      "category": "Tostadas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111718",
+      "category": "Tostadas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111655",
+      "category": "Quesadillas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111795",
+      "category": "Quesadillas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "270245453561",
+      "category": "Quesadillas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "270245453569",
+      "category": "Quesadillas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111555",
+      "category": "Enchiladas",
+      "is_best_seller": true
+    },
+    {
+      "item_id": "23089111706",
+      "category": "Enchiladas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "270245453577",
+      "category": "Enchiladas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "270245453553",
+      "category": "Enchiladas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112040",
+      "category": "Traditional Dinners",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111833",
+      "category": "Traditional Dinners",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112135",
+      "category": "Traditional Dinners",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111835",
+      "category": "Combinations",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111570",
+      "category": "Combinations",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111568",
+      "category": "Combinations",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111990",
+      "category": "Combinations",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112019",
+      "category": "Vegetarian",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111891",
+      "category": "Vegetarian",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111666",
+      "category": "Vegetarian",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112101",
+      "category": "Vegetarian",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111711",
+      "category": "What's on the Grill",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111512",
+      "category": "What's on the Grill",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111785",
+      "category": "What's on the Grill",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111520",
+      "category": "What's on the Grill",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111826",
+      "category": "Fajitas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111515",
+      "category": "Fajitas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112021",
+      "category": "Fajitas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111626",
+      "category": "Fajitas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111773",
+      "category": "Fajitas",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112119",
+      "category": "Seafood",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111597",
+      "category": "Seafood",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111771",
+      "category": "Seafood",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111851",
+      "category": "Seafood",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112044",
+      "category": "Caldos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111881",
+      "category": "Caldos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111525",
+      "category": "Caldos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112071",
+      "category": "Caldos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111730",
+      "category": "Caldos",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112179",
+      "category": "Breakfast",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112096",
+      "category": "Breakfast",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111650",
+      "category": "Breakfast",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112160",
+      "category": "Breakfast",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111793",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111902",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111563",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112015",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112139",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112062",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111611",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111746",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112050",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111986",
+      "category": "Sides",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111592",
+      "category": "Desserts",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112188",
+      "category": "Desserts",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "270229449609",
+      "category": "Desserts",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "270235881673",
+      "category": "Desserts",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111786",
+      "category": "Desserts",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111653",
+      "category": "Desserts",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112031",
+      "category": "Desserts",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "270234272825",
+      "category": "Desserts",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112189",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112127",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111602",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111673",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112121",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111908",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111627",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111946",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111894",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112063",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111751",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111527",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111824",
+      "category": "Beverages",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111958",
+      "category": "Breakfast Menu",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111562",
+      "category": "Breakfast Menu",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112137",
+      "category": "Breakfast Menu",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089111960",
+      "category": "Breakfast Menu",
+      "is_best_seller": false
+    },
+    {
+      "item_id": "23089112170",
+      "category": "Breakfast Menu",
+      "is_best_seller": false
+    }
+  ]
+}

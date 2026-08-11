@@ -1,0 +1,1866 @@
+{
+  "source": {
+    "response_path": "external-data/menu-scraping/ubereats_spike/cameo-restaurant-ubereats-jsonld-response.json",
+    "ratings_path": "external-data/menu-scraping/ubereats_spike/cameo-restaurant-ubereats-all-item-ratings.json",
+    "url": ""
+  },
+  "restaurant": {
+    "name": "Cameo Restaurant",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lincoln Park",
+      "addressRegion": "MI",
+      "postalCode": "48146",
+      "addressCountry": "US",
+      "streetAddress": "4101 Dix Hwy"
+    },
+    "telephone": "+13133883150",
+    "serves_cuisine": [
+      "Salads",
+      "Sandwich",
+      "Burgers"
+    ],
+    "aggregate_rating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.5,
+      "reviewCount": 600
+    },
+    "description": ""
+  },
+  "menu_sections": [
+    {
+      "section": "",
+      "items": []
+    },
+    {
+      "section": "Appetizers",
+      "items": [
+        {
+          "title": "Fried Pickles",
+          "ingredients_or_description": "Crispy dill pickle slices served as a tangy appetizer.",
+          "price": "7.99",
+          "like_percent": 75,
+          "like_review_count": 8
+        },
+        {
+          "title": "Fried Mushrooms",
+          "ingredients_or_description": "Crispy mushrooms served as a savory appetizer.",
+          "price": "8.99",
+          "like_percent": 88,
+          "like_review_count": 9
+        },
+        {
+          "title": "Saganaki Opal",
+          "ingredients_or_description": "Flaming cheese served with pita bread.",
+          "price": "8.99"
+        },
+        {
+          "title": "Appetizer Combo",
+          "ingredients_or_description": "2 pcs wings, 3 pcs strips, 2 pcs potato skins, and 2 pcs cheese sticks.",
+          "price": "11.99"
+        },
+        {
+          "title": "Mozzarella Cheese Sticks (6 pcs)",
+          "ingredients_or_description": "Crispy sticks filled with melted mozzarella cheese.",
+          "price": "8.69",
+          "like_percent": 100,
+          "like_review_count": 11
+        },
+        {
+          "title": "Chicken Fingers (4 pcs)",
+          "ingredients_or_description": "Tender and juicy chicken strips, served in a set of four.",
+          "price": "9.49",
+          "like_percent": 100,
+          "like_review_count": 8
+        },
+        {
+          "title": "Chicken Wings (6 pcs)",
+          "ingredients_or_description": "6 pcs tender, juicy chicken wings, great for sharing.",
+          "price": "10.79"
+        },
+        {
+          "title": "Breaded Zucchini Sticks",
+          "ingredients_or_description": "Crispy, golden-brown breaded zucchini sticks with a tender center.",
+          "price": "8.99",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Potato Skins",
+          "ingredients_or_description": "Served with bacon and cheese.",
+          "price": "9.99",
+          "like_percent": 85,
+          "like_review_count": 7
+        },
+        {
+          "title": "Jalapeno Peppers (6 pcs)",
+          "ingredients_or_description": "Cream cheese filling.",
+          "price": "8.99"
+        }
+      ]
+    },
+    {
+      "section": "Wraps",
+      "items": [
+        {
+          "title": "California Wrap",
+          "ingredients_or_description": "Lettuce, tomato, avocado, cheddar cheese, and chicken.",
+          "price": "11.49",
+          "like_percent": 100,
+          "like_review_count": 6
+        },
+        {
+          "title": "Chicken Caesar Wrap",
+          "ingredients_or_description": "Tender chicken, crisp lettuce, and tangy Caesar dressing wrapped in a soft tortilla.",
+          "price": "10.99",
+          "like_percent": 71,
+          "like_review_count": 7
+        },
+        {
+          "title": "Chicken Club Wrap",
+          "ingredients_or_description": "Marinated chicken, cheddar cheese, lettuce, and tomato.",
+          "price": "11.49"
+        },
+        {
+          "title": "Chicken Tender Wrap",
+          "ingredients_or_description": "Chicken tenders, lettuce, tomato, swiss, and American.",
+          "price": "10.99"
+        },
+        {
+          "title": "Chicken Avocado Wrap",
+          "ingredients_or_description": "Chicken breast, bacon, avocado, pepper jack cheese, and mayonnaise.",
+          "price": "12.49",
+          "like_percent": 100,
+          "like_review_count": 9
+        },
+        {
+          "title": "BLT Wrap",
+          "ingredients_or_description": "Crisp bacon, fresh lettuce, and juicy tomato wrapped in a soft tortilla.",
+          "price": "9.99",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Philly Steak Wrap",
+          "ingredients_or_description": "Tender steak wrapped with flavorful fillings.",
+          "price": "11.99"
+        },
+        {
+          "title": "Chicken Tender Bacon Ranch Wrap",
+          "ingredients_or_description": "Tender chicken, crispy bacon, and creamy ranch in a wrap.",
+          "price": "11.79",
+          "like_percent": 87,
+          "like_review_count": 8
+        },
+        {
+          "title": "Grilled Chicken Wrap",
+          "ingredients_or_description": "Tender grilled chicken wrapped in a flavorful package.",
+          "price": "11.49"
+        },
+        {
+          "title": "Turkey Wrap",
+          "ingredients_or_description": "Sliced turkey wrapped in a flavorful package.",
+          "price": "10.99"
+        },
+        {
+          "title": "Tuna Wrap",
+          "ingredients_or_description": "Tuna wrapped in a soft tortilla for a simple, satisfying bite.",
+          "price": "9.99"
+        },
+        {
+          "title": "Gyro Wrap",
+          "ingredients_or_description": "Lamb and beef gyro meat wrapped in a warm pita.",
+          "price": "11.29"
+        },
+        {
+          "title": "Chicken Spinach Wrap",
+          "ingredients_or_description": "Fresh spinach, avocado, feta, tomato, and Greek dressing.",
+          "price": "12.49"
+        }
+      ]
+    },
+    {
+      "section": "Salads",
+      "items": [
+        {
+          "title": "Chicken Tender Chicken Salad",
+          "ingredients_or_description": "Chicken strips, lettuce, tomatoes, cucumbers, black olives, cheddar cheese, and hard-boiled egg. Served with pita bread.",
+          "price": "11.49",
+          "popular": true
+        },
+        {
+          "title": "Greek Salad",
+          "ingredients_or_description": "Lettuce, tomatoes, cucumbers, feta cheese, black olives, green peppers, pepperoni, beets, and chickpeas. Served with pita bread.",
+          "price": "9.99",
+          "like_percent": 90,
+          "like_review_count": 10
+        },
+        {
+          "title": "Julienne Salad",
+          "ingredients_or_description": "Turkey, ham, American cheese, swiss cheese, lettuce, tomatoes, cucumbers, and hard-boiled egg. Served with pita bread.",
+          "price": "9.99",
+          "like_percent": 88,
+          "like_review_count": 9
+        },
+        {
+          "title": "Michigan Salad",
+          "ingredients_or_description": "Spring mix, mozzarella cheese, tomato, cucumber, onion, walnuts, oranges, and dried cherries. Served with pita bread.",
+          "price": "11.99"
+        },
+        {
+          "title": "Caesar Salad (Large)",
+          "ingredients_or_description": "Romaine lettuce, tomatoes, cucumbers, parmesan cheese, and croutons. Served with pita bread.",
+          "price": "11.99",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Chicken Salad",
+          "ingredients_or_description": "Chicken salad, lettuce, tomatoes, cucumbers, and hard-boiled eggs. Served with pita bread.",
+          "price": "10.99"
+        },
+        {
+          "title": "Spinach Salad",
+          "ingredients_or_description": "Fresh spinach, chickpeas, tomato, olives, onion, cucumber, feta cheese, and dried cranberries.",
+          "price": "11.49"
+        },
+        {
+          "title": "Cobb Salad (Large)",
+          "ingredients_or_description": "Lettuce, chicken breast, bacon, cheddar cheese, diced tomatoes, and hard-boiled eggs. Served with pita bread.",
+          "price": "13.89",
+          "like_percent": 100,
+          "like_review_count": 5
+        },
+        {
+          "title": "Tuna Salad",
+          "ingredients_or_description": "Tuna salad, lettuce, tomatoes, cucumbers, and hard-boiled eggs. Served with pita bread.",
+          "price": "10.99"
+        },
+        {
+          "title": "Avocado Salad",
+          "ingredients_or_description": "Mozzarella cheese, walnuts, mandarines, avocado, cucumbers, tomato, and onion on spring mix lettuce. Served with pita bread and lettuce.",
+          "price": "11.99"
+        },
+        {
+          "title": "BBQ Chicken Salad",
+          "ingredients_or_description": "Lettuce, tomato, onions, cheddar cheese, hard-boiled eggs with BBQ chicken breast. Served with pita bread.",
+          "price": "12.79"
+        },
+        {
+          "title": "Hawalian Salad",
+          "ingredients_or_description": "Spring mix, walnuts, pineapple, mandarin, oranges, bananas, mozzarella, cheese with raspberry vinaigrette dressing.",
+          "price": "10.29"
+        },
+        {
+          "title": "Fattoush Salad",
+          "ingredients_or_description": "Romaine lettuce, tomato, onion, cucumber, and fattoush dressing mixed in.",
+          "price": "9.99"
+        }
+      ]
+    },
+    {
+      "section": "Daily Soups",
+      "items": [
+        {
+          "title": "Lemon Rice and Chicken Noodle Soup",
+          "ingredients_or_description": "Tender chicken and lemon-infused rice in a comforting noodle soup.",
+          "price": "4.99",
+          "like_percent": 84,
+          "like_review_count": 46
+        }
+      ]
+    },
+    {
+      "section": "Beverages",
+      "items": [
+        {
+          "title": "Soft Drinks",
+          "ingredients_or_description": "A selection of classic sodas served cold.",
+          "price": "3.99",
+          "like_percent": 72,
+          "like_review_count": 18
+        },
+        {
+          "title": "Orange Juice",
+          "ingredients_or_description": "Freshly squeezed juice from oranges.",
+          "price": "3.99",
+          "like_percent": 87,
+          "like_review_count": 8
+        },
+        {
+          "title": "Iced Tea",
+          "ingredients_or_description": "Unsweetened.",
+          "price": "3.99"
+        },
+        {
+          "title": "Superior Coffee",
+          "ingredients_or_description": "Rich and smooth coffee blend.",
+          "price": "3.99",
+          "like_percent": 75,
+          "like_review_count": 4
+        },
+        {
+          "title": "V8 Juice",
+          "ingredients_or_description": "",
+          "price": "3.99"
+        },
+        {
+          "title": "Raspberry Iced Tea",
+          "ingredients_or_description": "Sweet and refreshing iced tea infused with raspberry flavor.",
+          "price": "3.99",
+          "like_percent": 100,
+          "like_review_count": 5
+        },
+        {
+          "title": "Tomato Juice",
+          "ingredients_or_description": "Classic tomato juice with a smooth, savory taste.",
+          "price": "3.99"
+        },
+        {
+          "title": "Columbian Coffee",
+          "ingredients_or_description": "Rich and smooth coffee from Colombia.",
+          "price": "3.99"
+        },
+        {
+          "title": "Hot Tea",
+          "ingredients_or_description": "Soothing and comforting hot beverage.",
+          "price": "3.99"
+        },
+        {
+          "title": "Hot Chocolate",
+          "ingredients_or_description": "Rich and creamy drink to warm your day.",
+          "price": "3.99"
+        },
+        {
+          "title": "Sweetened Iced Tea",
+          "ingredients_or_description": "Refreshing brew sweetened to perfection.",
+          "price": "3.99",
+          "like_percent": 66,
+          "like_review_count": 3
+        },
+        {
+          "title": "Milk",
+          "ingredients_or_description": "Classic dairy milk.",
+          "price": "3.99"
+        },
+        {
+          "title": "Apple Juice",
+          "ingredients_or_description": "Refreshing apple juice served chilled.",
+          "price": "3.99"
+        }
+      ]
+    },
+    {
+      "section": "Desserts",
+      "items": [
+        {
+          "title": "Slice of Cake",
+          "ingredients_or_description": "Moist and rich dessert treat.",
+          "price": "5.99",
+          "like_percent": 81,
+          "like_review_count": 11
+        },
+        {
+          "title": "Rice Pudding",
+          "ingredients_or_description": "Creamy dessert made with rice.",
+          "price": "4.29",
+          "like_percent": 92,
+          "like_review_count": 13
+        },
+        {
+          "title": "Slice of Pie",
+          "ingredients_or_description": "Classic slice of pie to finish your meal.",
+          "price": "5.79",
+          "like_percent": 100,
+          "like_review_count": 7
+        }
+      ]
+    },
+    {
+      "section": "Chef's Favorites",
+      "items": [
+        {
+          "title": "Homemade Baked Meatloaf",
+          "ingredients_or_description": "Smothered in brown gravy. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.99",
+          "like_percent": 88,
+          "like_review_count": 17
+        },
+        {
+          "title": "Chicken Strip Dinner",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.49",
+          "like_percent": 73,
+          "like_review_count": 15
+        },
+        {
+          "title": "Smothered Chicken",
+          "ingredients_or_description": "Grilled onions, mushrooms, and smothered in mozzarella cheese. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "13.99",
+          "like_percent": 95,
+          "like_review_count": 20
+        },
+        {
+          "title": "Half Roast Chicken with Dressing",
+          "ingredients_or_description": "Smothered in chicken gravy. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.49",
+          "like_percent": 83,
+          "like_review_count": 6
+        },
+        {
+          "title": "Breaded Pork Tenderloins (2 pcs)",
+          "ingredients_or_description": "Smothered in brown gravy. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.49"
+        },
+        {
+          "title": "Country Fried Steak",
+          "ingredients_or_description": "Smothered in country gravy. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "11.99",
+          "like_percent": 100,
+          "like_review_count": 5
+        },
+        {
+          "title": "Breaded Veal Cutlet",
+          "ingredients_or_description": "Smothered in brown gravy. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.49"
+        },
+        {
+          "title": "Roast Beef Dinner",
+          "ingredients_or_description": "Smothered in brown gravy. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.49",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Baked Virginia Ham",
+          "ingredients_or_description": "Topped with pineapple rings. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "11.79"
+        },
+        {
+          "title": "Liver and Onions",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.49",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "8 PC Wing w/French Fries",
+          "ingredients_or_description": "Crispy wings served with a side of French fries.",
+          "price": "14.49"
+        }
+      ]
+    },
+    {
+      "section": "From the Broiler",
+      "items": [
+        {
+          "title": "New York Strip (12 oz)",
+          "ingredients_or_description": "Topped with mushrooms.",
+          "price": "25.99",
+          "like_percent": 83,
+          "like_review_count": 6
+        },
+        {
+          "title": "Chopped Sirloin (12 oz)",
+          "ingredients_or_description": "Topped with grilled onions.",
+          "price": "15.99",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Pork Chops (3 pcs)",
+          "ingredients_or_description": "3 pieces of 15 oz. Center-cut pork chops.",
+          "price": "15.29",
+          "popular": true
+        },
+        {
+          "title": "BBQ Rib Combo",
+          "ingredients_or_description": "1/2 slab of ribs with 4 pcs jumbo shrimp or BBQ chicken breast.",
+          "price": "18.99",
+          "like_percent": 83,
+          "like_review_count": 12
+        },
+        {
+          "title": "New York Steak (8 oz)",
+          "ingredients_or_description": "Topped with mushrooms.",
+          "price": "23.99"
+        },
+        {
+          "title": "BBQ Baby Back Ribs",
+          "ingredients_or_description": "Tender baby back ribs smothered in BBQ sauce.",
+          "price": "16.49",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Steak and Shrimp (8 oz)",
+          "ingredients_or_description": "8 oz. New York strip topped with mushrooms. Served with 4 pieces of jumbo shrimp.",
+          "price": "25.99"
+        },
+        {
+          "title": "Half BBQ Chicken",
+          "ingredients_or_description": "Tender and smoky chicken, perfectly broiled to bring out its natural flavors.",
+          "price": "12.99",
+          "like_percent": 100,
+          "like_review_count": 3,
+          "popular": true
+        },
+        {
+          "title": "BBQ Chicken Breast (2 pcs)",
+          "ingredients_or_description": "Tender and juicy chicken breast, smothered in BBQ sauce.",
+          "price": "12.99"
+        }
+      ]
+    },
+    {
+      "section": "Authentic Broasted Chicken",
+      "items": [
+        {
+          "title": "Broasted Chicken Dinner (4 pcs)",
+          "ingredients_or_description": "Breast, leg, wing, and thigh. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "14.99",
+          "like_percent": 100,
+          "like_review_count": 14
+        },
+        {
+          "title": "Broasted Chicken Dark (4 pcs) (2 Legs and 2 Thighs)",
+          "ingredients_or_description": "Crispy, pressure-fried dark meat chicken, 4 pieces: 2 legs and 2 thighs.",
+          "price": "13.99",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Broasted White Chicken (2 pcs)",
+          "ingredients_or_description": "Breast and wing. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.99"
+        },
+        {
+          "title": "Broasted Chicken Only",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "19.99",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Broasted Chicken Breast (2 pcs)",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "14.99"
+        },
+        {
+          "title": "Broasted Chicken Breast Dinner (1 pc)",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.99"
+        }
+      ]
+    },
+    {
+      "section": "Greek Dinners",
+      "items": [
+        {
+          "title": "Marinated Chicken Breast Dinner",
+          "ingredients_or_description": "Served with rice pilaf, choice of soup, salad, or coleslaw, and choice of potato and breadbasket.",
+          "price": "14.49",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Chicken Kabob",
+          "ingredients_or_description": "Marinated chicken with onions, green peppers, and pita bread. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "13.49",
+          "like_percent": 85,
+          "like_review_count": 7
+        },
+        {
+          "title": "Shish Kabob",
+          "ingredients_or_description": "Pork with onions, green peppers, rice, and pita bread. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "13.49",
+          "like_percent": 100,
+          "like_review_count": 5
+        },
+        {
+          "title": "Spinach Pie",
+          "ingredients_or_description": "Served with rice pilaf. Served with your choice of soup, salad, or coleslaw and choice of potato and breadbasket.",
+          "price": "12.99"
+        }
+      ]
+    },
+    {
+      "section": "Seafood",
+      "items": [
+        {
+          "title": "Broiled Cod",
+          "ingredients_or_description": "Flaky cod, expertly prepared to bring out its natural flavors.",
+          "price": "16.99"
+        },
+        {
+          "title": "Shrimp Basket",
+          "ingredients_or_description": "Succulent shrimp in a crispy basket.",
+          "price": "12.99",
+          "like_percent": 88,
+          "like_review_count": 9
+        },
+        {
+          "title": "Fish and Chips",
+          "ingredients_or_description": "Crispy battered fish served with golden chips.",
+          "price": "15.49",
+          "like_percent": 83,
+          "like_review_count": 6
+        },
+        {
+          "title": "Fisherman's Platter",
+          "ingredients_or_description": "An assortment of sea delicacies, shrimp, perch, and cod.",
+          "price": "20.49"
+        },
+        {
+          "title": "White Fish",
+          "ingredients_or_description": "Mild, flaky white fish with a clean, delicate taste.",
+          "price": "15.79"
+        },
+        {
+          "title": "Fried Clams",
+          "ingredients_or_description": "Tender clams, lightly battered and crispy.",
+          "price": "12.99"
+        },
+        {
+          "title": "Fried Jumbo Shrimp (8 pcs)",
+          "ingredients_or_description": "Succulent shrimp, lightly battered and fried to a crispy perfection.",
+          "price": "17.99"
+        },
+        {
+          "title": "Lake Perch Fillets",
+          "ingredients_or_description": "Fresh fillets of lake perch, a delicate and flavorful fish.",
+          "price": "16.79"
+        },
+        {
+          "title": "Florida Grouper",
+          "ingredients_or_description": "Mild, flaky Florida grouper with a clean, delicate taste.",
+          "price": "15.49"
+        },
+        {
+          "title": "Salmon Steak",
+          "ingredients_or_description": "Fresh salmon steak, expertly prepared to bring out its natural flavors.",
+          "price": "20.99"
+        },
+        {
+          "title": "Broiled Tilapia",
+          "ingredients_or_description": "Mild, flaky tilapia broiled until tender.",
+          "price": "14.79"
+        },
+        {
+          "title": "Walleye",
+          "ingredients_or_description": "Mild, flaky freshwater fish with a clean, delicate flavor.",
+          "price": "15.79"
+        }
+      ]
+    },
+    {
+      "section": "Italian Dinners",
+      "items": [
+        {
+          "title": "Spaghetti with Meat Sauce",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of bread basket or garlic bread.",
+          "price": "13.49",
+          "like_percent": 83,
+          "like_review_count": 24
+        },
+        {
+          "title": "Chicken Parmesan",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of bread basket or garlic bread.",
+          "price": "14.99",
+          "popular": true
+        },
+        {
+          "title": "Homemade Lasagna",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of bread basket or garlic bread.",
+          "price": "15.79",
+          "like_percent": 83,
+          "like_review_count": 6
+        },
+        {
+          "title": "Veal Parmesan",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of bread basket or garlic bread.",
+          "price": "14.99"
+        },
+        {
+          "title": "Mostaccioli with Meat Sauce",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of bread basket or garlic bread.",
+          "price": "13.49"
+        },
+        {
+          "title": "Beef Ravioli",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and choice of bread basket or garlic bread.",
+          "price": "14.99"
+        }
+      ]
+    },
+    {
+      "section": "Senior Citizens",
+      "items": [
+        {
+          "title": "Chopped Sirloin",
+          "ingredients_or_description": "Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99",
+          "like_percent": 100,
+          "like_review_count": 20
+        },
+        {
+          "title": "Fish (2 pcs) and Chips",
+          "ingredients_or_description": "Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99",
+          "like_percent": 100,
+          "like_review_count": 5
+        },
+        {
+          "title": "Roast Beef Dinner",
+          "ingredients_or_description": "Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Broasted Chicken (2 pcs)",
+          "ingredients_or_description": "Thigh and leg. Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99"
+        },
+        {
+          "title": "Veal Cutlet",
+          "ingredients_or_description": "Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99"
+        },
+        {
+          "title": "Half BBQ Chicken",
+          "ingredients_or_description": "Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99",
+          "like_percent": 100,
+          "like_review_count": 3,
+          "popular": true
+        },
+        {
+          "title": "Meatloaf",
+          "ingredients_or_description": "Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99",
+          "like_percent": 71,
+          "like_review_count": 7
+        },
+        {
+          "title": "Liver and Onions",
+          "ingredients_or_description": "Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Baked Virginia Ham",
+          "ingredients_or_description": "Served with a cup of soup, salad or coleslaw, vegetables, and potatoes.",
+          "price": "12.99"
+        }
+      ]
+    },
+    {
+      "section": "Stir Fry Dinners",
+      "items": [
+        {
+          "title": "Stir Fry Chicken",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and breadbasket.",
+          "price": "15.49",
+          "like_percent": 60,
+          "like_review_count": 5
+        },
+        {
+          "title": "Stir Fry Vegetable",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and breadbasket.",
+          "price": "12.49"
+        },
+        {
+          "title": "Stir Fry New York Steak (8 oz)",
+          "ingredients_or_description": "Served with your choice of soup, salad, or coleslaw and breadbasket.",
+          "price": "25.99"
+        }
+      ]
+    },
+    {
+      "section": "Burgers (Lunch Specials)",
+      "items": [
+        {
+          "title": "Bacon Cheeseburger (1/3 Pound)",
+          "ingredients_or_description": "Angus beef on sesame seed bun with lettuce, tomato, pickles, onion, and mayonnaise.",
+          "price": "9.99",
+          "like_percent": 77,
+          "like_review_count": 9
+        },
+        {
+          "title": "Mediterranean Burger",
+          "ingredients_or_description": "Juicy patty topped with Mediterranean flavors.",
+          "price": "10.49"
+        },
+        {
+          "title": "Cheeseburger (1/3 Pound)",
+          "ingredients_or_description": "Angus beef on sesame seed bun with lettuce, tomato, pickles, onion, and mayonnaise.",
+          "price": "8.49",
+          "like_percent": 89,
+          "like_review_count": 19
+        },
+        {
+          "title": "Swiss and Mushroom Burger (1/3 Pound)",
+          "ingredients_or_description": "Angus beef on sesame seed bun with lettuce, tomato, pickles, onion, and mayonnaise.",
+          "price": "9.49",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Cowboy Burger",
+          "ingredients_or_description": "Topped with grilled onions, bacon, cheddar, and BBQ sauce.",
+          "price": "11.49"
+        },
+        {
+          "title": "Patty Melt (1/3 Pound)",
+          "ingredients_or_description": "Angus beef on grilled rye bread with American cheese and grilled onions.",
+          "price": "9.49",
+          "like_percent": 100,
+          "like_review_count": 6
+        },
+        {
+          "title": "Texas Burger (1/3 Pound)",
+          "ingredients_or_description": "Topped with sauteed mushrooms, cheddar cheese, bacon, and BBQ sauce on grilled texas toast.",
+          "price": "10.49",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Hamburger (1/3 Pound)",
+          "ingredients_or_description": "Angus beef on sesame seed bun with lettuce, tomato, pickles, onion, and mayonnaise.",
+          "price": "7.79",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Chili Burger",
+          "ingredients_or_description": "Spicy beef patty topped with chili.",
+          "price": "9.49"
+        },
+        {
+          "title": "Cajun Burger (1/3 Pound)",
+          "ingredients_or_description": "Cajun burger topped with grilled onions, jalapenos, and pepper jack cheese.",
+          "price": "10.49",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Jersey Burger",
+          "ingredients_or_description": "Grilled onions, mushrooms, green peppers, bacon, swiss, and American cheese.",
+          "price": "10.49"
+        },
+        {
+          "title": "California Burger",
+          "ingredients_or_description": "Lettuce, tomatoes, swiss cheese, avocado, mayonnaise, and pickles. Served on a pretzel bun.",
+          "price": "10.49",
+          "like_percent": 100,
+          "like_review_count": 3
+        }
+      ]
+    },
+    {
+      "section": "Sandwiches (Lunch Specials)",
+      "items": [
+        {
+          "title": "Club Sandwich",
+          "ingredients_or_description": "Turkey, bacon, lettuce, tomatoes, and mayonnaise.",
+          "price": "11.99",
+          "like_percent": 100,
+          "like_review_count": 9
+        },
+        {
+          "title": "Abraham Reuben Sandwich",
+          "ingredients_or_description": "Corned beef, turkey, beef salami, swiss cheese, and coleslaw with thousand islands served on rye bread or onion roll.",
+          "price": "13.49",
+          "like_percent": 100,
+          "like_review_count": 5
+        },
+        {
+          "title": "French Dip Sandwich",
+          "ingredients_or_description": "Roast beef, swiss cheese, and hot jus.",
+          "price": "11.99",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "The Cameo Sandwich",
+          "ingredients_or_description": "Prime, thinly sliced, Angus beef steaks grilled perfect and served on a fresh sub bun with onions, green peppers, mushrooms, and swiss cheese.",
+          "price": "11.99"
+        },
+        {
+          "title": "Cameo Reuben Sandwich",
+          "ingredients_or_description": "Hot corned beef, swiss cheese, and sauerkraut on three slices of rye bread.",
+          "price": "12.99",
+          "like_percent": 87,
+          "like_review_count": 8
+        },
+        {
+          "title": "Philly Steak Sandwich",
+          "ingredients_or_description": "Prime, thinly sliced, Angus beef steaks grilled perfect and served on a fresh sub bun with swiss cheese, green peppers, and onions.",
+          "price": "10.99",
+          "like_percent": 85,
+          "like_review_count": 7
+        },
+        {
+          "title": "California Chicken Sandwich",
+          "ingredients_or_description": "Lettuce, tomato, avocado, swiss cheese, mayonnaise, and pickles on a pretzel bun.",
+          "price": "12.79"
+        },
+        {
+          "title": "Grilled Chicken Sandwich",
+          "ingredients_or_description": "Lettuce, tomatoes, mayonnaise.",
+          "price": "10.49",
+          "like_percent": 75,
+          "like_review_count": 4
+        },
+        {
+          "title": "Corned Beef Sandwich",
+          "ingredients_or_description": "Comes with swiss cheese on rye bread or onion roll.",
+          "price": "12.49"
+        },
+        {
+          "title": "Mushroom and Cheese Steak Sandwich",
+          "ingredients_or_description": "Loaded with mushrooms and swiss cheese.",
+          "price": "10.99"
+        },
+        {
+          "title": "Fish Sandwich",
+          "ingredients_or_description": "Lettuce, tomatoes on a hamburger bun served with tartar sauce and lemon.",
+          "price": "11.49"
+        },
+        {
+          "title": "Grilled Cheese Sandwich",
+          "ingredients_or_description": "Add bacon or ham for an additional charge.",
+          "price": "6.99"
+        },
+        {
+          "title": "BLT Sandwich",
+          "ingredients_or_description": "Bacon, lettuce, and tomatoes served on your choice of toast.",
+          "price": "9.49",
+          "like_percent": 100,
+          "like_review_count": 7
+        },
+        {
+          "title": "New York Reuben Sandwich",
+          "ingredients_or_description": "Corned beef, sauerkraut, and melted Swiss cheese on rye bread.",
+          "price": "12.99",
+          "like_percent": 66,
+          "like_review_count": 3
+        },
+        {
+          "title": "Slim Jim Sandwich",
+          "ingredients_or_description": "Ham, lettuce, tomatoes, mayonnaise, and swiss cheese on a sub bun.",
+          "price": "10.99",
+          "like_percent": 100,
+          "like_review_count": 7
+        },
+        {
+          "title": "Egg and Cheese Sandwich",
+          "ingredients_or_description": "Lettuce, tomato, and mayonnaise.",
+          "price": "7.79"
+        },
+        {
+          "title": "Turkey Sandwich",
+          "ingredients_or_description": "Lettuce, tomatoes, and mayonnaise.",
+          "price": "9.99",
+          "like_percent": 66,
+          "like_review_count": 6
+        },
+        {
+          "title": "Plain Steak Sandwich",
+          "ingredients_or_description": "Tender steak served on a sandwich.",
+          "price": "9.99"
+        },
+        {
+          "title": "Tuna Melt Sandwich",
+          "ingredients_or_description": "American cheese on grilled rye bread.",
+          "price": "10.49"
+        },
+        {
+          "title": "Turkey Melt Sandwich",
+          "ingredients_or_description": "American cheese on grilled rye bread.",
+          "price": "9.99"
+        }
+      ]
+    },
+    {
+      "section": "Mexican (Lunch Specials)",
+      "items": [
+        {
+          "title": "Chicken Quesadilla",
+          "ingredients_or_description": "Green onion, green peppers, cheddar cheese on a 12\" tortilla served with lettuce, tomatoes, and salsa, and sour cream on the side.",
+          "price": "13.49",
+          "like_percent": 100,
+          "like_review_count": 20
+        },
+        {
+          "title": "Cheese Quesadilla",
+          "ingredients_or_description": "Melted cheese wrapped in a tortilla.",
+          "price": "9.99"
+        },
+        {
+          "title": "Super Burrito",
+          "ingredients_or_description": "Chili, cheddar, tomato, red onion, olives, green pepper, and refried beans. Served with salsa and sour cream.",
+          "price": "14.50",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Steak Fajita (5 pcs)",
+          "ingredients_or_description": "8 oz. New York, green peppers, 6\" tortillas (5 pieces) with salsa and sour cream on the side.",
+          "price": "23.99"
+        },
+        {
+          "title": "Chicken Fajita (5 pcs)",
+          "ingredients_or_description": "Grilled onions, green peppers, 6\" tortillas (5 pieces) with salsa and sour cream on the side.",
+          "price": "15.99"
+        },
+        {
+          "title": "Nacho Supreme",
+          "ingredients_or_description": "Choose ground beef or chicken, lettuce, tomatoes, red onions, green pepper, olives, cheddar, and refried beans.",
+          "price": "13.49"
+        },
+        {
+          "title": "Taco Salad",
+          "ingredients_or_description": "Lettuce, ground beef, cheddar cheese, tomato, red onion, green pepper, olives, and refried beans.",
+          "price": "14.49",
+          "like_percent": 83,
+          "like_review_count": 6
+        },
+        {
+          "title": "Shrimp Taco (3 pcs)",
+          "ingredients_or_description": "Served with refried beans and rice, lettuce, tomato, red onion, cilantro, and guacamole.",
+          "price": "19.99"
+        },
+        {
+          "title": "Fish Taco (3 pcs)",
+          "ingredients_or_description": "Served with refried beans and rice lettuce, tomato, red onion, cilantro, and guacamole.",
+          "price": "19.99"
+        }
+      ]
+    },
+    {
+      "section": "Pita Sandwiches (Lunch Specials)",
+      "items": [
+        {
+          "title": "Cameo Pita Sandwich",
+          "ingredients_or_description": "Marinated chicken, bacon, and pepper jack cheese with grilled green peppers and onions.",
+          "price": "11.49",
+          "like_percent": 75,
+          "like_review_count": 4
+        },
+        {
+          "title": "Chicken Tender Pita Sandwich",
+          "ingredients_or_description": "Chicken strips, swiss and American cheese, lettuce, and tomatoes.",
+          "price": "9.99",
+          "like_percent": 83,
+          "like_review_count": 6
+        },
+        {
+          "title": "Gyro Pita Sandwich",
+          "ingredients_or_description": "Gyro meat, lettuce, tomatoes, onions, and gyro sauce.",
+          "price": "9.99",
+          "like_percent": 80,
+          "like_review_count": 5
+        },
+        {
+          "title": "Hot Veggie Pita Sandwich",
+          "ingredients_or_description": "Grilled onions, green peppers, and mushrooms with swiss or American cheese.",
+          "price": "9.99"
+        },
+        {
+          "title": "Chicken Gyro Pita Sandwich",
+          "ingredients_or_description": "Marinated chicken breast, lettuce, tomatoes, onions, and gyro sauce.",
+          "price": "9.99",
+          "popular": true
+        },
+        {
+          "title": "Philly Steak Cheese Pita",
+          "ingredients_or_description": "Philly steak, mushrooms, green peppers, grilled onions, and Swiss cheese.",
+          "price": "11.49"
+        },
+        {
+          "title": "Tuna Pita Sandwich",
+          "ingredients_or_description": "Lettuce, tomatoes, and mayonnaise.",
+          "price": "9.99"
+        },
+        {
+          "title": "Chicken Pita Sandwich",
+          "ingredients_or_description": "Lettuce, tomatoes, and mayonnaise.",
+          "price": "9.99"
+        },
+        {
+          "title": "Club Pita",
+          "ingredients_or_description": "Turky, bacon, lettuce, tomato, and egg.",
+          "price": "10.99"
+        },
+        {
+          "title": "Tuna Pita",
+          "ingredients_or_description": "Served with lettuce, tomato, cheddar cheese, and ground beef.",
+          "price": "9.99"
+        }
+      ]
+    },
+    {
+      "section": "Hot Sandwiches (Lunch Specials)",
+      "items": [
+        {
+          "title": "Meatloaf Sandwich",
+          "ingredients_or_description": "Served with a cup of soup or coleslaw, mashed potatoes with gravy and vegetables, and breadbasket.",
+          "price": "12.99"
+        },
+        {
+          "title": "Turkey Sandwich",
+          "ingredients_or_description": "Served with a cup of soup or coleslaw, mashed potatoes with gravy and vegetables, and breadbasket.",
+          "price": "12.99",
+          "like_percent": 66,
+          "like_review_count": 6
+        },
+        {
+          "title": "Roast Beef Sandwich",
+          "ingredients_or_description": "Served with a cup of soup or coleslaw, mashed potatoes with gravy and vegetables, and breadbasket.",
+          "price": "12.99"
+        },
+        {
+          "title": "Hamburger",
+          "ingredients_or_description": "Served with a cup of soup or coleslaw, mashed potatoes with gravy and vegetables, and breadbasket.",
+          "price": "12.99"
+        },
+        {
+          "title": "Veal Cutlet Sandwich",
+          "ingredients_or_description": "Served with a cup of soup or coleslaw, mashed potatoes with gravy and vegetables, and breadbasket.",
+          "price": "12.99"
+        },
+        {
+          "title": "Pork Cutlet Sandwich",
+          "ingredients_or_description": "Served with a cup of soup or coleslaw, mashed potatoes with gravy and vegetables, and breadbasket.",
+          "price": "12.99"
+        }
+      ]
+    },
+    {
+      "section": "Calorie Counter (Lunch Specials)",
+      "items": [
+        {
+          "title": "Cottage Cheese and Fruit",
+          "ingredients_or_description": "Served with lettuce, tomatoes, egg wedges, cottage cheese, and seasonal fruit.",
+          "price": "9.49"
+        },
+        {
+          "title": "Chopped Sirloin Steak (12 oz)",
+          "ingredients_or_description": "Served with lettuce, tomatoes, egg wedges, cottage cheese, and seasonal fruit.",
+          "price": "14.49"
+        },
+        {
+          "title": "Tuna Salad Plate",
+          "ingredients_or_description": "Served with lettuce, tomatoes, egg wedges, cottage cheese, and seasonal fruit.",
+          "price": "11.49"
+        },
+        {
+          "title": "Ground Round Patty (10 oz)",
+          "ingredients_or_description": "Served with lettuce, tomatoes, egg wedges, cottage cheese, and seasonal fruit.",
+          "price": "12.99"
+        },
+        {
+          "title": "Seasonal Fresh Fruit",
+          "ingredients_or_description": "Served with lettuce, tomatoes, egg wedges, cottage cheese, and seasonal fruit.",
+          "price": "5.99"
+        }
+      ]
+    },
+    {
+      "section": "Coneys (Lunch Specials)",
+      "items": [
+        {
+          "title": "Coney Deal",
+          "ingredients_or_description": "Two hot dogs with chili and onions.",
+          "price": "9.99",
+          "like_percent": 100,
+          "like_review_count": 5
+        },
+        {
+          "title": "Coney",
+          "ingredients_or_description": "With chili and onions.",
+          "price": "4.79",
+          "like_percent": 100,
+          "like_review_count": 6
+        },
+        {
+          "title": "Loose Burger",
+          "ingredients_or_description": "Ground beef, chili, and onions.",
+          "price": "5.49"
+        },
+        {
+          "title": "Hot Dog",
+          "ingredients_or_description": "Classic American-style sausage served in a bun.",
+          "price": "4.29",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Coney Special",
+          "ingredients_or_description": "Hot dog, ground beef, chili, and onions.",
+          "price": "5.59"
+        },
+        {
+          "title": "Chili",
+          "ingredients_or_description": "Spicy ground beef in a flavorful broth.",
+          "price": "4.99",
+          "like_percent": 100,
+          "like_review_count": 3
+        }
+      ]
+    },
+    {
+      "section": "Sides (Lunch Specials)",
+      "items": [
+        {
+          "title": "Chili Cheese Fries",
+          "ingredients_or_description": "Crunchy fries smothered in melted cheese and spicy chili.",
+          "price": "6.29",
+          "like_percent": 82,
+          "like_review_count": 17
+        },
+        {
+          "title": "Chili Fries",
+          "ingredients_or_description": "Spicy fries smothered in chili.",
+          "price": "5.99",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "French Fries",
+          "ingredients_or_description": "Crispy, golden sticks served alongside your meal.",
+          "price": "5.29",
+          "like_percent": 94,
+          "like_review_count": 17
+        },
+        {
+          "title": "Mashed Potatoes",
+          "ingredients_or_description": "Smooth, creamy potatoes.",
+          "price": "4.99"
+        },
+        {
+          "title": "Onion Rings",
+          "ingredients_or_description": "Crispy onion slices served as a side dish.",
+          "price": "5.99",
+          "like_percent": 100,
+          "like_review_count": 8
+        },
+        {
+          "title": "Avocado",
+          "ingredients_or_description": "Fresh and creamy avocado.",
+          "price": "3.99"
+        },
+        {
+          "title": "Pita Bread",
+          "ingredients_or_description": "Soft, lightly baked bread.",
+          "price": "3.69"
+        },
+        {
+          "title": "Tomatoes",
+          "ingredients_or_description": "Fresh and juicy tomatoes.",
+          "price": "3.69"
+        },
+        {
+          "title": "American Fries",
+          "ingredients_or_description": "Crispy, golden fries served hot.",
+          "price": "4.99"
+        },
+        {
+          "title": "Hash Browns",
+          "ingredients_or_description": "Crispy shredded potatoes, perfect side dish.",
+          "price": "4.99",
+          "like_percent": 75,
+          "like_review_count": 4
+        },
+        {
+          "title": "Cottage Cheese",
+          "ingredients_or_description": "A creamy and nutritious side dish.",
+          "price": "4.49"
+        },
+        {
+          "title": "Coleslaw",
+          "ingredients_or_description": "Crisp, refreshing side dish made with shredded cabbage.",
+          "price": "4.49",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Rice Pilaf",
+          "ingredients_or_description": "Flavorful rice dish with a mix of ingredients.",
+          "price": "5.49"
+        },
+        {
+          "title": "Apple sauce",
+          "ingredients_or_description": "Sweet and tangy apple accompaniment.",
+          "price": "3.99"
+        },
+        {
+          "title": "Cheese Fries",
+          "ingredients_or_description": "Crispy fries smothered in melted cheese.",
+          "price": "4.99"
+        }
+      ]
+    },
+    {
+      "section": "Eggs (Breakfast Specials)",
+      "items": [
+        {
+          "title": "2 Eggs any Style with Meat",
+          "ingredients_or_description": "Served with 4 strips of bacon, ham, 4 sausage links, or 2 sausage patties and toast.",
+          "price": "7.99",
+          "like_percent": 75,
+          "like_review_count": 16
+        },
+        {
+          "title": "2 Eggs any Style",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollar-sized pancakes.",
+          "price": "6.69",
+          "like_percent": 66,
+          "like_review_count": 3
+        }
+      ]
+    },
+    {
+      "section": "Waffles and Biscuits (Breakfast Specials)",
+      "items": [
+        {
+          "title": "Biscuits (2 pcs) and Gravy",
+          "ingredients_or_description": "Flaky biscuits served with a rich, savory gravy.",
+          "price": "6.99",
+          "like_percent": 72,
+          "like_review_count": 18
+        },
+        {
+          "title": "Biscuits and Gravy (1/2 order)",
+          "ingredients_or_description": "Flaky biscuits served with a rich, savory gravy.",
+          "price": "6.49"
+        },
+        {
+          "title": "Belgian Waffle with Meat",
+          "ingredients_or_description": "Served with sausage, bacon, or ham.",
+          "price": "9.99"
+        },
+        {
+          "title": "Belgian Waffle with Topping and Meat",
+          "ingredients_or_description": "Topped with strawberries and whipped cream. Served with sausage, bacon, or ham.",
+          "price": "9.79"
+        },
+        {
+          "title": "Biscuits (2 pcs) and Gravy with 2 Eggs and Meat",
+          "ingredients_or_description": "Served with 2 eggs any style and 4 strips of bacon, 4 sausage links, or ham.",
+          "price": "11.49",
+          "popular": true
+        },
+        {
+          "title": "Belgian Waffle with Topping",
+          "ingredients_or_description": "Topped with strawberries and whipped cream.",
+          "price": "8.99"
+        },
+        {
+          "title": "Belgian Waffle",
+          "ingredients_or_description": "Crispy, golden Belgian waffle with deep pockets and a fluffy center.",
+          "price": "7.99"
+        },
+        {
+          "title": "Biscuits (2 pcs) and Gravy with 2 Eggs Any Style",
+          "ingredients_or_description": "Flaky biscuits served with rich gravy and two eggs, cooked to your liking.",
+          "price": "7.69"
+        }
+      ]
+    },
+    {
+      "section": "Sizzling Skillets (Breakfast Specials)",
+      "items": [
+        {
+          "title": "Meat Lover's Skillet",
+          "ingredients_or_description": "Ham, bacon, sausage, and American cheese.",
+          "price": "12.49",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Greek Skillet",
+          "ingredients_or_description": "Gyro meat, onion, green pepper, tomatoes, and feta cheese.",
+          "price": "12.49"
+        },
+        {
+          "title": "Western Skillet",
+          "ingredients_or_description": "Ham, green pepper, onion, and American cheese.",
+          "price": "11.99"
+        },
+        {
+          "title": "Cameo Skillet",
+          "ingredients_or_description": "Ham, sausage, bacon, onion, green pepper, and cheddar cheese.",
+          "price": "12.29"
+        },
+        {
+          "title": "Philly Steak Skillet (2 pcs)",
+          "ingredients_or_description": "2 thin pieces of Philly steak, mushrooms, green peppers, onions, and swiss cheese.",
+          "price": "12.49"
+        },
+        {
+          "title": "Kielbasa Skillet",
+          "ingredients_or_description": "Deaborn kielbasa, tomato, green pepper and onions grilled together with cheese and topped with 2 eggs served with toast and jelly.",
+          "price": "12.49",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Southern Skillet",
+          "ingredients_or_description": "Sausage, onion, American cheese, topped with sausage gravy.",
+          "price": "12.49",
+          "like_percent": 85,
+          "like_review_count": 7
+        },
+        {
+          "title": "Spinach and Feta Skillet",
+          "ingredients_or_description": "Onion, tomatoes, feta cheese, and spinach.",
+          "price": "11.29"
+        },
+        {
+          "title": "Veggie Skillet",
+          "ingredients_or_description": "Mushrooms, tomatoes, green peppers, onion, and American cheese.",
+          "price": "11.29"
+        },
+        {
+          "title": "Mexican Skillet",
+          "ingredients_or_description": "Ground beef, green peppers, onions, tomatoes, topped with chili and cheddar cheese.",
+          "price": "12.49"
+        }
+      ]
+    },
+    {
+      "section": "Omelettes",
+      "items": [
+        {
+          "title": "Western Omelet",
+          "ingredients_or_description": "Ham, onions, and green peppers. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "11.29",
+          "like_percent": 100,
+          "like_review_count": 7
+        },
+        {
+          "title": "Farmer's Omelet",
+          "ingredients_or_description": "Ham, onions, green peppers, hash browns, and American cheese. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "11.99",
+          "like_percent": 100,
+          "like_review_count": 5
+        },
+        {
+          "title": "Ham and Cheese Omelet",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "10.99",
+          "like_percent": 100,
+          "like_review_count": 6
+        },
+        {
+          "title": "Sausage and Cheese Omelet",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "10.99",
+          "popular": true
+        },
+        {
+          "title": "Country Omelet",
+          "ingredients_or_description": "Sausage, onions, hash browns, and American cheese. Topped with sausage gravy. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "12.29",
+          "like_percent": 100,
+          "like_review_count": 11
+        },
+        {
+          "title": "Mexican Omelet",
+          "ingredients_or_description": "Onion, green peppers, cheddar cheese, and chili. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "10.99"
+        },
+        {
+          "title": "Avocado Omelet",
+          "ingredients_or_description": "Bacon, avocado, pepper jack cheese. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "12.49"
+        },
+        {
+          "title": "Greek Omelet",
+          "ingredients_or_description": "Gyro meat, feta cheese, tomatoes, and onions. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "11.99",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Veggie Omelet",
+          "ingredients_or_description": "Onions, green peppers, mushrooms, tomatoes, and American cheese. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "10.99",
+          "like_percent": 80,
+          "like_review_count": 5
+        },
+        {
+          "title": "Mushroom and Swiss Cheese Omelet",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "11.49"
+        },
+        {
+          "title": "Meat Lovers Omelet",
+          "ingredients_or_description": "Ham, sausage, and bacon. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "12.79",
+          "like_percent": 90,
+          "like_review_count": 11
+        },
+        {
+          "title": "Broccoli and Cheese Omelet",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "10.99"
+        },
+        {
+          "title": "Spinach and Feta Cheese Omelet",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "10.99"
+        },
+        {
+          "title": "Bacon and Cheese Omelet",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "10.99",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Plain Omelet",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "8.79"
+        },
+        {
+          "title": "Plain Omelet with Cheese",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "9.79"
+        },
+        {
+          "title": "Chicken and Cheese Omelet",
+          "ingredients_or_description": "Onions, green peppers, and swiss cheese. Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "12.29",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Corned Beef and Swiss Cheese Omelet",
+          "ingredients_or_description": "Served with hash browns, American fries, or 3 dollars sized pancakes and toast, butter and jelly.",
+          "price": "14.49",
+          "like_percent": 80,
+          "like_review_count": 5
+        },
+        {
+          "title": "Hawalian Omlette",
+          "ingredients_or_description": "Made with ham, pineapple, and Swiss cheese.",
+          "price": "11.99"
+        },
+        {
+          "title": "Club Omlette",
+          "ingredients_or_description": "Served with bacon, turkey breast, Swiss and American cheese.",
+          "price": "12.29"
+        }
+      ]
+    },
+    {
+      "section": "Breakfast Sides",
+      "items": [
+        {
+          "title": "Bacon",
+          "ingredients_or_description": "Crispy smoked meat strips, perfect for adding flavor to your breakfast.",
+          "price": "5.59",
+          "like_percent": 82,
+          "like_review_count": 17
+        },
+        {
+          "title": "Gravy",
+          "ingredients_or_description": "Rich and savory accompaniment to your breakfast.",
+          "price": "3.79",
+          "like_percent": 94,
+          "like_review_count": 17
+        },
+        {
+          "title": "Ham",
+          "ingredients_or_description": "Cured and smoked pork, a classic breakfast side.",
+          "price": "5.49"
+        },
+        {
+          "title": "Toast",
+          "ingredients_or_description": "Served with butter.",
+          "price": "2.99",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "English Muffin",
+          "ingredients_or_description": "Soft, airy breakfast bread with a mild, yeasty flavor.",
+          "price": "3.49"
+        },
+        {
+          "title": "Biscuit",
+          "ingredients_or_description": "Flaky, buttery pastry perfect for breakfast.",
+          "price": "3.99"
+        },
+        {
+          "title": "Bagel",
+          "ingredients_or_description": "Soft, ring-shaped bread often toasted or topped with various ingredients.",
+          "price": "3.99",
+          "popular": true
+        },
+        {
+          "title": "Sausage",
+          "ingredients_or_description": "Savory sausage, perfect for breakfast.",
+          "price": "5.49",
+          "like_percent": 100,
+          "like_review_count": 8
+        },
+        {
+          "title": "Philadelphia Cream Cheese",
+          "ingredients_or_description": "",
+          "price": "2.29",
+          "popular": true
+        },
+        {
+          "title": "Corn Beef Hash",
+          "ingredients_or_description": "Savory corned beef and potatoes, a classic breakfast side.",
+          "price": "12.49"
+        },
+        {
+          "title": "Hot Oatmeal",
+          "ingredients_or_description": "Warm and comforting oatmeal to start your day.",
+          "price": "5.99"
+        }
+      ]
+    },
+    {
+      "section": "Cameo Breakfast Specials",
+      "items": [
+        {
+          "title": "Cameo Sampler",
+          "ingredients_or_description": "3 pcs eggs, 2 pcs strips bacon, 2 pcs sausage links, 1 pc ham, 1 pc buttermilk pancake, 1 pc French toast, hash browns, or American fries.",
+          "price": "11.99",
+          "like_percent": 91,
+          "like_review_count": 12
+        },
+        {
+          "title": "Hungry Man Breakfast",
+          "ingredients_or_description": "3 pcs eggs, 2 pcs sausages, 2 pcs bacon, 2 pcs ham, hash browns, or American fries and toast.",
+          "price": "10.99",
+          "like_percent": 81,
+          "like_review_count": 38
+        },
+        {
+          "title": "Cameo Breakfast",
+          "ingredients_or_description": "2 pcs eggs, choice of hash browns or American fries or pancakes, choice of 4 pcs bacon, 2 pcs ham, 4 pcs sausage links, and toast.",
+          "price": "8.99",
+          "like_percent": 80,
+          "like_review_count": 10
+        },
+        {
+          "title": "Corned Beef Hash and Two Eggs",
+          "ingredients_or_description": "Onions, green peppers, and toast.",
+          "price": "13.49",
+          "like_percent": 100,
+          "like_review_count": 4
+        },
+        {
+          "title": "Country Fried Steak and Eggs",
+          "ingredients_or_description": "Served with hash browns or American fries and sausage gravy and toast.",
+          "price": "11.99",
+          "like_percent": 87,
+          "like_review_count": 8
+        },
+        {
+          "title": "Deuces (3 pcs)",
+          "ingredients_or_description": "2 pcs pancakes, 2 pcs eggs, 2 pcs bacon, or 2 pcs sausages.",
+          "price": "8.69"
+        },
+        {
+          "title": "Breakfast Quesadilla",
+          "ingredients_or_description": "A grilled flour tortilla stuffed with scrambled eggs, choice of bacon, ham, sausage, and cheddar cheese. Served with hash browns or American fries.",
+          "price": "11.49",
+          "like_percent": 87,
+          "like_review_count": 8
+        },
+        {
+          "title": "Gyro (2 Eggs)",
+          "ingredients_or_description": "Sliced gyro meat served with 2 eggs.",
+          "price": "10.99"
+        },
+        {
+          "title": "Potato Pancakes (2 pcs)",
+          "ingredients_or_description": "Served with 2 slices of bacon or 2 sausages, apple sauce, or sour cream.",
+          "price": "8.49"
+        },
+        {
+          "title": "Steak (8 oz) and Eggs",
+          "ingredients_or_description": "An 8 oz. NY strip served with hash browns or American fries and toast.",
+          "price": "19.99"
+        },
+        {
+          "title": "Pork Chops and 2 Eggs",
+          "ingredients_or_description": "2 center-cut pork chops served with hash browns or American fries and toast.",
+          "price": "14.29"
+        },
+        {
+          "title": "Chicken Breast and 2 Eggs",
+          "ingredients_or_description": "2 eggs any style with hash browns or American fries and toast.",
+          "price": "12.99"
+        },
+        {
+          "title": "Dearborn Kielbasa and 2 Eggs",
+          "ingredients_or_description": "Smoked dearborn kielbasa and two eggs.",
+          "price": "11.49"
+        }
+      ]
+    },
+    {
+      "section": "Cameo Benedicts",
+      "items": [
+        {
+          "title": "Traditional Benedicts",
+          "ingredients_or_description": "Canadian bacon, hollandaise sauce served on English muffins with two poached eggs and hash browns or American fries.",
+          "price": "11.99",
+          "like_percent": 66,
+          "like_review_count": 3
+        },
+        {
+          "title": "Bagpipe Benedicts",
+          "ingredients_or_description": "Corned beef, sauerkrat, and hollandaise sauce served on an English muffin with two poached eggs and hash browns on American fries.",
+          "price": "12.99"
+        },
+        {
+          "title": "Garden Benedicts",
+          "ingredients_or_description": "Spinach, mushrooms, tomato, onion, hollandaise sauce served on English muffins with two poached eggs and hash browns or American fries",
+          "price": "10.99"
+        },
+        {
+          "title": "Avocado Benedicts",
+          "ingredients_or_description": "Fresh avocado, tomato, Canadian bacon, hollandaise sauce with two poached eggs and hash browns or American fries.",
+          "price": "13.99"
+        }
+      ]
+    },
+    {
+      "section": "Pancakes and French Toast",
+      "items": [
+        {
+          "title": "Chocolate Chip Pancakes",
+          "ingredients_or_description": "Fluffy pancakes loaded with dark chocolate chips.",
+          "price": "9.49",
+          "popular": true
+        },
+        {
+          "title": "French Toast",
+          "ingredients_or_description": "Thick slices of bread dipped in egg and grilled to a golden brown.",
+          "price": "8.99",
+          "like_percent": 85,
+          "like_review_count": 7
+        },
+        {
+          "title": "French Toast",
+          "ingredients_or_description": "Served with whipped cream with a choice of powdered sugar or cinnamon sugar and walnuts.",
+          "price": "10.29",
+          "like_percent": 85,
+          "like_review_count": 7
+        },
+        {
+          "title": "Pancakes",
+          "ingredients_or_description": "Fluffy and soft breakfast treat.",
+          "price": "8.99"
+        },
+        {
+          "title": "Potato Pancakes (6 pcs)",
+          "ingredients_or_description": "Served with your choice of sour cream or applesauce.",
+          "price": "9.99"
+        },
+        {
+          "title": "French Toast (1/2 order)",
+          "ingredients_or_description": "Served with sausage, bacon, or ham.",
+          "price": "7.49",
+          "like_percent": 100,
+          "like_review_count": 3
+        },
+        {
+          "title": "Blueberry Pancakes",
+          "ingredients_or_description": "Fluffy pancakes bursting with sweet blueberry flavor.",
+          "price": "9.49"
+        },
+        {
+          "title": "Silver Dollar Pancakes (8 pcs)",
+          "ingredients_or_description": "Fluffy and delicious, served in a stack of 8.",
+          "price": "8.99"
+        },
+        {
+          "title": "Pancakes (2 LG) and 2 Egg (any style)",
+          "ingredients_or_description": "Fluffy pancakes served with two eggs, prepared to your liking.",
+          "price": "8.99"
+        },
+        {
+          "title": "Strawberry Pancakes",
+          "ingredients_or_description": "Fluffy pancakes loaded with sweet strawberries.",
+          "price": "9.49"
+        },
+        {
+          "title": "Potato pancakes (4 pcs)",
+          "ingredients_or_description": "Served with bacon, ham, or sausage and your choice of sour cream or applesauce.",
+          "price": "10.49"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "@type": "Question",
+      "name": "Can I order Cameo Restaurant delivery in Lincoln Park with Uber Eats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Cameo Restaurant delivery is available on Uber Eats in Lincoln Park."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Cameo Restaurant delivery available near me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enter your address to see if Cameo Restaurant delivery is available to your location in Lincoln Park."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I order Cameo Restaurant delivery online in Lincoln Park?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are 2 ways to place an order on Uber Eats: on the app or online using the Uber Eats website. After you’ve looked over the Cameo Restaurant menu, simply choose the items you’d like to order and add them to your cart. Next, you’ll be able to review, place, and track your order."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find Cameo Restaurant online menu prices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "View upfront pricing information for the various items offered by Cameo Restaurant here on this page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get free delivery on my Cameo Restaurant order?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To save money on the delivery, consider getting an Uber One membership, if available in your area, as one of its perks is a $0 Delivery Fee on select orders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I pay for my Cameo Restaurant order?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Payment is handled via your Uber Eats account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What’s the best thing to order for Cameo Restaurant delivery in Lincoln Park?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you’re in need of some suggestions for your Cameo Restaurant order, check out the items showcased in “Picked for you” on this page."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1663 @@
+{
+  "source_url": "https://alex-kabob-house-southgate.cloveronline.com/menu/all",
+  "final_url": "https://alex-kabob-house-southgate.cloveronline.com/menu/garlic-sauce-1GSJ8SCVR2AN6",
+  "json_ld_used": false,
+  "items": [
+    {
+      "section": "SOUP",
+      "name": "Crushed Lentil",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/crushed-lentil-8F2M7T41G2JF6"
+    },
+    {
+      "section": "SOUP",
+      "name": "Chicken Veg",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/chicken-veg-2RS7B9BVWEKRA"
+    },
+    {
+      "section": "SOUP",
+      "name": "Lamb Veg",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/lamb-veg-SA61B3KRCBBT0"
+    },
+    {
+      "section": "LUNCH SPECIALS",
+      "name": "L-S Lamb Kabob",
+      "price": "$12.99",
+      "description": "",
+      "href": "/menu/l-s-lamb-kabob-A0DDE2C0V09CA"
+    },
+    {
+      "section": "LUNCH SPECIALS",
+      "name": "L-S Shish Tawook",
+      "price": "$12.99",
+      "description": "",
+      "href": "/menu/l-s-shish-tawook-5KSJZFYRQPBQA"
+    },
+    {
+      "section": "LUNCH SPECIALS",
+      "name": "L-S Chicken Shawarma",
+      "price": "$12.99",
+      "description": "",
+      "href": "/menu/l-s-chicken-shawarma-HS7BRQQDZBCY6"
+    },
+    {
+      "section": "LUNCH SPECIALS",
+      "name": "L-S Meat Shawarma",
+      "price": "$12.99",
+      "description": "",
+      "href": "/menu/l-s-meat-shawarma-4A6H1CCR1E8FW"
+    },
+    {
+      "section": "LUNCH SPECIALS",
+      "name": "L-S Kafta",
+      "price": "$12.99",
+      "description": "",
+      "href": "/menu/l-s-kafta-5SMBAY6R8N5VP"
+    },
+    {
+      "section": "LUNCH SPECIALS",
+      "name": "L-S Lamb Chops",
+      "price": "$15.49",
+      "description": "",
+      "href": "/menu/l-s-lamb-chops-KFEHG2CNJ8CTW"
+    },
+    {
+      "section": "LUNCH SPECIALS",
+      "name": "L-S Vegie Plate",
+      "price": "$12.99",
+      "description": "",
+      "href": "/menu/l-s-vegie-plate-D4WP6MNXVV3T4"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Sandwich Combo",
+      "price": "$12.99",
+      "description": "",
+      "href": "/menu/sandwich-combo-83N05ZD9ZPYX2"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Chicken Shawarma Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/chicken-shawarma-sandwich-7FCZZ9G2R88ME"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Shish Kabob Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/shish-kabob-sandwich-FMW9A9GK8XZ5W"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Shish Tawook Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/shish-tawook-sandwich-H46PMKW3Y05HP"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Shish Kafta Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/shish-kafta-sandwich-423F0BR1MSR9W"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Shish Tawook & Tabouli Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/shish-tawook-tabouli-sandwich-NHZ0V04YQTZZW"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Meat Shawarma Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/meat-shawarma-sandwich-PCT7CQSHRCJ9C"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Meat Galabah Sandwich",
+      "price": "$7.75",
+      "description": "",
+      "href": "/menu/meat-galabah-sandwich-WQ3VRKXRZZZRM"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Veggie Grape Leave Sandwich",
+      "price": "$6.99",
+      "description": "",
+      "href": "/menu/veggie-grape-leave-sandwich-BCJSVCRHXTR3W"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Chicken Galabah Sandwich",
+      "price": "$7.75",
+      "description": "",
+      "href": "/menu/chicken-galabah-sandwich-7NX95J0RT05M6"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Chicken Shawarma Salad Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/chicken-shawarma-salad-sandwich-FKHMVKRKDE9D2"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Sojok Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/sojok-sandwich-FKHQGVYE89D3A"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Falafel Sandwich",
+      "price": "$6.99",
+      "description": "",
+      "href": "/menu/falafel-sandwich-V5DHFYWGBHPPP"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Meat Grape Leaves Sandwich",
+      "price": "$7.49",
+      "description": "",
+      "href": "/menu/meat-grape-leaves-sandwich-0938SSXSD7T5W"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Hommus & Tabouli Sandwich",
+      "price": "$6.99",
+      "description": "",
+      "href": "/menu/hommus-tabouli-sandwich-M6783W8XQ7MXW"
+    },
+    {
+      "section": "SANDWICHES",
+      "name": "Majdara Sandwich",
+      "price": "$6.99",
+      "description": "",
+      "href": "/menu/majdara-sandwich-P8SYMNYYB7KGC"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Mixed Kabob",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/mixed-kabob-KYJCSS3W3DEJ8"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Shish Kabob",
+      "price": "$22.99",
+      "description": "",
+      "href": "/menu/shish-kabob-WMS3TZPAN853A"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Shish Tawook",
+      "price": "$21.49",
+      "description": "",
+      "href": "/menu/shish-tawook-WKB97M9SYYE56"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Shish Kafta",
+      "price": "$20.99",
+      "description": "",
+      "href": "/menu/shish-kafta-Q2YPXVQ64JM22"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Chicken Kafta",
+      "price": "$20.99",
+      "description": "",
+      "href": "/menu/chicken-kafta-F774EW0SGXE72"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Shawarma Combo",
+      "price": "$21.49",
+      "description": "",
+      "href": "/menu/shawarma-combo-Y74FHJEGDJ68R"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Meat Shawarma",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/meat-shawarma-4DG8JK2KH25T6"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Chicken Shawarma",
+      "price": "$20.99",
+      "description": "",
+      "href": "/menu/chicken-shawarma-1ASWP3BQWRGF0"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Lamb Chops Din",
+      "price": "$34.99",
+      "description": "",
+      "href": "/menu/lamb-chops-din-A025J3ZMH3KQC"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Chicken Cream Chops",
+      "price": "$21.49",
+      "description": "",
+      "href": "/menu/chicken-cream-chops-ZKY1KK7AS4EGR"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Sauteed Lamb",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/sauteed-lamb-31AZT4F99PABM"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Sauteed Chicken",
+      "price": "$20.99",
+      "description": "",
+      "href": "/menu/sauteed-chicken-0191Z2E5JS4KY"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Chicken Special",
+      "price": "$17.49",
+      "description": "",
+      "href": "/menu/chicken-special-S9NVMCD5N14D8"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Half Deboned Chicken",
+      "price": "$20.99",
+      "description": "",
+      "href": "/menu/half-deboned-chicken-NCZPMR7V1R3SG"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Whole Deboned Chicken",
+      "price": "$26.99",
+      "description": "",
+      "href": "/menu/whole-deboned-chicken-HM2405AB21M04"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Classic Chicken Galabah",
+      "price": "$21.49",
+      "description": "",
+      "href": "/menu/classic-chicken-galabah-D1VF29G8DQ6CJ"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Classic Meat Galabah",
+      "price": "$21.49",
+      "description": "",
+      "href": "/menu/classic-meat-galabah-WNBTAXZVYR2N0"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Veggie Galabah",
+      "price": "$19.99",
+      "description": "",
+      "href": "/menu/veggie-galabah-PXK5EAXQS6SZ4"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Chicken Liver",
+      "price": "$20.99",
+      "description": "",
+      "href": "/menu/chicken-liver-CNGZPR4N6M0EC"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Mjadara",
+      "price": "$16.99",
+      "description": "",
+      "href": "/menu/mjadara-WXF5XN88NS9KA"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Hommus With Lamb",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/hommus-with-lamb-EH58PHGQ8F3BG"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "David Basha",
+      "price": "$21.49",
+      "description": "",
+      "href": "/menu/david-basha-1J685V8TZQT6E"
+    },
+    {
+      "section": "MAIN ENTRES",
+      "name": "Small Lamb Combo",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-lamb-combo-Y72HW99E6KE6W"
+    },
+    {
+      "section": "SEA FOOD",
+      "name": "Salamon Galabah",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/salamon-galabah-AAH02PKZSVY48"
+    },
+    {
+      "section": "SEA FOOD",
+      "name": "Shrimp Galabah",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/shrimp-galabah-RK1TSXJD7RTZC"
+    },
+    {
+      "section": "SEA FOOD",
+      "name": "Shish Shrimp Kabob",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/shish-shrimp-kabob-FE291R462BV1J"
+    },
+    {
+      "section": "SEA FOOD",
+      "name": "Fried Shrimp",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/fried-shrimp-6VYYXV9WJ6T10"
+    },
+    {
+      "section": "SEA FOOD",
+      "name": "Sauteed Shrimp",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/sauteed-shrimp-GAKE30ZJJ4Q6J"
+    },
+    {
+      "section": "SEA FOOD",
+      "name": "Fish & Chips",
+      "price": "$21.99",
+      "description": "",
+      "href": "/menu/fish-chips-2W75H7K68M2H8"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Alex Veggie Combo",
+      "price": "$34.99",
+      "description": "",
+      "href": "/menu/alex-veggie-combo-P8HCT9KT5Y94E"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Shish Combo",
+      "price": "$24.99",
+      "description": "",
+      "href": "/menu/shish-combo-51MM2775GNSCT"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Shish Cambo For 2",
+      "price": "$35.99",
+      "description": "",
+      "href": "/menu/shish-cambo-for-2-40RKKCZMFZYZY"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Sampler Plate",
+      "price": "$45.99",
+      "description": "",
+      "href": "/menu/sampler-plate-KNB9SN375ZJJW"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Alex Plate",
+      "price": "$44.99",
+      "description": "",
+      "href": "/menu/alex-plate-QFYTXQXF9DCYJ"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Alex Feast Tray",
+      "price": "$134.99",
+      "description": "",
+      "href": "/menu/alex-feast-tray-PFNPP0TXBTW32"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Tray For 4",
+      "price": "$64.99",
+      "description": "",
+      "href": "/menu/tray-for-4-QK27QTD01J192"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Tray For 6-8",
+      "price": "$109.99",
+      "description": "",
+      "href": "/menu/tray-for-6-8-J6VMH91QVYY2G"
+    },
+    {
+      "section": "PARTY TRAY & COMBOS",
+      "name": "Tray For 10-12",
+      "price": "$154.99",
+      "description": "",
+      "href": "/menu/tray-for-10-12-7RWTYG1HX2Q80"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Hommus",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/hommus-H6N9M1JYCXW5Y"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Baba Ghanooj",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/baba-ghanooj-0Y0VNKW4T3QW6"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Hommus Topped Lamb",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/hommus-topped-lamb-WWKT1CS8ZZDJC"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Starter Combo",
+      "price": "$15.99",
+      "description": "",
+      "href": "/menu/starter-combo-2NM4CFPJ5HRFA"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Sojok",
+      "price": "$11.99",
+      "description": "",
+      "href": "/menu/sojok-JEZD1FB7D8SAY"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Fried Kibbee 5 Pc",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/fried-kibbee-5-pc-C61TRYQ6TMCZT"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Meat Grape Leaves Appetizer",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/meat-grape-leaves-appetizer-QB64KX9M08M6R"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Veggie Grape Leaves",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/veggie-grape-leaves-2DM9QQEPDNVG0"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Falafel Plate",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/falafel-plate-7A16EG38E6VXR"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Foul",
+      "price": "$11.99",
+      "description": "",
+      "href": "/menu/foul-AKHJWC48AVBEJ"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Meat Pie 4 Pc",
+      "price": "$8.49",
+      "description": "",
+      "href": "/menu/meat-pie-4-pc-AEF8JA41PYH0Y"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Spnach Pie 4 Pc",
+      "price": "$8.49",
+      "description": "",
+      "href": "/menu/spnach-pie-4-pc-7CS3H4KBH4JXT"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Chicken Sautee",
+      "price": "$13.49",
+      "description": "",
+      "href": "/menu/chicken-sautee-3AAFVSEN4K4MJ"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Bbq Chicken Wings 8 Pc",
+      "price": "$10.99",
+      "description": "",
+      "href": "/menu/bbq-chicken-wings-8-pc-CBP77WBD8DWXW"
+    },
+    {
+      "section": "APPETIZERS",
+      "name": "Traditional Arayis",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/traditional-arayis-JFKXX6T38TM62"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Salad",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-salad-CE3QY6HA9BA5C"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Fattoush",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-fattoush-P3JY8CX33WR2W"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Fattoush Tawook",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-fattoush-tawook-HKCRHZ3RYDF6R"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Tabouli",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-tabouli-8ZY6YA8EG19X4"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Rice Almond Salad",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-rice-almond-salad-94K4AFDNN7NG2"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Greek Salad",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/greek-salad-A73NYJ2EQXCJJ"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Meat Shawarma Salad",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-meat-shawarma-salad-ZDGVVG78WWAQR"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Chicken Shawarma Salad",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-chicken-shawarma-salad-FPN330KCCFMV0"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Village Salad",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-village-salad-Y4AXFB3N4CVY4"
+    },
+    {
+      "section": "FRESH SALADS",
+      "name": "Small Spinach Salad",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/small-spinach-salad-P0CFX3C5SGPGY"
+    },
+    {
+      "section": "KIDS MENU",
+      "name": "Hamburger",
+      "price": "$10.99",
+      "description": "",
+      "href": "/menu/hamburger-NSAE2YZNHM9YR"
+    },
+    {
+      "section": "KIDS MENU",
+      "name": "Chicken Nuggets",
+      "price": "$9.99",
+      "description": "",
+      "href": "/menu/chicken-nuggets-QRX2D0V5FGE6A"
+    },
+    {
+      "section": "KIDS MENU",
+      "name": "Chicken Tenders",
+      "price": "$9.99",
+      "description": "",
+      "href": "/menu/chicken-tenders-604XM009XCNFR"
+    },
+    {
+      "section": "KIDS MENU",
+      "name": "Fried Shrimp",
+      "price": "$9.99",
+      "description": "",
+      "href": "/menu/fried-shrimp-T0YZM15TNZNCC"
+    },
+    {
+      "section": "KIDS MENU",
+      "name": "Grilled Cheese",
+      "price": "$9.99",
+      "description": "",
+      "href": "/menu/grilled-cheese-1MW7KXWB00EQM"
+    },
+    {
+      "section": "DRINKS",
+      "name": "Can Pop",
+      "price": "$1.49",
+      "description": "",
+      "href": "/menu/can-pop-HKYZRV8BWF8XY"
+    },
+    {
+      "section": "DRINKS",
+      "name": "Smoothie",
+      "price": "$5.99",
+      "description": "",
+      "href": "/menu/smoothie-S5CERB0BN02QP"
+    },
+    {
+      "section": "DRINKS",
+      "name": "Any Quart Juice",
+      "price": "$5.99",
+      "description": "",
+      "href": "/menu/any-quart-juice-T94ZX61CDR98W"
+    },
+    {
+      "section": "DRINKS",
+      "name": "Soft Drink",
+      "price": "$2.99",
+      "description": "",
+      "href": "/menu/soft-drink-KM1MPXKTA8YDT"
+    },
+    {
+      "section": "DRINKS",
+      "name": "Coffee",
+      "price": "$2.49",
+      "description": "",
+      "href": "/menu/coffee-Y2ANT5B6DBDK8"
+    },
+    {
+      "section": "DRINKS",
+      "name": "Hot Tea",
+      "price": "$2.49",
+      "description": "",
+      "href": "/menu/hot-tea-D7EF4GNM0VMNG"
+    },
+    {
+      "section": "DRINKS",
+      "name": "Iced Tea",
+      "price": "$2.99",
+      "description": "",
+      "href": "/menu/iced-tea-242ZQ420AEAS4"
+    },
+    {
+      "section": "DRINKS",
+      "name": "Arabic Coffee",
+      "price": "$3.49",
+      "description": "",
+      "href": "/menu/arabic-coffee-HV1676WQTT43E"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Small Rice",
+      "price": "$4.99",
+      "description": "",
+      "href": "/menu/small-rice-NDAMXTE06SA58"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Large Rice",
+      "price": "$5.99",
+      "description": "",
+      "href": "/menu/large-rice-8BMXVJJ440PAY"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Side Fries",
+      "price": "$5.49",
+      "description": "",
+      "href": "/menu/side-fries-50HQ1TF20BP9P"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Spicy Potatoes",
+      "price": "$9.49",
+      "description": "",
+      "href": "/menu/spicy-potatoes-JP73J60ZQCJ8P"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Garlic Sauce",
+      "price": "$0.00",
+      "description": "",
+      "href": "/menu/garlic-sauce-1GSJ8SCVR2AN6"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Hot Bread",
+      "price": "$1.49",
+      "description": "",
+      "href": "/menu/hot-bread-4BS7E8CZNVRPC"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Grilled Veggies",
+      "price": "$5.99",
+      "description": "",
+      "href": "/menu/grilled-veggies-7V7H3J0JM3SMT"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Skewer Kabob",
+      "price": "$6.99",
+      "description": "",
+      "href": "/menu/skewer-kabob-VDJ3GXV5AB41Y"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Skewer Tawook",
+      "price": "$6.49",
+      "description": "",
+      "href": "/menu/skewer-tawook-TQEVJXRBWZA4P"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Skewer Kafta",
+      "price": "$5.49",
+      "description": "",
+      "href": "/menu/skewer-kafta-TKCNE7DDSFED2"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Skewer Shrimp 6 Pc",
+      "price": "$8.49",
+      "description": "",
+      "href": "/menu/skewer-shrimp-6-pc-0DGB4SFX9SXM6"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Salmon Filet",
+      "price": "$10.49",
+      "description": "",
+      "href": "/menu/salmon-filet-H9D9E4C44N7D0"
+    },
+    {
+      "section": "SIDE ORDERS",
+      "name": "Chicken Breast",
+      "price": "$3.99",
+      "description": "",
+      "href": "/menu/chicken-breast-4HZGZD27JKR5M"
+    },
+    {
+      "section": "DESSERT",
+      "name": "Carrot Cake",
+      "price": "$4.99",
+      "description": "",
+      "href": "/menu/carrot-cake-3P4PS9J591SD6"
+    },
+    {
+      "section": "DESSERT",
+      "name": "Rice Pudding",
+      "price": "$2.99",
+      "description": "",
+      "href": "/menu/rice-pudding-B6ZJ9AXHJWZDA"
+    },
+    {
+      "section": "DESSERT",
+      "name": "Beklava",
+      "price": "$2.99",
+      "description": "",
+      "href": "/menu/beklava-A0K9BVNERKBYC"
+    },
+    {
+      "section": "UNCATEGORIZED",
+      "name": "Shish Kabob",
+      "price": "$12.49",
+      "description": "",
+      "href": "/menu/shish-kabob-GR0A6EXPYE8T2"
+    }
+  ],
+  "modifiers": {
+    "/menu/crushed-lentil-8F2M7T41G2JF6": [
+      {
+        "group_id": "J11D60HE9QPGC",
+        "group_name": "SOUP",
+        "rule_text": "1 required",
+        "options": [
+          {
+            "name": "Cup",
+            "price_text": "+$4.49",
+            "input_type": "radio"
+          },
+          {
+            "name": "Bowl",
+            "price_text": "+$5.49",
+            "input_type": "radio"
+          },
+          {
+            "name": "Quart",
+            "price_text": "+$10.99",
+            "input_type": "radio"
+          }
+        ]
+      }
+    ],
+    "/menu/chicken-veg-2RS7B9BVWEKRA": [
+      {
+        "group_id": "J11D60HE9QPGC",
+        "group_name": "SOUP",
+        "rule_text": "1 required",
+        "options": [
+          {
+            "name": "Cup",
+            "price_text": "+$4.49",
+            "input_type": "radio"
+          },
+          {
+            "name": "Bowl",
+            "price_text": "+$5.49",
+            "input_type": "radio"
+          },
+          {
+            "name": "Quart",
+            "price_text": "+$10.99",
+            "input_type": "radio"
+          }
+        ]
+      }
+    ],
+    "/menu/lamb-veg-SA61B3KRCBBT0": [
+      {
+        "group_id": "J11D60HE9QPGC",
+        "group_name": "SOUP",
+        "rule_text": "1 required",
+        "options": [
+          {
+            "name": "Cup",
+            "price_text": "+$4.49",
+            "input_type": "radio"
+          },
+          {
+            "name": "Bowl",
+            "price_text": "+$5.49",
+            "input_type": "radio"
+          },
+          {
+            "name": "Quart",
+            "price_text": "+$10.99",
+            "input_type": "radio"
+          }
+        ]
+      }
+    ],
+    "/menu/hommus-with-lamb-EH58PHGQ8F3BG": [
+      {
+        "group_id": "F84HRSX7XZ90W",
+        "group_name": "SIDES 1",
+        "rule_text": "1 required",
+        "options": [
+          {
+            "name": "Rice",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          },
+          {
+            "name": "Fries",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          },
+          {
+            "name": "Grilled Veggies",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          },
+          {
+            "name": "Hommos",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          },
+          {
+            "name": "Home Fries",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          }
+        ]
+      }
+    ],
+    "/menu/small-lamb-combo-Y72HW99E6KE6W": [
+      {
+        "group_id": "F84HRSX7XZ90W",
+        "group_name": "SIDES 1",
+        "rule_text": "1 required",
+        "options": [
+          {
+            "name": "Rice",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          },
+          {
+            "name": "Fries",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          },
+          {
+            "name": "Grilled Veggies",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          },
+          {
+            "name": "Hommos",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          },
+          {
+            "name": "Home Fries",
+            "price_text": "+$0.00",
+            "input_type": "radio"
+          }
+        ]
+      }
+    ],
+    "/menu/hommus-H6N9M1JYCXW5Y": [
+      {
+        "group_id": "5GFKVFXDH14W2",
+        "group_name": "HOMMUS SIZE",
+        "rule_text": "1 required",
+        "options": [
+          {
+            "name": "Small",
+            "price_text": "+$7.99",
+            "input_type": "radio"
+          },
+          {
+            "name": "Large",
+            "price_text": "+$9.99",
+            "input_type": "radio"
+          }
+        ]
+      }
+    ],
+    "/menu/baba-ghanooj-0Y0VNKW4T3QW6": [
+      {
+        "group_id": "0EYJGW6YT62V2",
+        "group_name": "BABA SIZE",
+        "rule_text": "1 required",
+        "options": [
+          {
+            "name": "Small",
+            "price_text": "+$7.99",
+            "input_type": "radio"
+          },
+          {
+            "name": "Large",
+            "price_text": "+$9.99",
+            "input_type": "radio"
+          }
+        ]
+      }
+    ],
+    "/menu/hommus-topped-lamb-WWKT1CS8ZZDJC": [],
+    "/menu/fried-kibbee-5-pc-C61TRYQ6TMCZT": [],
+    "/menu/meat-grape-leaves-appetizer-QB64KX9M08M6R": [],
+    "/menu/veggie-grape-leaves-2DM9QQEPDNVG0": [],
+    "/menu/falafel-plate-7A16EG38E6VXR": [
+      {
+        "group_id": "J4BFEBBFVBVKC",
+        "group_name": "FALAFEL",
+        "rule_text": "1 required",
+        "options": [
+          {
+            "name": "4pc",
+            "price_text": "+$7.99",
+            "input_type": "radio"
+          },
+          {
+            "name": "8 Pc",
+            "price_text": "+$11.99",
+            "input_type": "radio"
+          }
+        ]
+      }
+    ],
+    "/menu/traditional-arayis-JFKXX6T38TM62": [],
+    "/menu/small-salad-CE3QY6HA9BA5C": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/small-fattoush-P3JY8CX33WR2W": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/small-fattoush-tawook-HKCRHZ3RYDF6R": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/small-tabouli-8ZY6YA8EG19X4": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/small-rice-almond-salad-94K4AFDNN7NG2": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/greek-salad-A73NYJ2EQXCJJ": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/small-meat-shawarma-salad-ZDGVVG78WWAQR": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/small-chicken-shawarma-salad-FPN330KCCFMV0": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/small-village-salad-Y4AXFB3N4CVY4": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/small-spinach-salad-P0CFX3C5SGPGY": [
+      {
+        "group_id": "YMBRXVKWCTP6M",
+        "group_name": "NO",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Tomato",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Olives",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Cucumber",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Onions",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Beats",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Feta Cheess",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Peperchini",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Dressing On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "No Pita",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Chicken On Side",
+            "price_text": "+$0.00",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ],
+    "/menu/garlic-sauce-1GSJ8SCVR2AN6": [
+      {
+        "group_id": "RW05SHFKTYRS2",
+        "group_name": "GARLIC",
+        "rule_text": null,
+        "options": [
+          {
+            "name": "Cup",
+            "price_text": "+$4.99",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Bowl",
+            "price_text": "+$6.99",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "Quart",
+            "price_text": "+$10.99",
+            "input_type": "checkbox"
+          },
+          {
+            "name": "2 oz",
+            "price_text": "+$0.75",
+            "input_type": "checkbox"
+          }
+        ]
+      }
+    ]
+  }
+}

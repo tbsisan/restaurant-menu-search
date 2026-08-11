@@ -1,0 +1,46 @@
+{
+  "target": {
+    "name": "Camino Real Mexican Grill",
+    "address": "3851 Fort Street, Wyandotte, MI 48192",
+    "latitude": 42.19351025,
+    "longitude": -83.1795100375
+  },
+  "geolocation": {
+    "latitude": 42.19351025,
+    "longitude": -83.1795100375
+  },
+  "search_query": "Camino Real Mexican Grill",
+  "saved_pages": [
+    {
+      "source": "google-search-restaurant-name",
+      "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCamino%2BReal%2BMexican%2BGrill%26sei%3D1z9DaqzyMvL8gALMvoDRDw&q=EhAmABcArh1wAJQRyf_-CGAoGNj_jNIGIjB3tpDZ09qMLwxBMe_aOqEPoUSYLwaOnmYsrX-EuWPhfPuxuolQhT96qgYozdlgynUyAVJaAUM",
+      "title": "https://www.google.com/search?q=Camino+Real+Mexican+Grill&sei=1z9DaqzyMvL8gALMvoDRDw",
+      "html_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/google-search-restaurant-name-www-google-com-sorry-index-c8486b7a2c.html",
+      "text_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/google-search-restaurant-name-www-google-com-sorry-index-c8486b7a2c.txt",
+      "screenshot_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/google-search-restaurant-name-www-google-com-sorry-index-c8486b7a2c.png",
+      "text_chars": 1150
+    },
+    {
+      "source": "google-after-order-click",
+      "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCamino%2BReal%2BMexican%2BGrill%26sei%3D1z9DaqzyMvL8gALMvoDRDw&q=EhAmABcArh1wAJQRyf_-CGAoGNj_jNIGIjB3tpDZ09qMLwxBMe_aOqEPoUSYLwaOnmYsrX-EuWPhfPuxuolQhT96qgYozdlgynUyAVJaAUM",
+      "title": "https://www.google.com/search?q=Camino+Real+Mexican+Grill&sei=1z9DaqzyMvL8gALMvoDRDw",
+      "html_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/google-after-order-click-www-google-com-sorry-index-c8486b7a2c.html",
+      "text_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/google-after-order-click-www-google-com-sorry-index-c8486b7a2c.txt",
+      "screenshot_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/google-after-order-click-www-google-com-sorry-index-c8486b7a2c.png",
+      "text_chars": 1150
+    },
+    {
+      "source": "grubhub-restaurant-page",
+      "url": "https://www.grubhub.com/restaurant/camino-real-mexican-grill-3851-fort-st-wyandotte/6882728",
+      "title": "Camino Real Mexican Grill Delivery Menu | Order Online | 3851 Fort St Wyandotte | Grubhub",
+      "html_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/grubhub-restaurant-page-www-grubhub-com-restaurant-camino-real-mexican-grill-3851-fort-st-wyandotte-6882728-5974e5827f.html",
+      "text_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/grubhub-restaurant-page-www-grubhub-com-restaurant-camino-real-mexican-grill-3851-fort-st-wyandotte-6882728-5974e5827f.txt",
+      "screenshot_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/grubhub-restaurant-page-www-grubhub-com-restaurant-camino-real-mexican-grill-3851-fort-st-wyandotte-6882728-5974e5827f.png",
+      "text_chars": 12707
+    }
+  ],
+  "provider_links": [],
+  "chosen_grubhub_url": "https://www.grubhub.com/restaurant/camino-real-mexican-grill-3851-fort-st-wyandotte/6882728",
+  "errors": [],
+  "clicked_order_surfaces": []
+}

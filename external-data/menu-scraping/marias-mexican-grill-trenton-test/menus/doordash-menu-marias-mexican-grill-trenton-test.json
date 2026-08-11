@@ -1,0 +1,627 @@
+{
+  "source": "doordash",
+  "captured_at": "2026-07-02T06:27:04.114041+00:00",
+  "restaurant": {
+    "name": "Maria's Mexican Grill",
+    "slug": "marias-mexican-grill-trenton-test",
+    "platform_name": "Maria's Mexican Grill",
+    "url": "https://www.doordash.com/store/maria's-mexican-grill-trenton-2702259/12782754/",
+    "address": "2330 West Road, Trenton, MI"
+  },
+  "menu": {
+    "sections": [
+      {
+        "name": "Most Ordered",
+        "platform_section_id": "most-ordered",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Burritos (DINNER)",
+            "description": "Three burritos filled with beans and your choice of protein topped with melted cheese.",
+            "price_text": "$15.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Chimichangas (DINNER)",
+            "description": "Two chimichangas with your choice of protein toped with melted cheese, wet sauce, lettuce, guacamole, and tomato.",
+            "price_text": "$16.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Enchilada/Enchilada Suiza (DINNER)",
+            "description": "Three enchiladas with your choice of protein, with onion topped with red OR green sauce.",
+            "price_text": "$15.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Traditional Tacos (DINNER)",
+            "description": "Three tacos with your choice of protein topped with lettuce, cheese, and tomato on a flour of corn tortilla.",
+            "price_text": "$14.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Botana",
+            "description": "Corn tortilla chips topped with beans, melted cheese, lettuce, tomato, jalapeños, avocado, & onion.",
+            "price_text": "$16.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Traditional Taco",
+            "description": "Ground beef, shredded chicken, or shredded beef",
+            "price_text": "$3.50",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Small Chips & Salsa",
+            "description": "",
+            "price_text": "$8.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Large Chips & Salsa",
+            "description": "Large tortilla chips paired with your choice of salsa: mild, hot, creamy verde, chunky, or mean.",
+            "price_text": "$10.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Grilled Quesadilla (DINNER)",
+            "description": "Choice of protein with our specialty sauce and melted cheese. Served with guacamole, sour cream, Pico de Gallo, and jalapenos.",
+            "price_text": "$16.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Street Taco",
+            "description": "Ground beef, shredded beef, shredded chicken, pork, steak, chorizo, or shrimp",
+            "price_text": "$4.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Guacamole & Chips",
+            "description": "",
+            "price_text": "$11.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Fajita (DINNER)",
+            "description": "Three flour or four corn tortillas with your choice of protein. Served with grilled onion and pepper. Includes cheese, lettuce, guacamole, sour cream, and tomato.",
+            "price_text": "$17.00",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "Daily Specials",
+        "platform_section_id": "daily-specials",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Birria (FRIDAY)",
+            "description": "",
+            "price_text": "$5.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Street Taco (SATURDAY)",
+            "description": "Choice of pork, steak, shrimp, chicken, or various beef options wrapped in a traditional Mexican-style taco.",
+            "price_text": "$2.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "1.50 TACO (TUESDAY)",
+            "description": "Soft corn tortilla typically filled with seasoned meat, topped with fresh onions and cilantro.",
+            "price_text": "$1.50",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Burritos (WEDNESDAY)",
+            "description": "Selection of burritos available every Wednesday. Choose from ground beef, shredded beef, chicken, or beans.",
+            "price_text": "$2.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Borracho Burrito (THURSDAY)",
+            "description": "A flour tortilla filled with rice, chicken, carne asada, and crispy shrimp, topped with grilled vegetables, cheese, and borracho sauce.",
+            "price_text": "$10.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Chili Cheese Burrito (SUNDAY)",
+            "description": "A flour tortilla filled with chili and cheese, typically accompanied by beans and rice, offering a classic Mexican breakfast burrito experience.",
+            "price_text": "$3.50",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "FAMILY PACK",
+        "platform_section_id": "family-pack",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "FAMILY PACK",
+            "description": "A generous assortment designed to cater to multiple guests, typically including a variety of Mexican favorites such as tacos, burritos, and quesadillas, accompanied by sides of rice and beans.",
+            "price_text": "$50.00",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "Lunch Special (11am-3pm)",
+        "platform_section_id": "lunch-special-11am-3pm",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Enchilada/Enchilada Suizas (lunch)",
+            "description": "Two enchiladas with your choice of protein topped with either red or green sauce. All enchiladas come in onion inside.",
+            "price_text": "$12.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Chimichanga (lunch)",
+            "description": "One chimichanga with you choice of protein topped with melted cheese, wet sauce, lettuce, tomato, and guacamole.",
+            "price_text": "$12.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Street Tacos (lunch)",
+            "description": "Two tacos with your choice of protein topped with cilantro, onion, and lime.",
+            "price_text": "$12.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Traditional Tacos (lunch)",
+            "description": "Two tacos with your choice of protein, topped with lettuce, cheese, and tomato on a flour or corn tortilla.",
+            "price_text": "$12.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Burritos (lunch)",
+            "description": "Two burritos with your choice of protein topped with cheese.",
+            "price_text": "$12.00",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "Dinner Menu (ALL DAY)",
+        "platform_section_id": "dinner-menu-all-day",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Burritos (DINNER)",
+            "description": "Three burritos filled with beans and your choice of protein topped with melted cheese.",
+            "price_text": "$15.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Traditional Tacos (DINNER)",
+            "description": "Three tacos with your choice of protein topped with lettuce, cheese, and tomato on a flour of corn tortilla.",
+            "price_text": "$14.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Enchilada/Enchilada Suiza (DINNER)",
+            "description": "Three enchiladas with your choice of protein, with onion topped with red OR green sauce.",
+            "price_text": "$15.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Chimichangas (DINNER)",
+            "description": "Two chimichangas with your choice of protein toped with melted cheese, wet sauce, lettuce, guacamole, and tomato.",
+            "price_text": "$16.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Grilled Quesadilla (DINNER)",
+            "description": "Choice of protein with our specialty sauce and melted cheese. Served with guacamole, sour cream, Pico de Gallo, and jalapenos.",
+            "price_text": "$16.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Fajita (DINNER)",
+            "description": "Three flour or four corn tortillas with your choice of protein. Served with grilled onion and pepper. Includes cheese, lettuce, guacamole, sour cream, and tomato.",
+            "price_text": "$17.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Street Tacos (DINNER)",
+            "description": "Three tacos with your choice of protein topped with onion and cilantro on a corn tortilla with a slice of lime.",
+            "price_text": "$15.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Grilled Burrito (DINNER)",
+            "description": "Choice of Spanish or cilantro lime rice. Filled with charro beans, melted cheese, lettuce, and our specialty sauce.",
+            "price_text": "$16.00",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "Signature Items",
+        "platform_section_id": "signature-items",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Rice Bowl",
+            "description": "Choice of Spanish or cilantro lime rice topped with charro beans, pico de gallo, avocado, jalapeño, cheese, and our specialty sauce.",
+            "price_text": "$14.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Botana",
+            "description": "Corn tortilla chips topped with beans, melted cheese, lettuce, tomato, jalapeños, avocado, & onion.",
+            "price_text": "$16.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Nachos",
+            "description": "Corn tortilla chips with melted cheese served with sour cream & pico de gallo.",
+            "price_text": "$14.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Ensalada",
+            "description": "Crisp lettuce topped with tomatoes, grilled onion & green pepper, jalapeños, cheese. Choose your own sauce.",
+            "price_text": "$13.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Maria's Chili",
+            "description": "Hot. Maria's signature homemade chili. One of her personal favorites!",
+            "price_text": "$7.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Maria's Papas",
+            "description": "Golden potatoes cooked to a soft perfection topped with our homemade chili and cheese",
+            "price_text": "$12.00",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "Kids Menu",
+        "platform_section_id": "kids-menu",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Kids Quesadilla",
+            "description": "Flour tortilla grilled to perfection filled with melted cheese.",
+            "price_text": "$8.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Kids Enchilada",
+            "description": "One single enchilada filled with onion and you choice of chicken, bean, or ground beef.",
+            "price_text": "$8.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Kids Burrito",
+            "description": "One single burrito with chicken or ground beef. All burritos come with beans.",
+            "price_text": "$8.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Kids Taco",
+            "description": "One ground beef or chicken taco on a crispy or soft shell",
+            "price_text": "$8.00",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "Single Items",
+        "platform_section_id": "single-items",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Traditional Taco",
+            "description": "Ground beef, shredded chicken, or shredded beef",
+            "price_text": "$3.50",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Street Taco",
+            "description": "Ground beef, shredded beef, shredded chicken, pork, steak, chorizo, or shrimp",
+            "price_text": "$4.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Burrito",
+            "description": "Ground beef, shredded beef, or shredded chicken",
+            "price_text": "$4.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Chimichanga",
+            "description": "Chicken or Beef",
+            "price_text": "$5.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Enchilada/Enchilada Suiza",
+            "description": "Ground beef, shredded chicken, bean, or cheese",
+            "price_text": "$3.50",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "Additional Sides",
+        "platform_section_id": "additional-sides",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Large Chips & Salsa",
+            "description": "Large tortilla chips paired with your choice of salsa: mild, hot, creamy verde, chunky, or mean.",
+            "price_text": "$10.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Small Chips & Salsa",
+            "description": "",
+            "price_text": "$8.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Guacamole & Chips",
+            "description": "",
+            "price_text": "$11.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Maria's Queso with chips (8OZ)",
+            "description": "Maria's queso, a creamy blend of cheeses and spices, is served with crispy tortilla chips.",
+            "price_text": "$9.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Side of Rice and Beans",
+            "description": "Assorted sides featuring charro beans, cilantro lime rice, refried beans, and Spanish rice.",
+            "price_text": "$7.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Pico de Gallo & Chips",
+            "description": "Corn tortilla chips served with a fresh mix of diced tomatoes, onions, cilantro, and lime juice, known as pico de gallo.",
+            "price_text": "$7.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Large Side of Rice, Beans, or Papas",
+            "description": "Choose from Spanish rice, cilantro lime rice, charro beans, refried beans, or papas as a large side.",
+            "price_text": "$7.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Large Bag of Chips",
+            "description": "Large bag of freshly made corn tortilla chips, typically enjoyed with salsa or dips.",
+            "price_text": "$5.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Small Bag of Chips",
+            "description": "Small bag of freshly made corn tortilla chips, typically served without salsa.",
+            "price_text": "$4.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Small Side of Rice, Beans, or Papas (8oz)",
+            "description": "8oz side options include Spanish rice, cilantro lime rice, charro beans, refried beans, or papas.",
+            "price_text": "$6.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Side of sour cream",
+            "description": "",
+            "price_text": "$1.50",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "2 oz Guacamole",
+            "description": "2 oz Guacamole",
+            "price_text": "$1.50",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Queso (2 OZ)",
+            "description": "A 2 oz serving of creamy queso, typically includes a rich blend of cheeses and a hint of spices for added depth.",
+            "price_text": "$1.50",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "1 oz salsas",
+            "description": "EXTRA SALSA",
+            "price_text": "$0.50",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Maria's Queso with Chips (16 OZ)",
+            "description": "Maria's queso, a creamy cheese dip, typically includes a blend of Mexican cheeses and spices, served with crispy tortilla chips.",
+            "price_text": "$14.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Large Salsa",
+            "description": "Fresh salsa made your way. Choose from mild, hot, creamy verde, chunky, or mean.",
+            "price_text": "$7.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Small Salsa",
+            "description": "Small salsa. Choose from mild, hot, creamy verde, chunky, or mean.",
+            "price_text": "$5.00",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      },
+      {
+        "name": "Beverages",
+        "platform_section_id": "beverages",
+        "items": [
+          {
+            "platform_item_id": "",
+            "name": "Diet Coke",
+            "description": "A crisp, refreshing taste you know and love with zero calories.",
+            "price_text": "$3.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Bottled Water",
+            "description": "Pure and refreshing bottled water.",
+            "price_text": "$2.50",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Jarritos Variety Flavors",
+            "description": "Jarritos soda available in lime, fruit punch, and pineapple flavors.",
+            "price_text": "$4.00",
+            "raw_text": "",
+            "source_category_id": ""
+          },
+          {
+            "platform_item_id": "",
+            "name": "Bottled Coke",
+            "description": "The cold, refreshing, sparkling classic that America loves.",
+            "price_text": "$4.00",
+            "raw_text": "",
+            "source_category_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "raw_artifacts": [
+    "external-data/menu-scraping/marias-mexican-grill-trenton-test/menus/raw/doordash-jsonld-response.json"
+  ],
+  "extraction_notes": {
+    "method": "DoorDash JSON-LD extraction (scripted, no LLM)",
+    "canonicalized": false,
+    "note": "DoorDash JSON-LD exposes no per-item platform id; identity relies on (section, name, price)."
+  }
+}

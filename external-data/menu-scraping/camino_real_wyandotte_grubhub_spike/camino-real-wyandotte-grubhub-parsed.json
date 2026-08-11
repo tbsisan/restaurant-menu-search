@@ -1,0 +1,680 @@
+{
+  "source": {
+    "response_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/grubhub-scroll-extracted-menu-raw.json",
+    "badges_path": "external-data/menu-scraping/camino_real_wyandotte_grubhub_spike/grubhub-best-seller-badges.json"
+  },
+  "menu_sections": [
+    {
+      "section": "Tortas & Mexican Sub",
+      "items": [
+        {
+          "title": "Mexican Sandwich",
+          "ingredients_or_description": "3 layers of flour tortillas filled with refried beans, rice, and your choice of meat. Topped with ranchero sauce and melted cheese.",
+          "price": "$10.99",
+          "special": "best seller"
+        },
+        {
+          "title": "Quesabirria",
+          "ingredients_or_description": "12-in flour tortilla cut into four with cheese and marinated beef with a beef broth to dip with cilantro and onions on the side.",
+          "price": "$13.50"
+        },
+        {
+          "title": "Torta /Mexican Sub",
+          "ingredients_or_description": "Mexican style bun filled with your choice of meat, lettuce, tomato, avocado, jalapeno peppers, refried beans and mayonnaise.",
+          "price": "$12.34"
+        },
+        {
+          "title": "Hamburger Compo",
+          "ingredients_or_description": "Handmade smash beef patty with american cheese lettuce tomatoes onions mayonnaise pickles mustard and ketchup and french fries.",
+          "price": "$10.99"
+        },
+        {
+          "title": "Camino Real Burger",
+          "ingredients_or_description": "Handmade beef patty served on a sesame seed bun with mayonnaise lettuce tomato onions and american cheese comes with fries.",
+          "price": "$10.99"
+        }
+      ]
+    },
+    {
+      "section": "Tacos",
+      "items": [
+        {
+          "title": "Quesabirria Taco 3Pk",
+          "ingredients_or_description": "",
+          "price": "$10.99"
+        },
+        {
+          "title": "Hard Shell Taco Dinner",
+          "ingredients_or_description": "3 hard shell taco served with either seasoned ground beef or grilled chicken topped with lettuce, tomato, shredded cheese, and sour cream.",
+          "price": "$13.59"
+        },
+        {
+          "title": "Taco 6 Pack",
+          "ingredients_or_description": "6 tacos of either all soft corn or flour tortillas served with up to two choices of meats. Tacos come with two toppings of either onions and cilantro or lettuce and tomato.",
+          "price": "$14.99",
+          "special": "best seller"
+        },
+        {
+          "title": "Taco Dinner",
+          "ingredients_or_description": "3 soft corn or flour tortilla served with your choice of meat and two toppings of either onions and cilantro or lettuce and tomato.",
+          "price": "$12.25"
+        },
+        {
+          "title": "Hard Shell Taco",
+          "ingredients_or_description": "1 taco a la cart.",
+          "price": "$3.20"
+        },
+        {
+          "title": "Tacos",
+          "ingredients_or_description": "1 taco a la cart.",
+          "price": "$2.99"
+        },
+        {
+          "title": "Corn Shrimp Taco",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "Flour Shrimp Taco 6 pack",
+          "ingredients_or_description": "",
+          "price": "$18.63"
+        },
+        {
+          "title": "Corn Shrimp Taco 6 pack",
+          "ingredients_or_description": "",
+          "price": "$16.63"
+        },
+        {
+          "title": "Flour Shrimp Taco Dinner",
+          "ingredients_or_description": "",
+          "price": "$13.10"
+        },
+        {
+          "title": "Flour taco Dinner",
+          "ingredients_or_description": "",
+          "price": "$11.80"
+        },
+        {
+          "title": "Flour taco",
+          "ingredients_or_description": "",
+          "price": "$3.30"
+        },
+        {
+          "title": "Flour taco 6 pack",
+          "ingredients_or_description": "",
+          "price": "$17.99"
+        },
+        {
+          "title": "Corn Shrimp Taco Dinner",
+          "ingredients_or_description": "",
+          "price": "$12.63"
+        },
+        {
+          "title": "Flour Shrimp Taco",
+          "ingredients_or_description": "",
+          "price": "$3.63"
+        }
+      ]
+    },
+    {
+      "section": "Appetizers",
+      "items": [
+        {
+          "title": "Queso Fundido",
+          "ingredients_or_description": "Crispy chorizo covered with our special tomato sauce and cheese melted to perfection topped off with jalapenos and tomatoes.",
+          "price": "$10.99"
+        },
+        {
+          "title": "Large Chips and Salsa",
+          "ingredients_or_description": "1 large chips and large salsa your choose hot or mild.",
+          "price": "$10.99+",
+          "special": "best seller"
+        },
+        {
+          "title": "Super Nacho Lg",
+          "ingredients_or_description": "Corn tortilla chips covered with seasoned ground beef, melted cheese and topped with jalapeno peppers.",
+          "price": "$12.75"
+        },
+        {
+          "title": "Botana",
+          "ingredients_or_description": "Large serves 2-4. Corn tortilla chips smothered with refried beans mixed with chorizo, topped with melted cheese, chopped tomato, lettuce, sliced green peppers, onion, jalapeno peppers, and fresh guacamole.",
+          "price": "$12.80"
+        },
+        {
+          "title": "Cheese Dip",
+          "ingredients_or_description": "Creamy cheese sauce mixed with jalapeno bites for extra flavor, served with chips.",
+          "price": "$9.50"
+        },
+        {
+          "title": "Beans & Chorizo with Cheese Dip",
+          "ingredients_or_description": "Refried beans mixed with delicious chorizo meat, chopped with cheese sauce and shredded cheese.",
+          "price": "$8.99"
+        },
+        {
+          "title": "Full Guacamole",
+          "ingredients_or_description": "Freshly prepared with avocados tomatoes onions cilantro",
+          "price": "$8.99",
+          "special": "best seller"
+        },
+        {
+          "title": "Papa's Locas",
+          "ingredients_or_description": "Crispy fries cooked to perfection covered with chorizo our cheese sauce pico de gallo and sour cream.",
+          "price": "$9.55"
+        },
+        {
+          "title": "Pico De Gallo",
+          "ingredients_or_description": "Fresh chopped onions, cilantro, tomatoes, and serrano hot peppers seasoned with salt and fresh lime juice. with corn chips.",
+          "price": "$5.99"
+        },
+        {
+          "title": "Ceviche",
+          "ingredients_or_description": "Tilapia cooked with fresh lime juice and mixed with chopped onions, cilantro, and tomatoes. Served with salted crackers or corn chips.",
+          "price": "$9.99"
+        },
+        {
+          "title": "Papas Locas",
+          "ingredients_or_description": "French fries topped with mexican sausage, pico de gallo, cheese dip and sour cream.",
+          "price": "$10.99"
+        }
+      ]
+    },
+    {
+      "section": "Burritos",
+      "items": [
+        {
+          "title": "Wet Super Burrito",
+          "ingredients_or_description": "A 12” flour tortilla filled with your choice of meat, fresh guacamole, refried beans, sour cream, and melted cheese on top.",
+          "price": "$13.99",
+          "special": "best seller"
+        },
+        {
+          "title": "California Super Burrito",
+          "ingredients_or_description": "A 12 inches flour tortilla filled with your choice of meat, rice, beans, onion, cilantro, and tomato.",
+          "price": "$13.99"
+        },
+        {
+          "title": "Burrito Dinner",
+          "ingredients_or_description": "Three 6’’ flour tortillas filled with your choice of meat and shredded cheese, burritos are served with lettuce, tomato and sour cream with rice and beans.",
+          "price": "$13.09"
+        },
+        {
+          "title": "Camino Real Burrito",
+          "ingredients_or_description": "A 12” flour tortilla filled with your choice of meat, fresh guacamole, refried beans, sour cream, and melted cheese on top.",
+          "price": "$13.99"
+        },
+        {
+          "title": "Camino Real Burrito Bowl",
+          "ingredients_or_description": "A bowl filled with lettuce tomato sour cream shredded cheese and rice and beans.",
+          "price": "$14.59"
+        }
+      ]
+    },
+    {
+      "section": "Chimichangas",
+      "items": [
+        {
+          "title": "Chimichanga Dinner",
+          "ingredients_or_description": "A fried rolled flour tortilla filled with cheese and your choice of ground beef or shredded chicken. Topped with creamy jalapeno bits cheese sauce and served with lettuce, tomato, and sour cream.",
+          "price": "$13.99"
+        },
+        {
+          "title": "Chimichanga Al Carte",
+          "ingredients_or_description": "",
+          "price": "$5.99"
+        }
+      ]
+    },
+    {
+      "section": "Tostadas",
+      "items": [
+        {
+          "title": "Tostada Dinner",
+          "ingredients_or_description": "A flat fried corn tortilla with your choice of meat, topped with lettuce, tomato, shredded cheese, and sour cream.",
+          "price": "$11.99"
+        },
+        {
+          "title": "Ceviche Tostada Dinner",
+          "ingredients_or_description": "A flat fried corn tortilla topped with ceviche.",
+          "price": "$13.99"
+        }
+      ]
+    },
+    {
+      "section": "Quesadillas",
+      "items": [
+        {
+          "title": "Quesadilla Dinner",
+          "ingredients_or_description": "3 folded flour tortillas filled with melted cheese, quesadillas are served with lettuce, tomato, sour cream, rice and beans and also if you like meat it can be added.",
+          "price": "$13.09"
+        },
+        {
+          "title": "Quesadilla",
+          "ingredients_or_description": "Quesadilla al cart.",
+          "price": "$3.99"
+        },
+        {
+          "title": "Meat Quesadilla Dinner",
+          "ingredients_or_description": "Flour tortilla with with your choice of meat and cheese with a side of ride and beans.",
+          "price": "$14.80"
+        },
+        {
+          "title": "Meat Quesadilla",
+          "ingredients_or_description": "A flour tortilla folded with your choice of meat and cheese.",
+          "price": "$3.75"
+        }
+      ]
+    },
+    {
+      "section": "Enchiladas",
+      "items": [
+        {
+          "title": "Enchiladas Dinner",
+          "ingredients_or_description": "3 fried corn tortillas dipped in red or green enchilada sauce, filled with your choice of melted cheese, ground beef, or shredded chicken, topped with melted cheese. Enchiladas are served with lettuce, tomato, and sour cream.",
+          "price": "$13.09",
+          "special": "best seller"
+        },
+        {
+          "title": "Enchilada",
+          "ingredients_or_description": "Enchilada al cart.",
+          "price": "$2.99"
+        },
+        {
+          "title": "Flour Enchilada Dinner",
+          "ingredients_or_description": "3 flour enchiladas with your choice of meat with a side of rice and beans.",
+          "price": "$13.66"
+        },
+        {
+          "title": "Flour Enchilada",
+          "ingredients_or_description": "Flour Enchilada fill with your choice of meat.",
+          "price": "$3.50"
+        }
+      ]
+    },
+    {
+      "section": "Traditional Dinners",
+      "items": [
+        {
+          "title": "Camino Real Dinner",
+          "ingredients_or_description": "Your choice of 1 or 2 loose meats, served with rice, bean, pico de gallo, guacamole, grilled onions, grilled serrano hot pepper and corn or flour tortillas.",
+          "price": "$16.99"
+        },
+        {
+          "title": "Carnitas Dinner",
+          "ingredients_or_description": "Slow cooked fried pork, served with rice, bean, pico de gallo, guacamole, jalapenos and corn or flour tortillas.",
+          "price": "$16.99"
+        },
+        {
+          "title": "Milanesa Dinner",
+          "ingredients_or_description": "Breaded chicken breast or breaded steak served with rice, bean, lettuce, tomato, guacamole, and corn or flour tortillas.",
+          "price": "$16.99"
+        }
+      ]
+    },
+    {
+      "section": "Combinations",
+      "items": [
+        {
+          "title": "Meat Taco Salad",
+          "ingredients_or_description": "A taco salad with your choice of meat on top.",
+          "price": "$11.99"
+        },
+        {
+          "title": "Taco Combination",
+          "ingredients_or_description": "Choose 1 meat for your combination. includes a soft corn tortilla taco, tostada, cheese enchilada, and served with rice and beans.",
+          "price": "$13.09"
+        },
+        {
+          "title": "Tampiquena",
+          "ingredients_or_description": "A traditional combination meal which includes a cheese enchilada, skirt steak, bean tostada, and served with rice, beans pico de gallo and guacamole and your choice of corn or flour tortillas.",
+          "price": "$16.99"
+        },
+        {
+          "title": "Burrito Combination",
+          "ingredients_or_description": "Choose 1 meat for your combination. includes a burrito, tostada, cheese quesadilla, and served with rice and beans.",
+          "price": "$13.09"
+        }
+      ]
+    },
+    {
+      "section": "Vegetarian",
+      "items": [
+        {
+          "title": "Veggie Sincronizada",
+          "ingredients_or_description": "Two 6” flour tortillas filled with melted cheese, lettuce, tomato and sandwiched together. Served with guacamole and pico de gallo.",
+          "price": "$9.99"
+        },
+        {
+          "title": "Vegetarian Botana",
+          "ingredients_or_description": "Corn tortilla chips smothered with refried beans, topped with melted cheese, chopped tomato, lettuce, sliced green pepper, onion, jalapeno peppers and fresh guacamole.",
+          "price": "$10.99"
+        },
+        {
+          "title": "Bean Tostada Dinner",
+          "ingredients_or_description": "2 flat fried corn tortillas topped refried beans, lettuce, tomato, shredded cheese, sour cream, and served with rice and beans.",
+          "price": "$10.99"
+        },
+        {
+          "title": "Single Bean Tostada",
+          "ingredients_or_description": "A flat fried corn tortillas topped refried beans, lettuce, tomato, shredded cheese and sour cream.",
+          "price": "$3.75"
+        }
+      ]
+    },
+    {
+      "section": "What's on the Grill",
+      "items": [
+        {
+          "title": "Arrachera",
+          "ingredients_or_description": "Tender skirt steak served with rice, beans, guacamole, pico de gallo, grilled onions, serrano hot peppers, and corn or flour tortillas.",
+          "price": "$22.99"
+        },
+        {
+          "title": "Mar Y Tierra",
+          "ingredients_or_description": "Camino real style surf and turf! Tender skirt steak and juicy spicy sauteed shrimp served with rice, beans, guacamole, pico de gallo, grilled onions, serrano hot peppers, and corn or flour tortillas.",
+          "price": "$21.99"
+        },
+        {
+          "title": "Camino Real Mixed Grill",
+          "ingredients_or_description": "Camino real style surf and turf! Tender skirt steak and juicy spicy sauteed shrimp served with rice, beans, guacamole, pico de gallo, grilled onions, serrano hot peppers, and corn or flour tortillas.",
+          "price": "$21.99"
+        },
+        {
+          "title": "Parrilla De Pollo",
+          "ingredients_or_description": "Grilled lightly marinated chicken breast served with rice, beans, guacamole, pico de gallo, grilled onions, serrano hot peppers, and corn or flour.",
+          "price": "$16.99"
+        }
+      ]
+    },
+    {
+      "section": "Fajitas",
+      "items": [
+        {
+          "title": "Steak Fajitas",
+          "ingredients_or_description": "Tender seasoned grilled steak.",
+          "price": "$21.99"
+        },
+        {
+          "title": "Chicken Fajitas",
+          "ingredients_or_description": "Juicy marinated grilled chicken.",
+          "price": "$18.99"
+        },
+        {
+          "title": "Camino Real Fajitas",
+          "ingredients_or_description": "Tender seasoned steak and marinated pork.",
+          "price": "$19.99"
+        },
+        {
+          "title": "Shrimp Fajitas",
+          "ingredients_or_description": "Juicy spicy grilled shrimp.",
+          "price": "$22.99"
+        },
+        {
+          "title": "Mixed Fajitas",
+          "ingredients_or_description": "3 meats shrimp steak chicken.",
+          "price": "$24.99"
+        }
+      ]
+    },
+    {
+      "section": "Seafood",
+      "items": [
+        {
+          "title": "Shrimp Taco Dinner",
+          "ingredients_or_description": "Shrimp tacos with your choice of pico de gallo, cilantro & onions, lettuce and tomatoes, or plain(no toppings). Served with rice and beans.",
+          "price": "$12.99"
+        },
+        {
+          "title": "Camarones a La Diabla",
+          "ingredients_or_description": "Sauteed shrimp cooked with onion and green pepper in a spicy traditional red sauce, served with rice, beans, lettuce, tomato and guacamole.",
+          "price": "$18.99"
+        },
+        {
+          "title": "Shrimp Cocktail",
+          "ingredients_or_description": "Fresh shrimp served in a cocktail glass with a camino real style virgin bloody mary mix, chopped onion, tomato, cilantro, avocado, and salted crackers.",
+          "price": "$18.99"
+        },
+        {
+          "title": "Camarones al Mojo de Ajo",
+          "ingredients_or_description": "Sauteed shrimp cooked with onion and green pepper in a garlic and butter sauce served with rice, beans, lettuce, tomato and guacamole.",
+          "price": "$18.99"
+        }
+      ]
+    },
+    {
+      "section": "Caldos",
+      "items": [
+        {
+          "title": "Pozole",
+          "ingredients_or_description": "Traditionally served on special occasions, pork stew and hominy in a red broth served with cabbage, onion, lime, and tostadas. Only on the weekends friday - sunday",
+          "price": "$14.99"
+        },
+        {
+          "title": "Menudo",
+          "ingredients_or_description": "Traditional mexican soup, beef tripe soup in broth with a red chili pepper base, with the option of adding hominy, served with chopped onion, limes, and corn or flour tortillas. Only on the weekends friday - sunday.",
+          "price": "$16.99"
+        },
+        {
+          "title": "Caldo de Res",
+          "ingredients_or_description": "Traditional mexican beef and vegetables soup served with rice and tortillas. Everyday.",
+          "price": "$15.99"
+        },
+        {
+          "title": "Birria",
+          "ingredients_or_description": "A authentic mexican stew prepared with beef, marinated in adobo spices traditionally served with chopped onions, lime, and corn or flour tortillas. Only on the weekends friday - sunday.",
+          "price": "$15.99"
+        },
+        {
+          "title": "Menudo",
+          "ingredients_or_description": "Tender beef tripe served with corn tortillas limes.",
+          "price": "$16.99"
+        }
+      ]
+    },
+    {
+      "section": "Sides",
+      "items": [
+        {
+          "title": "Full Guacamole",
+          "ingredients_or_description": "Freshly prepared with avocados tomatoes onions cilantro.",
+          "price": "$8.99"
+        },
+        {
+          "title": "Arroz",
+          "ingredients_or_description": "Mexican rice.",
+          "price": "$4.25",
+          "special": "best seller"
+        },
+        {
+          "title": "Fries",
+          "ingredients_or_description": "",
+          "price": "$5.25"
+        },
+        {
+          "title": "Frijoles",
+          "ingredients_or_description": "Beans.",
+          "price": "$4.25"
+        },
+        {
+          "title": "Sour Cream",
+          "ingredients_or_description": "",
+          "price": "$1.09"
+        },
+        {
+          "title": "Shredded Cheese",
+          "ingredients_or_description": "Shredded cheese.",
+          "price": "$3.29"
+        },
+        {
+          "title": "Limes",
+          "ingredients_or_description": "",
+          "price": "$2.50"
+        },
+        {
+          "title": "Full Pico De Gallo",
+          "ingredients_or_description": "Fresh chopped onions cilantro tomatoes and serrano hot peppers seasoned with salt and fresh lime juice. With corn chips.",
+          "price": "$5.99"
+        },
+        {
+          "title": "Tortillas",
+          "ingredients_or_description": "Maiz & harina.",
+          "price": "$2.25"
+        },
+        {
+          "title": "Grilled Peppers",
+          "ingredients_or_description": "",
+          "price": "$3.25"
+        },
+        {
+          "title": "Grilled Onions",
+          "ingredients_or_description": "",
+          "price": "$3.25"
+        }
+      ]
+    },
+    {
+      "section": "Desserts",
+      "items": [
+        {
+          "title": "Fried Ice Cream",
+          "ingredients_or_description": "Vanilla ice cream covered in corn flakes and deep fried to perfection with whipped cream and a cherry on top.",
+          "price": "$6.99"
+        },
+        {
+          "title": "Flan",
+          "ingredients_or_description": "Custard pudding in a caramel glaze topped with whip cream and a cherry.",
+          "price": "$7.50"
+        },
+        {
+          "title": "Churros",
+          "ingredients_or_description": "",
+          "price": "$5.25"
+        },
+        {
+          "title": "Sopatillas",
+          "ingredients_or_description": "",
+          "price": "$6.00"
+        },
+        {
+          "title": "Pastel de 3 Leches",
+          "ingredients_or_description": "A traditional moist cake soaked in a mixture of 3 kinds of milk.",
+          "price": "$7.50"
+        },
+        {
+          "title": "Chocolate Cake",
+          "ingredients_or_description": "",
+          "price": "$7.99"
+        },
+        {
+          "title": "Carrot Cake",
+          "ingredients_or_description": "",
+          "price": "$7.25"
+        },
+        {
+          "title": "Oreo cheesecake",
+          "ingredients_or_description": "",
+          "price": "$7.99"
+        }
+      ]
+    },
+    {
+      "section": "Beverages",
+      "items": [
+        {
+          "title": "Horchata",
+          "ingredients_or_description": "Mexican natural flavored waters.",
+          "price": "$4.25"
+        },
+        {
+          "title": "Lime Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Mandarin Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Mexican Coke Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Pineapple Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Sangria Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Sidral Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Strawberry Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Tamarindo Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Topo Chico Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Tutti Fruity Jarritos",
+          "ingredients_or_description": "",
+          "price": "$3.50"
+        },
+        {
+          "title": "Sodas",
+          "ingredients_or_description": "",
+          "price": "$3.99"
+        },
+        {
+          "title": "Jamaica",
+          "ingredients_or_description": "Mexican natural flavored waters.",
+          "price": "$3.75"
+        }
+      ]
+    },
+    {
+      "section": "Breakfast Menu",
+      "items": [
+        {
+          "title": "Chilaquiles",
+          "ingredients_or_description": "Corn chips cooked with green pepper onion tomato green or red salsa eggs and melted cheese. served with rice beans sour cream lettuce tomato and corn or flour tortillas.",
+          "price": "$9.99"
+        },
+        {
+          "title": "Huevos Con Chorizo",
+          "ingredients_or_description": "A traditional mexican breakfast. eggs mixed mexican sausage served with rice beans lettuce tomato and corn or flour tortillas.",
+          "price": "$9.99"
+        },
+        {
+          "title": "Camino Real Omelette",
+          "ingredients_or_description": "",
+          "price": "$8.99"
+        },
+        {
+          "title": "Huevos Con Carne Asada",
+          "ingredients_or_description": "2 over medium eggs with seasoned sirloin steak served with rice beans pico de gallo and corn or flour tortillas.",
+          "price": "$12.99"
+        },
+        {
+          "title": "Huevos Rancheros",
+          "ingredients_or_description": "2 over medium eggs topped with ranchero sauce served with rice beans lettuce tomato and corn or flour tortillas.",
+          "price": "$7.99"
+        }
+      ]
+    }
+  ]
+}

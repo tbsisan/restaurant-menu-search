@@ -1,0 +1,425 @@
+{
+  "source": {
+    "response_path": "external-data/menu-scraping/toast_spike/taco-company-usa-toast-dom-extraction.json"
+  },
+  "menu_sections": [
+    {
+      "section": "TACOS",
+      "items": [
+        {
+          "title": "Company Taco",
+          "ingredients_or_description": "Choice of three hard shell or flour tacos filled with fresh ground beef, shredded cheese, lettuce, and tomatoes.",
+          "price": "$8.75",
+          "special": "featured item"
+        },
+        {
+          "title": "Shrimp Tacos",
+          "ingredients_or_description": "Choice of 3 corn or 3 flour tacos filled with shrimp, topped with red cabbage, pico de gallo, red onion, and drizzled with mango-habanero sauce.",
+          "price": "$9.99"
+        },
+        {
+          "title": "Street Style Taco",
+          "ingredients_or_description": "Choice of protein served on fresh tortilla \r\nwith onion & cilantro, served with lime.",
+          "price": "$2.59"
+        },
+        {
+          "title": "Fast Ten Pack Taco",
+          "ingredients_or_description": "Ten pack of street style tacos, customizable with any protein and choice of tortilla - perfect for families.",
+          "price": "$21.99"
+        }
+      ]
+    },
+    {
+      "section": "BURRITOS",
+      "items": [
+        {
+          "title": "Company Burrito",
+          "ingredients_or_description": "Choice of protein, loaded with rice, beans, salsa roja, cheese, onions, and cilantro.",
+          "price": "$10.99",
+          "special": "featured item"
+        },
+        {
+          "title": "Social Burrito",
+          "ingredients_or_description": "Choice of protein, loaded with fresh-cut fries, salsa verde, chipotle sour cream, pico de gallo, and cheese.",
+          "price": "$10.99"
+        },
+        {
+          "title": "Southeast Burrito",
+          "ingredients_or_description": "Choice of protein served with rice, corn salsa, pico de gallo, cheese, and chipotle sour cream.",
+          "price": "$10.99"
+        }
+      ]
+    },
+    {
+      "section": "NACHOS",
+      "items": [
+        {
+          "title": "Company Nacho",
+          "ingredients_or_description": "Fresh chips served with choice of protein, topped with creamy queso, pico de gallo, and jalapeños.",
+          "price": "$8.99+"
+        },
+        {
+          "title": "Ultimate Nacho",
+          "ingredients_or_description": "Fresh chips served with choice of meat, topped with queso, corn salsa, pico de gallo, sour cream, guacamole, and jalapeños.",
+          "price": "$13.99"
+        },
+        {
+          "title": "Birria Nacho",
+          "ingredients_or_description": "Slow cooked beef birria served on crispy tortilla chips, smothered in queso and drizzled with chipotle, topped with onion and cilantro.",
+          "price": "$13.99+"
+        }
+      ]
+    },
+    {
+      "section": "SPECIALTY TACOS",
+      "items": [
+        {
+          "title": "El Classico",
+          "ingredients_or_description": "Flour soft + hard shell with fresh ground beef, shredded cheese, tomato and lettuce.",
+          "price": "$3.75"
+        },
+        {
+          "title": "CBLT",
+          "ingredients_or_description": "Flour soft + hard shell with chicken, bacon, lettuce, pico, drizzled with white sauce.",
+          "price": "$3.75"
+        },
+        {
+          "title": "El Patron",
+          "ingredients_or_description": "Flour soft + hard shell with fresh Campechano (Chorizo & Steak), queso, topped with onion, cilantro, corn salsa, and jalapenos.",
+          "price": "$3.75"
+        },
+        {
+          "title": "Birria Tacos",
+          "ingredients_or_description": "Set of three crispy tortillas filled with tender birria meat, melted cheese, cilantro, and onion, served with an 8 oz side of consommé for dipping.",
+          "price": "$13.75"
+        }
+      ]
+    },
+    {
+      "section": "BOWLS",
+      "items": [
+        {
+          "title": "Ultimate Bowl",
+          "ingredients_or_description": "Choice of protein, spanish rice, beans, lettuce, pico de gallo, shredded cheese, guacamole, corn salsa, and creamy queso.",
+          "price": "$11.25"
+        },
+        {
+          "title": "Veggie Bowl",
+          "ingredients_or_description": "Spanish rice, beans, fajita veggies, shredded cheese, pico, lettuce and guac.",
+          "price": "$10.29"
+        },
+        {
+          "title": "Company Bowl",
+          "ingredients_or_description": "Choice of protein, Spanish rice, beans, pico de gallo, and melted shredded cheese.",
+          "price": "$10.29"
+        },
+        {
+          "title": "Fiesta Bowl",
+          "ingredients_or_description": "Choice of protein, Spanish rice, beans, pico de gallo, fajita veggies, shredded cheese, queso, lettuce and tortilla strips.",
+          "price": "$10.90"
+        }
+      ]
+    },
+    {
+      "section": "QUESADILLAS",
+      "items": [
+        {
+          "title": "Quesadillas",
+          "ingredients_or_description": "Choice of protein served in a 6-inch tortilla filled with cheese, served with pico de gallo.",
+          "price": "$2.50"
+        },
+        {
+          "title": "Fast Ten Quesadillas",
+          "ingredients_or_description": "Hot. Fresh. Ready in a flash. Your choice of meat and melted cheese grilled in warm 6-inch tortillas. Pico on the side.",
+          "price": "$28.99"
+        }
+      ]
+    },
+    {
+      "section": "FRIES",
+      "items": [
+        {
+          "title": "Company Fries",
+          "ingredients_or_description": "Crispy, seasoned fries loaded with choice of protein, cheese, salsa verde, chipotle sour cream, and pico de gallo.",
+          "price": "$9.99+"
+        },
+        {
+          "title": "Birria Fries",
+          "ingredients_or_description": "Slow cooked beef birria served over crispy fries, smothered in queso and drizzled with chipotle and salsa verde, topped with onion and cilantro.",
+          "price": "$13.99+"
+        },
+        {
+          "title": "Plain Fries",
+          "ingredients_or_description": "",
+          "price": "$4.99"
+        }
+      ]
+    },
+    {
+      "section": "QUESABIRRIA",
+      "items": [
+        {
+          "title": "Quesabirria",
+          "ingredients_or_description": "Slow-cooked beef and melted cheese, topped with cilantro and onion. Served with consommé for dipping.",
+          "price": "$13.99",
+          "special": "featured item"
+        }
+      ]
+    },
+    {
+      "section": "TORTAS",
+      "items": [
+        {
+          "title": "Company Torta",
+          "ingredients_or_description": "Fresh bakery bread, filled with your choice of protein, topped with onions, cilantro, and salsa verde.",
+          "price": "$9.25"
+        }
+      ]
+    },
+    {
+      "section": "SIDES",
+      "items": [
+        {
+          "title": "Mexican Street Corn",
+          "ingredients_or_description": "8oz side of sweet corn, slathered in Tajin, creamy mayo, and cojita cheese.",
+          "price": "$4.50"
+        },
+        {
+          "title": "Rice",
+          "ingredients_or_description": "An 8oz side of rice.",
+          "price": "$2.50"
+        },
+        {
+          "title": "Beans",
+          "ingredients_or_description": "An 8oz side of Pinto beans.",
+          "price": "$2.50"
+        },
+        {
+          "title": "Red Salsa",
+          "ingredients_or_description": "A side of red salsa.",
+          "price": "$0.75+"
+        },
+        {
+          "title": "Half Rice/Half Beans",
+          "ingredients_or_description": "An 8oz side of half rice & half beans.",
+          "price": "$2.50"
+        },
+        {
+          "title": "Chips & Salsa",
+          "ingredients_or_description": "An 8oz side of salsa served with fresh chips.",
+          "price": "$6.50"
+        },
+        {
+          "title": "Chips & Queso",
+          "ingredients_or_description": "An 8oz side of queso served with fresh chips.",
+          "price": "$6.99"
+        },
+        {
+          "title": "Chips & Guac",
+          "ingredients_or_description": "An 8oz side of guac served with fresh chips.",
+          "price": "$6.50"
+        },
+        {
+          "title": "Guac",
+          "ingredients_or_description": "A side of guacamole.",
+          "price": "$2.50+"
+        },
+        {
+          "title": "Chip Salsa (no chip)",
+          "ingredients_or_description": "An 8oz side of chip salsa.",
+          "price": "$4.50"
+        },
+        {
+          "title": "Queso",
+          "ingredients_or_description": "A side of queso.",
+          "price": "$2.75+"
+        },
+        {
+          "title": "Green Salsa",
+          "ingredients_or_description": "A side of green salsa.",
+          "price": "$0.75+"
+        },
+        {
+          "title": "Pico De Gallo",
+          "ingredients_or_description": "A side of pico de gallo - tomatoes, jalapeños, cilantro, onion.",
+          "price": "$0.75+"
+        },
+        {
+          "title": "Corn Salsa",
+          "ingredients_or_description": "A side of corn salsa.",
+          "price": "$2.25"
+        },
+        {
+          "title": "Sour Cream",
+          "ingredients_or_description": "A 1.5oz side of sour cream.",
+          "price": "$0.75"
+        },
+        {
+          "title": "Chipotle Sour Cream",
+          "ingredients_or_description": "A 1.5oz side of chipotle sour cream.",
+          "price": "$0.75"
+        },
+        {
+          "title": "Lime",
+          "ingredients_or_description": "A 4oz side of limes.",
+          "price": "$0.75"
+        },
+        {
+          "title": "Grilled Onions",
+          "ingredients_or_description": "A side of grilled onions.",
+          "price": "$0.75"
+        },
+        {
+          "title": "Grilled Jalapeños",
+          "ingredients_or_description": "A side of grilled jalapeño.",
+          "price": "$0.75"
+        },
+        {
+          "title": "Churros",
+          "ingredients_or_description": "A two pack of Cinnamon sugar churros, served with a side of nutella.",
+          "price": "$5.50"
+        },
+        {
+          "title": "Chips",
+          "ingredients_or_description": "",
+          "price": "$1.75+"
+        },
+        {
+          "title": "Crazy Sauce",
+          "ingredients_or_description": "",
+          "price": "$0.75"
+        }
+      ]
+    },
+    {
+      "section": "SPECIALS",
+      "items": [
+        {
+          "title": "Birria Pizza",
+          "ingredients_or_description": "14 inch Birria Pizza - 8 slices | Cheese, Birria, onions, cilantro, and limes.",
+          "price": "$33.99"
+        }
+      ]
+    },
+    {
+      "section": "Bottled Drinks",
+      "items": [
+        {
+          "title": "Jarritos",
+          "ingredients_or_description": "",
+          "price": "$2.99"
+        },
+        {
+          "title": "Coca-Cola",
+          "ingredients_or_description": "Coca-Cola Original Taste — the crisp, refreshing taste you know and love",
+          "price": "$2.99"
+        },
+        {
+          "title": "Water",
+          "ingredients_or_description": "",
+          "price": "$1.25"
+        },
+        {
+          "title": "Bottled Horchata",
+          "ingredients_or_description": "",
+          "price": "$4.25"
+        },
+        {
+          "title": "Bottled Fresa ( strawberry)",
+          "ingredients_or_description": "",
+          "price": "$4.25"
+        },
+        {
+          "title": "Bottled Pineapple",
+          "ingredients_or_description": "",
+          "price": "$4.25"
+        },
+        {
+          "title": "Bottled  Mango",
+          "ingredients_or_description": "",
+          "price": "$4.25"
+        }
+      ]
+    },
+    {
+      "section": "Fountain Pop",
+      "items": [
+        {
+          "title": "Fountain Pop - Large",
+          "ingredients_or_description": "",
+          "price": "$3.25"
+        },
+        {
+          "title": "Fountain Pop - Medium",
+          "ingredients_or_description": "",
+          "price": "$2.75"
+        }
+      ]
+    },
+    {
+      "section": "Aguas",
+      "items": [
+        {
+          "title": "Strawberry",
+          "ingredients_or_description": "",
+          "price": "$4.25+"
+        },
+        {
+          "title": "Horchata",
+          "ingredients_or_description": "",
+          "price": "$4.25+"
+        },
+        {
+          "title": "Mango",
+          "ingredients_or_description": "",
+          "price": "$3.99+"
+        },
+        {
+          "title": "Pineapple",
+          "ingredients_or_description": "",
+          "price": "$3.99+"
+        }
+      ]
+    },
+    {
+      "section": "Bottled Beer",
+      "items": [
+        {
+          "title": "Modelo",
+          "ingredients_or_description": "",
+          "price": "$4.00"
+        },
+        {
+          "title": "Corona",
+          "ingredients_or_description": "",
+          "price": "$4.00"
+        },
+        {
+          "title": "Coors light",
+          "ingredients_or_description": "",
+          "price": "$3.75"
+        },
+        {
+          "title": "Miller light",
+          "ingredients_or_description": "",
+          "price": "$3.75"
+        },
+        {
+          "title": "White claw",
+          "ingredients_or_description": "",
+          "price": "$5.25"
+        }
+      ]
+    },
+    {
+      "section": "Margaritas",
+      "items": [
+        {
+          "title": "House Margarita",
+          "ingredients_or_description": "",
+          "price": "$8.25"
+        }
+      ]
+    }
+  ]
+}

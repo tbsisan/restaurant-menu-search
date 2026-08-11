@@ -1,0 +1,1234 @@
+{
+  "source": {
+    "site": "https://mariasmexicangrillmi.com/",
+    "pages": [
+      "https://mariasmexicangrillmi.com/dailyspecials",
+      "https://mariasmexicangrillmi.com/lunch",
+      "https://mariasmexicangrillmi.com/dinner",
+      "https://mariasmexicangrillmi.com/signatureitems",
+      "https://mariasmexicangrillmi.com/minimaria",
+      "https://mariasmexicangrillmi.com/familypack"
+    ]
+  },
+  "restaurant": {
+    "name": "Maria's Mexican Grill",
+    "address": "2330 West Road, Trenton, MI 48183",
+    "phone": "(734) 307-7248",
+    "email": "mariasmexicangrill2330@gmail.com"
+  },
+  "pages": [
+    {
+      "page": "dailyspecials",
+      "title": "Daily Specials — Maria's Mexican Grill | Dine In | Take Out",
+      "sections": [
+        {
+          "section": "Tuesday",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Crispy Corn Ground Beef Tacos",
+              "description": "Ground beef taco in crispy corn shell topped with lettuce, cheese, & tomato. Limit 20 per person.",
+              "price": "$1.50 each"
+            }
+          ]
+        },
+        {
+          "section": "Wednesday",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Two Dollar Burritos",
+              "description": "One ground beef burrito with refried beans, & topped with melted cheese.",
+              "price": "$2 each"
+            }
+          ]
+        },
+        {
+          "section": "Thursday",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Borracho Burrito",
+              "description": "A 12-inch flour tortilla filled with ground beef, beans, & melted cheese. Topped with more melted cheese & enchilada sauce. Served with sour cream.",
+              "price": "$8"
+            }
+          ]
+        },
+        {
+          "section": "Friday",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Birria Tacos",
+              "description": "Shredded beef in a grilled corn tortilla with melted cheese, topped with onion, cilantro, & lime. Comes with a side consommé for extra flavor! $1 upcharge for flour tortilla.",
+              "price": "$4 each"
+            }
+          ]
+        },
+        {
+          "section": "Saturday",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Street Tacos",
+              "description": "One taco with your choice of protein topped with onion & cilantro on a soft corn tortilla with a slice of lime. Protein options: Ground Beef, Shredded Beef, Shredded Chicken, Carnitas, Chorizo, Steak [SPICY] ($1.00 upcharge), or Shrimp ($.50 upcharge)",
+              "price": "$2 each"
+            }
+          ]
+        },
+        {
+          "section": "Sunday",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Chili Cheese Burritos",
+              "description": "One burrito filled with Maria’s Chili & topped with cheddar cheese.",
+              "price": "$3 each"
+            }
+          ]
+        },
+        {
+          "section": "Salsa",
+          "section_description": "* = not too hot, ** = kick of spice, *** = our hottest salsa",
+          "items": [
+            {
+              "title": "Mild*",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Hot**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Creamy Verde**",
+              "description": "",
+              "price": "(Upcharge $1)"
+            },
+            {
+              "title": "Chunky Salsa**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Mean***",
+              "description": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Dessert",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Sopapillas",
+              "description": "",
+              "price": "$7.00"
+            }
+          ]
+        },
+        {
+          "section": "Additional Sides",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Small Salsa",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Salsa",
+              "description": "",
+              "price": "$4"
+            },
+            {
+              "title": "Small Bag of Chips",
+              "description": "",
+              "price": "$3.50"
+            },
+            {
+              "title": "Large Bag of Chips",
+              "description": "",
+              "price": "$4.50"
+            },
+            {
+              "title": "Small Chips & Salsa",
+              "description": "",
+              "price": "$6"
+            },
+            {
+              "title": "Large Chips & Salsa",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Small Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Large Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$12"
+            },
+            {
+              "title": "Small Guacamole & Chips",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Large Guacamole & Chips",
+              "description": "",
+              "price": "$15"
+            },
+            {
+              "title": "Pico de Gallo & Chips",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Small Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$5"
+            },
+            {
+              "title": "Half & Half",
+              "description": "Your choice of two sides",
+              "price": "$5"
+            }
+          ]
+        },
+        {
+          "section": "Beverages",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Jarritos Variety Flavors",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Coke",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Water",
+              "description": "",
+              "price": "$2"
+            },
+            {
+              "title": "Iced Tea",
+              "description": "",
+              "price": "$3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "lunch",
+      "title": "Lunch — Maria's Mexican Grill | Dine In | Take Out",
+      "sections": [
+        {
+          "section": "Lunch $10",
+          "section_description": "11am-3pm daily // Includes TWO sides",
+          "items": [
+            {
+              "title": "Traditional Tacos",
+              "description": "Two tacos with your choice of protein topped with lettuce, cheese, & tomato on a corn tortilla. Flour tortillas available for $1 more. Protein options: Ground Beef, Shredded Chicken, or Shredded Beef",
+              "price": ""
+            },
+            {
+              "title": "Street Tacos",
+              "description": "Two tacos with your choice of protein topped with onion & cilantro on a corn tortilla with a slice of lime. Protein options: Ground Beef, Shredded Beef, Shredded Chicken, Carnitas, Chorizo, Steak [SPICY] ($1.50 upcharge), or Shrimp ($1 upcharge)",
+              "price": ""
+            },
+            {
+              "title": "Fish Tacos",
+              "description": "Two tacos filled with beer-battered fish topped with pico de gallo, lettuce, & our special sauce on a flour tortilla with a slice of lime.",
+              "price": ""
+            },
+            {
+              "title": "Tostadas",
+              "description": "Two crisp corn tortillas topped with ground beef, beans, lettuce, cheese, & tomato.",
+              "price": ""
+            },
+            {
+              "title": "Burritos",
+              "description": "Two burritos with your choice of protein, with beans, topped with melted cheese with two sides. Protein options: Ground Beef, Shredded Beef, or Shredded Chicken",
+              "price": ""
+            },
+            {
+              "title": "Enchiladas/Enchiladas Suizas",
+              "description": "Two enchiladas with your choice of protein, with onion, topped with RED or GREEN enchilada sauce & melted cheese with two sides. Protein options: Ground Beef, Shredded Chicken, Bean, or Cheese",
+              "price": ""
+            },
+            {
+              "title": "Chimichanga",
+              "description": "One chimichanga with your choice of protein topped with melted cheese, guacamole, wet sauce, lettuce, & tomato with two sides. Protein options: Shredded Chicken or Ground Beef",
+              "price": ""
+            },
+            {
+              "title": "Homemade Tamales",
+              "description": "Two Pork tamales topped with melted cheese.",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Lunch Sides",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Refried Beans",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Charro Beans",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Spanish Rice",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Cilantro Lime Rice",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Papas",
+              "description": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Salsa",
+          "section_description": "* = not too hot, ** = kick of spice, *** = our hottest salsa",
+          "items": [
+            {
+              "title": "Mild*",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Hot**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Creamy Verde**",
+              "description": "",
+              "price": "(Upcharge $1)"
+            },
+            {
+              "title": "Chunky Salsa**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Mean***",
+              "description": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Dessert",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Sopapillas",
+              "description": "",
+              "price": "$7.00"
+            }
+          ]
+        },
+        {
+          "section": "Additional Sides",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Small Salsa",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Salsa",
+              "description": "",
+              "price": "$4"
+            },
+            {
+              "title": "Small Bag of Chips",
+              "description": "",
+              "price": "$3.50"
+            },
+            {
+              "title": "Large Bag of Chips",
+              "description": "",
+              "price": "$4.50"
+            },
+            {
+              "title": "Small Chips & Salsa",
+              "description": "",
+              "price": "$6"
+            },
+            {
+              "title": "Large Chips & Salsa",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Small Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Large Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$12"
+            },
+            {
+              "title": "Small Guacamole & Chips",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Large Guacamole & Chips",
+              "description": "",
+              "price": "$15"
+            },
+            {
+              "title": "Pico de Gallo & Chips",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Small Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$5"
+            },
+            {
+              "title": "Half & Half",
+              "description": "Your choice of two sides",
+              "price": "$5"
+            }
+          ]
+        },
+        {
+          "section": "Beverages",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Jarritos Variety Flavors",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Coke",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Water",
+              "description": "",
+              "price": "$2"
+            },
+            {
+              "title": "Iced Tea",
+              "description": "",
+              "price": "$3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "dinner",
+      "title": "Dinner — Maria's Mexican Grill | Dine In | Take Out",
+      "sections": [
+        {
+          "section": "Dinner",
+          "section_description": "Anytime // Includes TWO sides",
+          "items": [
+            {
+              "title": "Traditional Tacos",
+              "description": "Three tacos with your choice of protein topped with lettuce, cheese, & tomato on a corn tortilla. Flour tortillas available for $1 more. Protein options: Ground Beef, Shredded Chicken, or Shredded Beef",
+              "price": "$12"
+            },
+            {
+              "title": "Street Tacos",
+              "description": "Three tacos with your choice of protein topped with onion & cilantro on a corn tortilla with a slice of lime. Protein options: Ground Beef, Shredded Beef, Shredded Chicken, Carnitas, Chorizo, Steak [SPICY] ($2 upcharge), or Shrimp ($1 upcharge)",
+              "price": "$13"
+            },
+            {
+              "title": "Fish Tacos",
+              "description": "Three tacos filled with beer-battered fish topped with pico de gallo, lettuce, & our special sauce on a flour tortilla with a slice of lime.",
+              "price": "$14"
+            },
+            {
+              "title": "Tostadas",
+              "description": "Three crisp corn tortillas topped with ground beef, beans, lettuce, cheese, & tomato.",
+              "price": "$13"
+            },
+            {
+              "title": "Burritos",
+              "description": "Three burritos with your choice of protein, stuffed with refried beans, & topped with melted cheese. Protein options: Ground Beef, Shredded Beef, or Shredded Chicken",
+              "price": "$13"
+            },
+            {
+              "title": "Enchiladas/Enchiladas Suizas",
+              "description": "Three enchiladas with your choice of protein & onion, topped with RED or GREEN enchilada sauce & melted cheese. Protein options: Ground Beef, Shredded Chicken, Bean, or Cheese",
+              "price": "$13"
+            },
+            {
+              "title": "Chimichangas",
+              "description": "Two chimichangas with your choice of protein topped with melted cheese, guacamole, wet sauce, lettuce, & tomato. Protein options: Shredded Chicken or Ground Beef",
+              "price": "$14"
+            },
+            {
+              "title": "Homemade Tamales",
+              "description": "Three Pork tamales topped with melted cheese with two sides.",
+              "price": "$12"
+            },
+            {
+              "title": "Fajitas",
+              "description": "Your choice of protein grilled with onion & green pepper served with guacamole, tomato, sour cream, cheese & side of tortillas. Protein options: Veggies $13, Grilled Chicken $15, Steak [SPICY] $16, or Shrimp $17. Make it a combo with your choice of TWO proteins for $24",
+              "price": ""
+            },
+            {
+              "title": "Grilled Burrito",
+              "description": "12-inch flour tortilla grilled to perfection & filled with your choice of protein & rice, stuffed with charro beans, melted cheese, lettuce, & our specialty sauce. Rice Options: Spanish or Cilantro Lime. Protein options: Grilled Chicken or Steak [SPICY]",
+              "price": "$14"
+            },
+            {
+              "title": "Grilled Quesadilla",
+              "description": "12-inch flour tortilla stuffed with your choice of protein, our specialty sauce & melted cheese. Served with guacamole, sour cream, pico de gallo, & jalapeños. Protein options: Grilled Chicken or Steak [SPICY]",
+              "price": "$14"
+            }
+          ]
+        },
+        {
+          "section": "Dinner Sides",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Refried Beans",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Charro Beans",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Spanish Rice",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Cilantro Lime Rice",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Papas",
+              "description": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Salsa",
+          "section_description": "* = not too hot, ** = kick of spice, *** = our hottest salsa",
+          "items": [
+            {
+              "title": "Mild*",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Hot**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Creamy Verde**",
+              "description": "",
+              "price": "(Upcharge $1)"
+            },
+            {
+              "title": "Chunky Salsa**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Mean***",
+              "description": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Dessert",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Sopapillas",
+              "description": "",
+              "price": "$7.00"
+            }
+          ]
+        },
+        {
+          "section": "Additional Sides",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Small Salsa",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Salsa",
+              "description": "",
+              "price": "$4"
+            },
+            {
+              "title": "Small Bag of Chips",
+              "description": "",
+              "price": "$3.50"
+            },
+            {
+              "title": "Large Bag of Chips",
+              "description": "",
+              "price": "$4.50"
+            },
+            {
+              "title": "Small Chips & Salsa",
+              "description": "",
+              "price": "$6"
+            },
+            {
+              "title": "Large Chips & Salsa",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Small Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Large Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$12"
+            },
+            {
+              "title": "Small Guacamole & Chips",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Large Guacamole & Chips",
+              "description": "",
+              "price": "$15"
+            },
+            {
+              "title": "Pico de Gallo & Chips",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Small Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$5"
+            },
+            {
+              "title": "Half & Half",
+              "description": "Your choice of two sides",
+              "price": "$5"
+            }
+          ]
+        },
+        {
+          "section": "Beverages",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Jarritos Variety Flavors",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Coke",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Water",
+              "description": "",
+              "price": "$2"
+            },
+            {
+              "title": "Iced Tea",
+              "description": "",
+              "price": "$3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "signatureitems",
+      "title": "Signature Items — Maria's Mexican Grill | Dine In | Take Out",
+      "sections": [
+        {
+          "section": "Signature Items",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Maria's Chili",
+              "description": "Maria's signature SPICY homemade chili topped with cheese & onion. One of her personal favorites!",
+              "price": "Cup $6 Bowl $8"
+            },
+            {
+              "title": "Rice Bowl",
+              "description": "Choice of Spanish or Cilantro Lime rice topped with charro beans, pico de gallo, avocado, jalapeño, cheese, & our specialty sauce. Protein option: Grilled Chicken or Steak [SPICY]",
+              "price": "$12"
+            },
+            {
+              "title": "Botana",
+              "description": "Corn tortilla chips topped with beans, melted cheese, lettuce, tomato, jalapeños, avocado, & onion. Protein options: Shredded Chicken or Ground Beef",
+              "price": "$14"
+            },
+            {
+              "title": "Nachos",
+              "description": "Corn tortilla chips with melted cheese served with sour cream & pico de gallo. Protein options: Shredded Chicken or Ground Beef",
+              "price": "$12"
+            },
+            {
+              "title": "One Dozen Tamales",
+              "description": "One dozen Pork tamales with a small salsa of your choice.",
+              "price": "$17"
+            },
+            {
+              "title": "Maria's Combo",
+              "description": "One ground beef Tostada, one ground beef Burrito, & one cheese Enchilada served with your choice of rice & beans. No substitutions.",
+              "price": "$12"
+            }
+          ]
+        },
+        {
+          "section": "Salsa",
+          "section_description": "* = not too hot, ** = kick of spice, *** = our hottest salsa",
+          "items": [
+            {
+              "title": "Mild*",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Hot**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Creamy Verde**",
+              "description": "",
+              "price": "(Upcharge $1)"
+            },
+            {
+              "title": "Chunky Salsa**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Mean***",
+              "description": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Dessert",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Sopapillas",
+              "description": "",
+              "price": "$7.00"
+            }
+          ]
+        },
+        {
+          "section": "Additional Sides",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Small Salsa",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Salsa",
+              "description": "",
+              "price": "$4"
+            },
+            {
+              "title": "Small Bag of Chips",
+              "description": "",
+              "price": "$3.50"
+            },
+            {
+              "title": "Large Bag of Chips",
+              "description": "",
+              "price": "$4.50"
+            },
+            {
+              "title": "Small Chips & Salsa",
+              "description": "",
+              "price": "$6"
+            },
+            {
+              "title": "Large Chips & Salsa",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Small Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Large Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$12"
+            },
+            {
+              "title": "Small Guacamole & Chips",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Large Guacamole & Chips",
+              "description": "",
+              "price": "$15"
+            },
+            {
+              "title": "Pico de Gallo & Chips",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Small Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$5"
+            },
+            {
+              "title": "Half & Half",
+              "description": "Your choice of two sides",
+              "price": "$5"
+            }
+          ]
+        },
+        {
+          "section": "Beverages",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Jarritos Variety Flavors",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Coke",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Water",
+              "description": "",
+              "price": "$2"
+            },
+            {
+              "title": "Iced Tea",
+              "description": "",
+              "price": "$3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "minimaria",
+      "title": "Mini Marias — Maria's Mexican Grill | Dine In | Take Out",
+      "sections": [
+        {
+          "section": "Mini Marias $6",
+          "section_description": "Includes ONE side",
+          "items": [
+            {
+              "title": "Taco",
+              "description": "One ground beef taco topped with lettuce, cheese, & tomato on a corn tortilla. Flour tortillas available for $1 more.",
+              "price": ""
+            },
+            {
+              "title": "Burrito",
+              "description": "Ground beef burrito with beans, topped with melted cheese.",
+              "price": ""
+            },
+            {
+              "title": "Quesadilla",
+              "description": "Grilled flour tortilla filled with melted cheese.",
+              "price": ""
+            },
+            {
+              "title": "Enchilada",
+              "description": "Ground beef enchilada topped with red enchilada sauce & melted cheese.",
+              "price": ""
+            },
+            {
+              "title": "Tostada",
+              "description": "One crisp corn tortilla topped with ground beef, beans, lettuce, cheese, & tomato.",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Salsa",
+          "section_description": "* = not too hot, ** = kick of spice, *** = our hottest salsa",
+          "items": [
+            {
+              "title": "Mild*",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Hot**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Creamy Verde**",
+              "description": "",
+              "price": "(Upcharge $1)"
+            },
+            {
+              "title": "Chunky Salsa**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Mean***",
+              "description": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Dessert",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Sopapillas",
+              "description": "",
+              "price": "$7.00"
+            }
+          ]
+        },
+        {
+          "section": "Additional Sides",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Small Salsa",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Salsa",
+              "description": "",
+              "price": "$4"
+            },
+            {
+              "title": "Small Bag of Chips",
+              "description": "",
+              "price": "$3.50"
+            },
+            {
+              "title": "Large Bag of Chips",
+              "description": "",
+              "price": "$4.50"
+            },
+            {
+              "title": "Small Chips & Salsa",
+              "description": "",
+              "price": "$6"
+            },
+            {
+              "title": "Large Chips & Salsa",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Small Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Large Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$12"
+            },
+            {
+              "title": "Small Guacamole & Chips",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Large Guacamole & Chips",
+              "description": "",
+              "price": "$15"
+            },
+            {
+              "title": "Pico de Gallo & Chips",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Small Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$5"
+            },
+            {
+              "title": "Half & Half",
+              "description": "Your choice of two sides",
+              "price": "$5"
+            }
+          ]
+        },
+        {
+          "section": "Beverages",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Jarritos Variety Flavors",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Coke",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Water",
+              "description": "",
+              "price": "$2"
+            },
+            {
+              "title": "Iced Tea",
+              "description": "",
+              "price": "$3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "familypack",
+      "title": "Family Pack — Maria's Mexican Grill | Dine In | Take Out",
+      "sections": [
+        {
+          "section": "",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Family Pack",
+              "description": "Four Ground Beef tacos, four Bean & Ground Beef Burritos, four Ground Beef enchiladas, one pint of Spanish Rice, one pint of Refried Beans, one pint of hot or mild salsa, & a large bag of chips. Substitute chicken or shredded beef for $6.",
+              "price": "$40"
+            }
+          ]
+        },
+        {
+          "section": "Salsa",
+          "section_description": "* = not too hot, ** = kick of spice, *** = our hottest salsa",
+          "items": [
+            {
+              "title": "Mild*",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Hot**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Creamy Verde**",
+              "description": "",
+              "price": "(Upcharge $1)"
+            },
+            {
+              "title": "Chunky Salsa**",
+              "description": "",
+              "price": ""
+            },
+            {
+              "title": "Mean***",
+              "description": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "section": "Dessert",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Sopapillas",
+              "description": "",
+              "price": "$6.00"
+            }
+          ]
+        },
+        {
+          "section": "Additional Sides",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Small Salsa",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Salsa",
+              "description": "",
+              "price": "$4"
+            },
+            {
+              "title": "Small Bag of Chips",
+              "description": "",
+              "price": "$3.50"
+            },
+            {
+              "title": "Large Bag of Chips",
+              "description": "",
+              "price": "$4.50"
+            },
+            {
+              "title": "Small Chips & Salsa",
+              "description": "",
+              "price": "$6"
+            },
+            {
+              "title": "Large Chips & Salsa",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Small Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Large Chips & Maria's Queso (topped with Pico de Gallo)",
+              "description": "",
+              "price": "$12"
+            },
+            {
+              "title": "Small Guacamole & Chips",
+              "description": "",
+              "price": "$8"
+            },
+            {
+              "title": "Large Guacamole & Chips",
+              "description": "",
+              "price": "$15"
+            },
+            {
+              "title": "Pico de Gallo & Chips",
+              "description": "",
+              "price": "$7"
+            },
+            {
+              "title": "Small Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$3"
+            },
+            {
+              "title": "Large Side of Rice, Beans, or Papas",
+              "description": "",
+              "price": "$5"
+            },
+            {
+              "title": "Half & Half",
+              "description": "Your choice of two sides",
+              "price": "$5"
+            }
+          ]
+        },
+        {
+          "section": "Beverages",
+          "section_description": "",
+          "items": [
+            {
+              "title": "Jarritos Variety Flavors",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Coke",
+              "description": "",
+              "price": "$2.50"
+            },
+            {
+              "title": "Bottled Water",
+              "description": "",
+              "price": "$2"
+            },
+            {
+              "title": "Iced Tea",
+              "description": "",
+              "price": "$3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
