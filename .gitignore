@@ -2,3 +2,22 @@
 /external-data/raw-untracked/
 # Large local derived external data; keep small curated outputs/samples tracked deliberately.
 /external-data/derived-untracked/
+
+# Generated dish-image experiment artifacts. Keep the reusable runners and
+# research notes, but do not commit model outputs, masks, manifests, or viewers.
+/external-data/menu-scraping/image_gen_spike/
+
+# Python runtime artifacts.
+__pycache__/
+*.py[cod]
+
+# Local Codex/Impeccable runtime configuration. Shared project instructions and
+# skills live in AGENTS.md and .agents/ instead.
+/.codex/
+/.impeccable/
+
+# .claude/ is Claude Code's local runtime dir (permissions, hooks, lockfiles, the
+# skills discovery symlink) and stays untracked/per-machine, except the shared
+# SessionStart hook that keeps .claude/skills symlinked to .agents/skills.
+.claude/*
+!.claude/settings.json
