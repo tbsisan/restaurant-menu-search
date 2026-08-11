@@ -7,7 +7,7 @@ Use this file for working product, strategy, pilot, and implementation decisions
 ## Details summary
 - Current stage: concept
 - Last updated: 2026-06-09
-- Confidence level: low-to-medium
+- Confidence level: medium
 
 ## Product decisions
 
@@ -23,6 +23,10 @@ Use this file for working product, strategy, pilot, and implementation decisions
 - Price-sensitive pickup customers are likely an important early segment.
 - Food explorers may also care about dish-level search, ratings, and review summaries.
 
+## Novel features
+- searchability by dish, ingredient, dietary restrictions, etc
+- surface daily specials better
+
 ## Pilot decisions
 
 ### Pilot shape
@@ -36,7 +40,12 @@ Use this file for working product, strategy, pilot, and implementation decisions
 - **Status:** Tentative
 - Phase 1: small local region around Southgate.
 - Phase 2: expand to the broader Metro Detroit region.
-- Phase 3: consider wider regional or national expansion if the workflow and data quality hold up.
+- Phase 3: consider wider regional or national expansion if there is pickup and users to support ongoing operations.
+
+### Todo
+- check out Eater and Eater Detroit
+- Make a local restaurant zeitgeist socials account
+- Business entity search, business registry
 
 ## Workflow and ops decisions
 

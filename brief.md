@@ -62,9 +62,20 @@ Potential stronger moat over time:
 
 ### Marketing ideas
 - **Status:** Open
+- downriver facebook and reddit communities
 - Audience/channel ideas: Southgate/Metro Detroit pickup customers, food explorers, price-sensitive diners, local restaurant groups, and social posts around specific dish cravings.
 - Messaging angles: find the exact dish nearby, avoid delivery-app markups, order from more restaurants than delivery apps cover, and discover local menu items hidden inside PDFs/images.
 - Launch/distribution experiments: small local dish-search demos, "where can I get X nearby?" posts, and comparison examples showing restaurant-menu prices versus delivery-app prices.
+- Local "guy" takes on DoorDash
+- when people search "doordash fees" or "reduce doordash fees", we could put up an add
+- go on gig economy forums or social sites
+- market to niche communities like spice-heads, give them a special "spice search" or spice explorer. For beer lovers give them beer histograms. Wild mushrooms/truffle. Also gluten-free, keto, halal. Calculate estimated macro nutrients. Happy hours & good values, eating challenges. Most kid options. Refreshers. See niche-food-communities.md and niche-food-community-marketing.md
+- When doing passes over all the restaurants ask if anything may be instagrammable (see instagrammable-food-moments.md and
+- Menu audits or health check (check for consistency / anomalies), also dish suggestions
+- Restaurant intelligence / find the differentiator. Describe where the restaurant sits in niche
+- Cost per inch or sq. in.
+- try to get doordash related ratings off restaurant pages
+- i want to get menu intelligence for suggesting menu improvements
 
 ---
 
@@ -93,6 +104,8 @@ The weird edge is not just "restaurant search"; it is search-first ordering at t
 - Handicap access site
 - Soup daddy, soup of the day listings
 - Daily specials
+- Instagrammability / thumb stoppers / feed worthy
+- menu audits
 
 ---
 
@@ -105,6 +118,7 @@ The weird edge is not just "restaurant search"; it is search-first ordering at t
 - "Normal in-store prices" may be hard to guarantee without live confirmation and could vary by channel, time, or menu source.
 - Users interested in the "cheapest prices" might not be willing to pay extra for an app.
 - Ordering multiple items is weird. For dish results ther should be a button to order, and a button to add to cart. When an item is in the cart we maybe switch to "restaurant mode". Or to be creative there could be some sort of "search on route" where dishes along the drive route are shown.
+- Some states have laws against 3rd-party delivery apps doing orders without the restaurants consent, and some of these laws apply to pickup orders as well. So we will have to figure out how to contact restaurant owners or get there attention. maybe with a ditch doordash campaign, or perhaps getting on google "order online" button, but that will be hard without any way to do orders.
 
 ### Open questions
 - What happens if the dish is unavailable, the menu price differs, or the restaurant refuses AI-agent orders?
