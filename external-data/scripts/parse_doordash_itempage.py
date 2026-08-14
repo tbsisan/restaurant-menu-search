@@ -289,6 +289,30 @@ def load_entries(payload: dict[str, Any]) -> tuple[list[dict[str, Any]], str]:
     return [], ""
 
 
+def merge_card_ratings(entries: list[dict[str, Any]], ratings: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Merge supplemental card ratings without erasing harvest-inline values.
+
+    A non-null value from the supplemental card collection wins because it is a
+    direct card observation. Missing records and null fields mean "no new
+    observation" and leave the inline harvest value intact.
+    """
+    ratings_by_id = {
+        str(entry["item_id"]): entry
+        for entry in ratings
+        if isinstance(entry, dict) and entry.get("item_id") is not None
+    }
+    merged = [dict(entry) for entry in entries]
+    for entry in merged:
+        item_id = entry.get("item_id")
+        rating = ratings_by_id.get(str(item_id)) if item_id is not None else None
+        if not rating:
+            continue
+        for field in ("like_percent", "like_review_count"):
+            if rating.get(field) is not None:
+                entry[field] = rating[field]
+    return merged
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("input", type=Path, help="harvest output from spike_doordash_network_capture.py")
@@ -309,11 +333,9 @@ def main() -> None:
     entries, source_url = load_entries(payload)
     if args.ratings:
         ratings = json.loads(args.ratings.read_text(encoding="utf-8"))
-        ratings_by_id = {entry.get("item_id"): entry for entry in ratings if entry.get("item_id")}
-        entries = [{**entry, **{
-            "like_percent": ratings_by_id.get(entry.get("item_id"), {}).get("like_percent"),
-            "like_review_count": ratings_by_id.get(entry.get("item_id"), {}).get("like_review_count"),
-        }} for entry in entries]
+        if not isinstance(ratings, list):
+            raise ValueError("--ratings must contain a JSON array of item-card observations")
+        entries = merge_card_ratings(entries, ratings)
 
     sections: dict[str, list[dict[str, Any]]] = {}
     order: list[str] = []

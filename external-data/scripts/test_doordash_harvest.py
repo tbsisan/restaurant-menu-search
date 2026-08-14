@@ -4,9 +4,8 @@ Run from the repository root with::
 
     pytest external-data/scripts/test_doordash_harvest.py
 
-The two strict xfails document defects intentionally left for Task 2 of
-``doordash-harvest-next-steps.md``.  They must be unmarked when those fixes
-land, so a surprise pass cannot be silently ignored.
+The tests use fakes for browser control and recorded public menu data, so they
+exercise the artifact contract without making a live DoorDash request.
 """
 
 from __future__ import annotations
@@ -37,6 +36,7 @@ def load_module(filename: str, name: str):
 
 spike = load_module("spike_doordash_network_capture.py", "doordash_harvest_spike")
 normalizer = load_module("normalize_menu_sizes.py", "doordash_size_normalizer")
+item_parser = load_module("parse_doordash_itempage.py", "doordash_item_parser")
 
 
 @pytest.fixture(autouse=True)
@@ -279,31 +279,84 @@ def test_discovery_outcomes(client, max_scrolls, expected_status, expected_stop)
         assert items
 
 
-@pytest.mark.xfail(strict=True, reason="Task 2 must preserve an incomplete discovery record when Camofox disappears")
 def test_browser_loss_during_discovery_returns_incomplete_record() -> None:
+    checkpoints: list[list[dict]] = []
     items, discovery = spike.collect_items(
-        ScriptedDiscoveryClient(cards=4, grows=True, die_after=6), "tab", max_scrolls=60
+        ScriptedDiscoveryClient(cards=4, grows=True, die_after=6),
+        "tab",
+        max_scrolls=60,
+        checkpoint_callback=lambda observed: checkpoints.append(list(observed)),
     )
     assert items
     assert discovery["status"] == "incomplete"
     assert discovery["stop_reason"] == "browser_lost_during_discovery"
+    assert discovery["browser_error"]["kind"] == "camofox_evaluate_error"
+    assert checkpoints[-1] == items
 
 
-@pytest.mark.xfail(strict=True, reason="Task 2 must retry every diagnostic marked retryable")
-def test_every_retryable_diagnostic_is_in_the_harvest_retry_set() -> None:
-    retry_set = {"camofox_evaluate_error", "camofox_evaluate_invalid_result"}
+def test_early_browser_loss_checkpoints_an_empty_discovery() -> None:
+    checkpoints: list[list[dict]] = []
+    items, discovery = spike.collect_items(
+        ScriptedDiscoveryClient(cards=0, die_after=1),
+        "tab",
+        checkpoint_callback=lambda observed: checkpoints.append(list(observed)),
+    )
+
+    assert items == []
+    assert discovery["status"] == "incomplete"
+    assert discovery["stop_reason"] == "browser_lost_during_discovery"
+    assert checkpoints == [[]]
+
+
+def test_every_retryable_diagnostic_gets_one_more_attempt() -> None:
     responses = [
         {"status": 503, "body": "upstream unavailable"},
         {"fetch_error": "TypeError: failed"},
         requests.HTTPError("tab gone"),
         "not a response wrapper",
     ]
-    retryable_kinds = {
-        fetch(response)["diagnostic"]["kind"]
-        for response in responses
-        if fetch(response)["diagnostic"]["retryable"]
-    }
-    assert retryable_kinds <= retry_set
+    diagnostics = [fetch(response)["diagnostic"] for response in responses]
+    assert all(
+        spike.should_retry_item_page_capture(diagnostic, attempt=1)
+        for diagnostic in diagnostics
+        if diagnostic["retryable"]
+    )
+    assert not any(spike.should_retry_item_page_capture(diagnostic, attempt=2) for diagnostic in diagnostics)
+
+
+def test_ratings_file_only_overrides_present_non_null_values() -> None:
+    entries = [
+        {"item_id": "inline-only", "like_percent": 92, "like_review_count": 48},
+        {"item_id": "supplemented", "like_percent": 84, "like_review_count": 11},
+        {"item_id": "partial", "like_percent": 77, "like_review_count": 9},
+    ]
+    ratings = [
+        {"item_id": "supplemented", "like_percent": 95, "like_review_count": 20},
+        {"item_id": "partial", "like_percent": None, "like_review_count": 13},
+        {"item_id": "not-in-harvest", "like_percent": 100, "like_review_count": 1},
+    ]
+
+    merged = item_parser.merge_card_ratings(entries, ratings)
+
+    assert merged[0] == entries[0]
+    assert merged[1]["like_percent"] == 95
+    assert merged[1]["like_review_count"] == 20
+    assert merged[2]["like_percent"] == 77
+    assert merged[2]["like_review_count"] == 13
+
+
+def test_sample_per_section_uses_all_memberships_without_duplicate_fetches() -> None:
+    items = [
+        {"item_id": "taco", "section": "Tacos", "sections": ["Tacos"]},
+        {"item_id": "featured", "section": "Tacos", "sections": ["Tacos", "Most Ordered"]},
+        {"item_id": "drink", "section": "Drinks", "sections": ["Drinks"]},
+    ]
+
+    sampled, section_count = spike.sample_items_by_section(items, sample_per_section=1, sample_seed=7)
+
+    assert section_count == 3
+    assert "featured" in {item["item_id"] for item in sampled}
+    assert len(sampled) == len({item["item_id"] for item in sampled})
 
 
 def test_resume_rejects_mismatched_or_precontract_checkpoints(tmp_path: Path) -> None:

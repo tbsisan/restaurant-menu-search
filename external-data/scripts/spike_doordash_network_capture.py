@@ -48,6 +48,7 @@ MENU_CARD_SELECTORS = (
     'a[href*="/item/"]',
 )
 MENU_CARD_SELECTORS_JS = json.dumps(MENU_CARD_SELECTORS)
+MAX_ITEM_PAGE_CAPTURE_ATTEMPTS = 2
 
 # Patches fetch + both XHR entry points. Kept idempotent so re-running `record`
 # after a soft navigation doesn't double-wrap. Bodies are capped per entry so a
@@ -640,6 +641,20 @@ def wait_for_initial_menu_render(
     }
 
 
+def item_section_memberships(item: dict[str, Any]) -> list[str]:
+    """Return every observed category for an item, retaining legacy artifacts."""
+    raw = item.get("sections")
+    values = raw if isinstance(raw, list) else [raw] if isinstance(raw, str) else []
+    memberships: list[str] = []
+    for value in values:
+        if isinstance(value, str) and value.strip() and value.strip() not in memberships:
+            memberships.append(value.strip())
+    legacy = item.get("section")
+    if isinstance(legacy, str) and legacy.strip() and legacy.strip() not in memberships:
+        memberships.append(legacy.strip())
+    return memberships or ["?"]
+
+
 def summarize_discovery(
     *,
     items: list[dict[str, Any]],
@@ -654,11 +669,7 @@ def summarize_discovery(
     """Build a small, inspectable discovery record for the harvest artifact."""
     sections: dict[str, int] = {}
     for item in items:
-        memberships = item.get("sections")
-        if not isinstance(memberships, list):
-            memberships = [item.get("section") or "?"]
-        for membership in memberships:
-            section = str(membership or "?")
+        for section in item_section_memberships(item):
             sections[section] = sections.get(section, 0) + 1
 
     problems = list(dict.fromkeys(
@@ -708,106 +719,152 @@ def collect_items(
     inspect page readiness, observed categories, each scroll step, and whether
     collection reached a stable bottom rather than merely hitting its cap.
     """
-    dismiss_interstitials(client, tab_id)
-    initial_page, initial_wait = wait_for_initial_menu_render(client, tab_id)
-    if initial_wait["outcome"] == "page_problem_signaled":
-        return [], summarize_discovery(
-            items=[],
-            initial_page=initial_page,
-            final_page=initial_page,
-            initial_wait=initial_wait,
-            stop_reason="page_problem_signaled",
-            scrolls_attempted=0,
-            max_scrolls=max_scrolls,
-            scroll_trace=[],
-        )
-
-    reset = client.evaluate(tab_id, RESET_COLLECTION_JS) or {}
-    if not isinstance(reset, dict) or not isinstance(reset.get("url"), str):
-        return [], summarize_discovery(
-            items=[],
-            initial_page=initial_page,
-            final_page=discovery_page_state(client, tab_id),
-            initial_wait=initial_wait,
-            stop_reason="collection_state_reset_failed",
-            scrolls_attempted=0,
-            max_scrolls=max_scrolls,
-            scroll_trace=[],
-        )
-
-    client.evaluate(tab_id, "window.scrollTo(0, 0); null")
-    time.sleep(1.0)
-    stable = 0
-    last_total = 0
-    stop_reason = "scroll_limit_reached"
+    items: list[dict[str, Any]] = []
+    initial_page: dict[str, Any] = {
+        "ready_state": "unknown",
+        "rendered_menu_card_count": 0,
+        "visible_menu_card_count": 0,
+        "category_headings": [],
+        "problem_signals": [],
+    }
+    final_page = initial_page
+    initial_wait: dict[str, Any] = {"outcome": "not_started", "waited_ms": 0, "polls": 0}
     scrolls_attempted = 0
     scroll_trace: list[dict[str, Any]] = []
-    for scrolls_attempted in range(1, max_scrolls + 1):
-        step = client.evaluate(tab_id, COLLECT_STEP_JS) or {}
-        if isinstance(step, dict) and step.get("error"):
-            stop_reason = str(step["error"])
-            break
-        if not isinstance(step, dict) or not isinstance(step.get("total"), int):
-            stop_reason = "collection_step_invalid"
-            break
-        total = step["total"]
-        if checkpoint_path and total != last_total:
-            # Card data includes DoorDash's per-item like percentage/count.
-            # Checkpoint as the virtualized grid reveals each new batch instead
-            # of waiting until the full menu scan completes.
-            write_json_checkpoint(checkpoint_path, client.evaluate(tab_id, COLLECTED_JS, timeout=120) or [])
-        if checkpoint_callback and total != last_total:
-            checkpoint_callback(client.evaluate(tab_id, COLLECTED_JS, timeout=120) or [])
-        pos = client.evaluate(tab_id, SCROLL_JS % 700) or {}
-        if not isinstance(pos, dict):
-            stop_reason = "scroll_state_unavailable"
-            break
-        at_bottom = bool(pos.get("at_bottom"))
-        scroll_trace.append({
-            "step": scrolls_attempted,
-            "observed_item_count": total,
-            "new_items_since_previous_step": max(total - last_total, 0),
-            "scroll_y": pos.get("y"),
-            "scroll_height": pos.get("h"),
-            "viewport_height": pos.get("viewport"),
-            "at_bottom": at_bottom,
-            "stable_steps": stable,
-            "eligible_cards_in_view": step.get("eligible_cards_in_view"),
-            "selector_counts": step.get("selector_counts"),
-        })
-        # Rapid scrolling/page-down is normal when scanning a menu. This pause
-        # is only enough to let DoorDash's virtualized grid mount the next
-        # cards; it is intentionally distinct from the slower itemPage request
-        # pacing used during a full modifier harvest.
-        time.sleep(random.uniform(0.08, 0.22))
-        if total == last_total:
-            stable += 1
-            if stable >= 4 and at_bottom:
-                stop_reason = "bottom_stable"
+    collection_url: str | None = None
+
+    def checkpoint_observed_items(*, force: bool = False) -> None:
+        """Persist the current in-memory collection, including an empty loss case."""
+        if not force and not items:
+            return
+        if checkpoint_path:
+            write_json_checkpoint(checkpoint_path, items)
+        if checkpoint_callback:
+            checkpoint_callback(items)
+
+    try:
+        dismiss_interstitials(client, tab_id)
+        initial_page, initial_wait = wait_for_initial_menu_render(client, tab_id)
+        final_page = initial_page
+        if initial_wait["outcome"] == "page_problem_signaled":
+            return [], summarize_discovery(
+                items=[],
+                initial_page=initial_page,
+                final_page=initial_page,
+                initial_wait=initial_wait,
+                stop_reason="page_problem_signaled",
+                scrolls_attempted=0,
+                max_scrolls=max_scrolls,
+                scroll_trace=[],
+            )
+
+        reset = client.evaluate(tab_id, RESET_COLLECTION_JS) or {}
+        if not isinstance(reset, dict) or not isinstance(reset.get("url"), str):
+            return [], summarize_discovery(
+                items=[],
+                initial_page=initial_page,
+                final_page=discovery_page_state(client, tab_id),
+                initial_wait=initial_wait,
+                stop_reason="collection_state_reset_failed",
+                scrolls_attempted=0,
+                max_scrolls=max_scrolls,
+                scroll_trace=[],
+            )
+        collection_url = reset["url"]
+
+        client.evaluate(tab_id, "window.scrollTo(0, 0); null")
+        time.sleep(1.0)
+        stable = 0
+        last_total = 0
+        stop_reason = "scroll_limit_reached"
+        for scrolls_attempted in range(1, max_scrolls + 1):
+            step = client.evaluate(tab_id, COLLECT_STEP_JS) or {}
+            if isinstance(step, dict) and step.get("error"):
+                stop_reason = str(step["error"])
                 break
+            if not isinstance(step, dict) or not isinstance(step.get("total"), int):
+                stop_reason = "collection_step_invalid"
+                break
+            total = step["total"]
+            if total != last_total:
+                # Card data includes DoorDash's per-item like percentage/count.
+                # Read it once, keep it in memory, then checkpoint that exact
+                # snapshot so a subsequent browser loss cannot erase it.
+                collected = client.evaluate(tab_id, COLLECTED_JS, timeout=120) or []
+                if not isinstance(collected, list):
+                    stop_reason = "collected_items_unavailable"
+                    break
+                items = collected
+                checkpoint_observed_items()
+            pos = client.evaluate(tab_id, SCROLL_JS % 700) or {}
+            if not isinstance(pos, dict):
+                stop_reason = "scroll_state_unavailable"
+                break
+            at_bottom = bool(pos.get("at_bottom"))
+            scroll_trace.append({
+                "step": scrolls_attempted,
+                "observed_item_count": total,
+                "new_items_since_previous_step": max(total - last_total, 0),
+                "scroll_y": pos.get("y"),
+                "scroll_height": pos.get("h"),
+                "viewport_height": pos.get("viewport"),
+                "at_bottom": at_bottom,
+                "stable_steps": stable,
+                "eligible_cards_in_view": step.get("eligible_cards_in_view"),
+                "selector_counts": step.get("selector_counts"),
+            })
+            # Rapid scrolling/page-down is normal when scanning a menu. This pause
+            # is only enough to let DoorDash's virtualized grid mount the next
+            # cards; it is intentionally distinct from the slower itemPage request
+            # pacing used during a full modifier harvest.
+            time.sleep(random.uniform(0.08, 0.22))
+            if total == last_total:
+                stable += 1
+                if stable >= 4 and at_bottom:
+                    stop_reason = "bottom_stable"
+                    break
+            else:
+                stable = 0
+            last_total = total
+        client.evaluate(tab_id, COLLECT_STEP_JS)
+        collected = client.evaluate(tab_id, COLLECTED_JS, timeout=120) or []
+        if isinstance(collected, list):
+            items = collected
         else:
-            stable = 0
-        last_total = total
-    client.evaluate(tab_id, COLLECT_STEP_JS)
-    items = client.evaluate(tab_id, COLLECTED_JS, timeout=120) or []
-    if not isinstance(items, list):
-        items = []
-        stop_reason = "collected_items_unavailable"
-    final_page = discovery_page_state(client, tab_id)
-    discovery = summarize_discovery(
-        items=items,
-        initial_page=initial_page,
-        final_page=final_page,
-        initial_wait=initial_wait,
-        stop_reason=stop_reason,
-        scrolls_attempted=scrolls_attempted,
-        max_scrolls=max_scrolls,
-        scroll_trace=scroll_trace,
-    )
-    discovery["collection_state"] = {
-        "url": reset["url"],
-        "selector_contract": list(MENU_CARD_SELECTORS),
-    }
+            stop_reason = "collected_items_unavailable"
+        final_page = discovery_page_state(client, tab_id)
+        discovery = summarize_discovery(
+            items=items,
+            initial_page=initial_page,
+            final_page=final_page,
+            initial_wait=initial_wait,
+            stop_reason=stop_reason,
+            scrolls_attempted=scrolls_attempted,
+            max_scrolls=max_scrolls,
+            scroll_trace=scroll_trace,
+        )
+    except requests.RequestException as exc:
+        checkpoint_observed_items(force=True)
+        discovery = summarize_discovery(
+            items=items,
+            initial_page=initial_page,
+            final_page=final_page,
+            initial_wait=initial_wait,
+            stop_reason="browser_lost_during_discovery",
+            scrolls_attempted=scrolls_attempted,
+            max_scrolls=max_scrolls,
+            scroll_trace=scroll_trace,
+        )
+        discovery["browser_error"] = {
+            "kind": "camofox_evaluate_error",
+            "message": response_excerpt(exc),
+        }
+
+    if collection_url:
+        discovery["collection_state"] = {
+            "url": collection_url,
+            "selector_contract": list(MENU_CARD_SELECTORS),
+        }
     return items, discovery
 
 
@@ -1165,6 +1222,11 @@ def item_page_failure(kind: str, *, retryable: bool = False, **details: Any) -> 
     }
 
 
+def should_retry_item_page_capture(diagnostic: dict[str, Any], attempt: int) -> bool:
+    """Whether this completed attempt is eligible for one more itemPage request."""
+    return attempt < MAX_ITEM_PAGE_CAPTURE_ATTEMPTS and bool(diagnostic.get("retryable"))
+
+
 def fetch_item_page(
     client: CamofoxClient,
     tab_id: str,
@@ -1304,13 +1366,41 @@ def fetch_item_page(
     }
 
 
+def sample_items_by_section(
+    items: list[dict[str, Any]],
+    sample_per_section: int,
+    sample_seed: int | None,
+) -> tuple[list[dict[str, Any]], int]:
+    """Sample every observed category, returning each selected item only once.
+
+    A recommendation shelf is still a real category membership for diagnostic
+    sampling.  Its selected cards may overlap the restaurant's ordinary menu
+    sections, so the final list restores menu order and de-duplicates by item
+    ID before itemPage requests are issued.
+    """
+    rng = random.Random(sample_seed)
+    by_section: dict[str, list[dict[str, Any]]] = {}
+    for item in items:
+        for section in item_section_memberships(item):
+            by_section.setdefault(section, []).append(item)
+
+    selected_ids: set[str] = set()
+    for section in sorted(by_section):
+        choices = by_section[section]
+        for item in rng.sample(choices, min(sample_per_section, len(choices))):
+            item_id = item.get("item_id")
+            if item_id is not None:
+                selected_ids.add(str(item_id))
+    return [item for item in items if str(item.get("item_id")) in selected_ids], len(by_section)
+
+
 def cmd_items(client: CamofoxClient, args: argparse.Namespace) -> None:
     tab_id = require_tab(client)
     items, discovery = collect_items(client, tab_id, checkpoint_path=args.output)
-    sections = {}
+    sections: dict[str, int] = {}
     for it in items:
-        sections.setdefault(it.get("section") or "?", 0)
-        sections[it["section"] or "?"] += 1
+        for section in item_section_memberships(it):
+            sections[section] = sections.get(section, 0) + 1
     print(f"{len(items)} items across {len(sections)} sections")
     for name, count in sections.items():
         print(f"  {count:>3}  {name}")
@@ -1395,17 +1485,9 @@ def cmd_harvest(client: CamofoxClient, args: argparse.Namespace) -> None:
             )
 
     if args.sample_per_section:
-        rng = random.Random(args.sample_seed)
-        by_section: dict[str, list[dict[str, Any]]] = {}
-        for item in items:
-            by_section.setdefault(str(item.get("section") or "?"), []).append(item)
-        sampled: list[dict[str, Any]] = []
-        for section in sorted(by_section):
-            choices = by_section[section]
-            sampled.extend(rng.sample(choices, min(args.sample_per_section, len(choices))))
-        items = sampled
+        items, section_count = sample_items_by_section(items, args.sample_per_section, args.sample_seed)
         print(
-            f"Stratified sample: {len(items)} items from {len(by_section)} sections "
+            f"Stratified sample: {len(items)} unique items from {section_count} sections "
             f"({args.sample_per_section} per section, seed={args.sample_seed})"
         )
     if args.limit:
@@ -1448,49 +1530,61 @@ def cmd_harvest(client: CamofoxClient, args: argparse.Namespace) -> None:
 
     results_by_id = dict(previous)
     failures = 0
+    fetch_total = len(fetch_order)
     for i, item in enumerate(fetch_order, 1):
         slept = pacer.wait()
         page = None
         capture: dict[str, Any] | None = None
         capture_attempts: list[dict[str, Any]] = []
-        for attempt in (1, 2):
+        for attempt in range(1, MAX_ITEM_PAGE_CAPTURE_ATTEMPTS + 1):
             capture = fetch_item_page(client, tab_id, store_id, item["item_id"], query)
             diagnostic = capture["diagnostic"]
+            diagnostic["attempt"] = attempt
+            diagnostic["max_attempts"] = MAX_ITEM_PAGE_CAPTURE_ATTEMPTS
             capture_attempts.append(diagnostic)
             if capture["ok"]:
                 page = capture["item_page"]
                 break
 
-            if diagnostic["kind"] in {"camofox_evaluate_error", "camofox_evaluate_invalid_result"} and attempt < 2:
-                print(
-                    f"  [{i}/{len(fetch_order)}] browser/Camofox failure "
-                    f"({diagnostic['kind']}); attempt {attempt}",
-                    file=sys.stderr,
-                )
+            if should_retry_item_page_capture(diagnostic, attempt):
                 write_harvest(
                     args.output, store_url, store_id, ordered_capture_results(results_by_id),
                     selected_items=items, discovery=discovery, selection=selection, finished=False,
                 )
-                recovered = recover_tab(
-                    client, store_url, store_id, args.latitude, args.longitude, args.timezone,
-                )
-                if not recovered:
-                    print("  could not recover browser - stopping early; rerun to resume", file=sys.stderr)
-                    failures += 1
-                    upsert_capture_result(results_by_id, {
-                        **item,
-                        "item_page": None,
-                        "error": diagnostic["kind"],
-                        "item_page_capture": diagnostic,
-                        "item_page_capture_attempts": capture_attempts,
-                    })
-                    write_harvest(
-                        args.output, store_url, store_id, ordered_capture_results(results_by_id),
-                        selected_items=items, discovery=discovery, selection=selection, finished=False,
+                if diagnostic["kind"] in {"camofox_evaluate_error", "camofox_evaluate_invalid_result"}:
+                    print(
+                        f"  [{i}/{fetch_total}] browser/Camofox failure "
+                        f"({diagnostic['kind']}); attempt {attempt}",
+                        file=sys.stderr,
                     )
-                    print(f"\nWrote {args.output} ({len(results_by_id)} items captured, INCOMPLETE)")
-                    return
-                tab_id = recovered
+                    recovered = recover_tab(
+                        client, store_url, store_id, args.latitude, args.longitude, args.timezone,
+                    )
+                    if not recovered:
+                        print("  could not recover browser - stopping early; rerun to resume", file=sys.stderr)
+                        failures += 1
+                        upsert_capture_result(results_by_id, {
+                            **item,
+                            "item_page": None,
+                            "error": diagnostic["kind"],
+                            "item_page_capture": diagnostic,
+                            "item_page_capture_attempts": capture_attempts,
+                        })
+                        write_harvest(
+                            args.output, store_url, store_id, ordered_capture_results(results_by_id),
+                            selected_items=items, discovery=discovery, selection=selection, finished=False,
+                        )
+                        print(f"\nWrote {args.output} ({len(results_by_id)} items captured, INCOMPLETE)")
+                        return
+                    tab_id = recovered
+                else:
+                    retry_pause = random.uniform(1.0, 2.0)
+                    print(
+                        f"  [{i}/{fetch_total}] retryable {diagnostic['kind']} "
+                        f"({retry_pause:.1f}s backoff; attempt {attempt})",
+                        file=sys.stderr,
+                    )
+                    time.sleep(retry_pause)
                 continue
             break
         if page is None:
@@ -1499,7 +1593,7 @@ def cmd_harvest(client: CamofoxClient, args: argparse.Namespace) -> None:
                 "outcome": "failure", "kind": "item_page_capture_unknown", "retryable": False,
             }
             print(
-                f"  [{i}/{len(fetch_order)}] FAILED {item['name']!r} ({item['item_id']}; "
+                f"  [{i}/{fetch_total}] FAILED {item['name']!r} ({item['item_id']}; "
                 f"{diagnostic['kind']})"
             )
             upsert_capture_result(results_by_id, {
@@ -1518,7 +1612,7 @@ def cmd_harvest(client: CamofoxClient, args: argparse.Namespace) -> None:
         required = sum(1 for g in groups if not g.get("isOptional"))
         nested = sum(1 for g in groups for o in g.get("options") or [] if o.get("nestedExtrasList"))
         nested_note = f" +{nested} nested" if nested else ""
-        print(f"  [{i}/{len(items)}] {slept:>5.1f}s  {item['name'][:38]:<38} "
+        print(f"  [{i}/{fetch_total}] {slept:>5.1f}s  {item['name'][:38]:<38} "
               f"{len(groups)} groups ({required} req){nested_note}")
         result_entry = {**item, "item_page": page, "item_page_capture": capture["diagnostic"]}
         if len(capture_attempts) > 1:

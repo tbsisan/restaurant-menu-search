@@ -1,14 +1,13 @@
 """Review harness: exercise the safeguards the validation checklist claims exist.
 
 STATUS: this is the throwaway harness written during the 2026-08-14 code review,
-preserved verbatim so it is not lost. It is NOT the regression suite. Two checks
-fail BY DESIGN -- they demonstrate confirmed defects (retryable-but-never-retried,
-and unhandled browser loss during discovery). See
-external-data/menu-scraping/doordash-harvest-next-steps.md Step 2, which converts
-this into a real pytest suite and covers the parser->normalizer stage it omits.
+kept as a compact manual smoke check. It is NOT the regression suite; use
+``pytest external-data/scripts/test_doordash_harvest.py`` for maintained
+coverage, including the parser->normalizer path. The two formerly failing
+checks were fixed in Task 2 of the next-steps plan.
 
 Run: .venv/bin/python external-data/scripts/check_doordash_harvest_safeguards.py
-Expected today: 28/30 passing.
+Expected today: 30/30 passing.
 """
 import importlib.util, json, sys, tempfile, types, traceback
 from pathlib import Path
@@ -57,13 +56,14 @@ for label, (resp, want_ok, want_kind) in cases.items():
     check(f"fetch_item_page/{label}", out["ok"] == want_ok and got_kind == want_kind,
           f"ok={out['ok']} kind={got_kind}")
 
-# retryable flags actually honoured by the caller's retry set?
-retry_set = {"camofox_evaluate_error", "camofox_evaluate_invalid_result"}
+# retryable flags are eligible for a second capture attempt.
 claims_retryable = {label for label, (resp, _, kind) in cases.items()
                     if diag(resp)["diagnostic"].get("retryable")}
 kinds_retryable = {cases[l][2] for l in claims_retryable}
-check("retryable diagnostics are all actually retried by cmd_harvest",
-      kinds_retryable <= retry_set, f"claim retryable but never retried: {sorted(kinds_retryable - retry_set)}")
+check("retryable diagnostics are all retried by cmd_harvest",
+      all(spike.should_retry_item_page_capture(diag(cases[label][0])["diagnostic"], 1)
+          for label in claims_retryable),
+      f"retryable kinds: {sorted(kinds_retryable)}")
 
 
 # ---------- build_harvest_status ----------
@@ -144,11 +144,14 @@ check("still-growing menu at cap -> incomplete",
 
 # browser loss mid-discovery
 try:
-    spike.collect_items(ScriptedClient(cards=4, grows=True, die_after=6), "t", max_scrolls=60)
-    check("browser loss during discovery is handled", False, "no exception, no error path taken")
+    lost_items, lost_discovery = spike.collect_items(ScriptedClient(cards=4, grows=True, die_after=6), "t", max_scrolls=60)
+    check("browser loss during discovery is handled",
+          bool(lost_items) and lost_discovery.get("stop_reason") == "browser_lost_during_discovery"
+          and lost_discovery.get("status") == "incomplete",
+          f"{lost_discovery.get('status')}/{lost_discovery.get('stop_reason')} items={len(lost_items)}")
 except requests.RequestException as exc:
     check("browser loss during discovery is handled", False,
-          f"uncaught {type(exc).__name__} escapes collect_items -> traceback, no discovery record")
+          f"uncaught {type(exc).__name__} escapes collect_items")
 except Exception as exc:
     check("browser loss during discovery is handled", False, f"uncaught {type(exc).__name__}")
 
