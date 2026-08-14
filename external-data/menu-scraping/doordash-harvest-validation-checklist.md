@@ -6,6 +6,14 @@ resume. This checklist is the remaining operational validation needed before
 treating it as production-ready: it proves that those safeguards match real
 DoorDash and Camofox behavior.
 
+## `--items-file` policy
+
+A bare `--items-file` JSON array is a development convenience for testing
+item-page capture. It carries no verifiable discovery evidence, so its harvest
+intentionally records `item_selection_not_live_verified` and cannot claim
+`harvest.state: "complete"`. A normal full scrape must perform and preserve
+live discovery evidence.
+
 | Check | What we are testing | Good result |
 | --- | --- | --- |
 | Small menu | A restaurant whose complete menu fits in the initial viewport. | Discovery reaches `bottom_stable`, finds items, and completes without needing a newly mounted batch. |

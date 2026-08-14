@@ -1680,7 +1680,7 @@ def main() -> None:
     p_harvest.add_argument("output", type=Path)
     p_harvest.add_argument("--limit", type=int, default=0, help="stop after N items (0 = all)")
     p_harvest.add_argument("--items-file", type=Path,
-                           help="reuse a prior `items` JSON array instead of scrolling the live menu again")
+                           help="reuse a prior `items` JSON array for development; a bare array is unverified and always yields an incomplete harvest")
     p_harvest.add_argument("--sample-per-section", type=int, default=0,
                            help="randomly select this many items from each menu section (0 = all)")
     p_harvest.add_argument("--sample-seed", type=int, default=20260813,
