@@ -7,7 +7,7 @@ state what was captured, what failed, and whether menu completeness was
 actually established.
 
 Context and deliberation history are in:
-`DOORDASH_HARVEST_COUNCIL_HANDOFF.md`.
+`doordash-harvest-council-handoff.md`.
 
 ## Implementation priorities
 

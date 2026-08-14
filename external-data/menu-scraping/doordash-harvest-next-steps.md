@@ -266,13 +266,9 @@ around.
 
 ## Task 6 — Housekeeping
 
-- `DOORDASH_HARVEST_IMPLEMENTATION_PLAN.md:10` points at
-  `DOORDASH_HARVEST_COUNCIL_HANDOFF.md`, which is not in the project. Restore it
-  or drop the pointer — it is currently the only stated source for the
-  deliberation history behind these priorities.
-- Consider moving `DOORDASH_HARVEST_IMPLEMENTATION_PLAN.md` from the repo root
-  into `external-data/menu-scraping/` alongside the checklist, the notes, the
-  review, the rebuttal, and this plan.
+- The council handoff and implementation plan now live beside this document:
+  `doordash-harvest-council-handoff.md` and
+  `doordash-harvest-implementation-plan.md`.
 - Keep the eight pre-contract harvests. They remain fully usable by the offline
   parser and they are the baseline for the Task 5.2 comparison.
 

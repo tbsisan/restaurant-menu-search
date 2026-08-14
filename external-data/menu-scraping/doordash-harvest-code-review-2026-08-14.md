@@ -2,7 +2,7 @@
 
 **Date:** 2026-08-14
 **Reviewing:** the uncommitted changes made against
-`DOORDASH_HARVEST_IMPLEMENTATION_PLAN.md`, and the fix claims recorded in
+`doordash-harvest-implementation-plan.md`, and the fix claims recorded in
 `doordash-harvest-validation-checklist.md`.
 
 **Files reviewed:**
@@ -41,7 +41,7 @@ uncommitted work was still in scope:
   finding is unchanged.
 - `grep -rl '"schema_version": 2'` across `external-data/**.json` — no matches.
 - `find external-data -name '*.discovery.json'` — no matches.
-- `ls DOORDASH_HARVEST_COUNCIL_HANDOFF.md` — not present.
+- `ls doordash-harvest-council-handoff.md` — not present at review time.
 
 ## Verdict
 
@@ -242,9 +242,8 @@ live or offline.** Every row of the validation checklist that needs a real page
 remains genuinely open. The checklist is honest about this; it is only the
 fixture-test line that overstates.
 
-Separately, `DOORDASH_HARVEST_IMPLEMENTATION_PLAN.md:10` points at
-`DOORDASH_HARVEST_COUNCIL_HANDOFF.md` for context and deliberation history. That
-file is not in the project.
+The implementation plan now points to the adjacent
+`doordash-harvest-council-handoff.md` for context and deliberation history.
 
 ## Against the plan's "Done when"
 
