@@ -1,0 +1,44 @@
+{
+  "__typename": "ItemPage",
+  "itemHeader": {
+    "id": "9721627324",
+    "name": "C16. General Tso's Chicken 左宗鸡",
+    "description": "Spicy. chunks of boneless chicken meat lightly coated w. special flour, deep fried until crispy than stir fried in a hot spicy sauce.",
+    "unitAmount": 1555,
+    "currency": "USD",
+    "decimalPlaces": 2
+  },
+  "itemType": "HAS_OPTIONS",
+  "optionLists": [
+    {
+      "id": "7554412900",
+      "name": "Rice Choice",
+      "isOptional": false,
+      "minNumOptions": 1,
+      "maxNumOptions": 1,
+      "selectionModeDisplayType": "SELECTION_MODE_DISPLAY_TYPE_DEFAULT",
+      "options": [
+        {
+          "id": "33160485190",
+          "name": "White Rice",
+          "description": "",
+          "unitAmount": 0,
+          "currency": "USD",
+          "decimalPlaces": 2,
+          "defaultQuantity": 0,
+          "nestedExtrasList": []
+        },
+        {
+          "id": "33160485188",
+          "name": "Chicken Fried RIce",
+          "description": "",
+          "unitAmount": 0,
+          "currency": "USD",
+          "decimalPlaces": 2,
+          "defaultQuantity": 0,
+          "nestedExtrasList": []
+        }
+      ]
+    }
+  ]
+}
