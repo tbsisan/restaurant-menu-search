@@ -267,6 +267,53 @@ behaviour for spot checks.
 
 This run: 116 requests over ~18 min, no challenge, no rate limiting.
 
+## China House, Detroit (2026-08-10): menu codes and compatibility-width punctuation
+
+`china-house-itempage-harvest.json` -> `china-house-itempage-parsed.json`
+captured 143 items across 16 sections with no item failures. It adds two title
+handling cases that a downstream search/display layer must not conflate:
+
+- **Menu codes are metadata, not titles.** 113 of the 143 titles had a leading
+  code: numeric (`46.`), letter-number (`C17.` / `S8.`), or `NO.6.`. The
+  normalizer extracts the code to `menu_code`, leaves a clean display title, and
+  retains the exact source value in `original_title`. Numeric codes require a
+  following space so a real title that begins with a decimal-like value is not
+  eaten.
+- **CJK compatibility punctuation can occur inside Latin-script titles.** Five
+  Egg Foo Young titles used full-width parentheses (`（4pc）`) and six soup
+  titles had a full-width closing parenthesis (`quart）`).
+  `normalize_menu_sizes.py` now applies Unicode NFKC only to the display title,
+  while preserving `original_title`; actual Chinese characters are preserved.
+  The run normalized 17 display titles in all (the other six were leading or
+  trailing spacing cleanups).
+
+China House also confirms that many repeated `type: item` groups are cross-sell
+widgets rather than food modifiers: 120 menu items carried each of
+`Recommended Sides And Apps`, `Recommended Beverages`, and `Recommended
+Desserts`. The parser's type-based split keeps all of them out of the option
+index. Its 26 combination platters instead have a true required `Rice Choice`
+group, demonstrating both shapes on one small restaurant menu.
+
+## China 1, Hazel Park (2026-08-11): actual Han-script item titles
+
+`china-1-itempage-harvest.json` -> `china-1-itempage-parsed.json` ->
+`china-1-normalized.json` captured 161 items across 17 sections. The initial
+human-paced pass had two transient `itemPage` misses; checkpoint resume fetched
+only those two and finished with **0 failures**.
+
+- This is the needed real CJK case: **159 of 161** display titles contain Han
+  characters, usually alongside an English name. For example, raw
+  `C17. Sesame Chicken 芝麻鸡` becomes display title `Sesame Chicken 芝麻鸡`, with
+  `menu_code: "C17"` and the untouched source string retained as
+  `original_title`. NFKC made no changes on this menu and does not transliterate
+  or remove the Han text.
+- 146 titles use leading menu codes, including numeric, `C` combination-plate,
+  and `S` specialty codes. The clean display title/code/raw-source separation
+  therefore works with bilingual text rather than merely Latin titles.
+- The store has 154 real option groups (143 required single-select, 11 optional
+  multi-select) and no cross-sell groups or nested extras. It is a useful compact
+  fixture for bilingual-title preservation plus ordinary modifier extraction.
+
 ## Cross-store validation: Jet's Pizza Lincoln Park (2026-08-08)
 
 `jets-pizza-itempage-harvest.json` -> `jets-pizza-itempage-parsed.json`
