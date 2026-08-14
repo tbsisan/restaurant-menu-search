@@ -75,6 +75,7 @@ def fetch(response, item_id="42") -> dict:
         ({"status": 503, "body": "upstream unavailable"}, False, "http_error"),
         ({"status": 200, "body": json.dumps({"errors": [{"message": "boom"}]})}, False, "graphql_errors"),
         ({"status": 200, "body": "<html>not JSON"}, False, "response_not_json"),
+        ({"status": 200, "body": json.dumps(["not a GraphQL object"])}, False, "malformed_graphql_payload"),
         ({"status": 200, "body": json.dumps({"data": {}})}, False, "missing_item_page"),
         ({"status": 200, "body": json.dumps({"data": {"itemPage": {}}})}, False, "malformed_item_page"),
         (
@@ -92,6 +93,7 @@ def fetch(response, item_id="42") -> dict:
         "http_error",
         "graphql_errors",
         "response_not_json",
+        "malformed_graphql_payload",
         "missing_item_page",
         "malformed_item_page",
         "item_identity_mismatch",
@@ -142,6 +144,15 @@ def test_fetch_item_page_accepts_trimmed_recorded_payload(recorded_item_page: di
         ),
         (
             [{"item_id": "1"}],
+            [{"item_id": "1", "item_page": None, "error": "http_error"}],
+            {"status": "complete", "stop_reason": "bottom_stable"},
+            {"source": "live_discovery", "sample_per_section": None, "item_limit": None},
+            True,
+            "incomplete",
+            "item_page_failures",
+        ),
+        (
+            [{"item_id": "1"}],
             [{"item_id": "1", "item_page": {}}],
             {"status": "incomplete", "stop_reason": "scroll_limit_reached"},
             {"source": "live_discovery", "sample_per_section": None, "item_limit": None},
@@ -162,6 +173,15 @@ def test_fetch_item_page_accepts_trimmed_recorded_payload(recorded_item_page: di
             [{"item_id": "1"}],
             [{"item_id": "1", "item_page": {}}],
             {"status": "complete", "stop_reason": "bottom_stable"},
+            {"source": "live_discovery", "sample_per_section": 3, "item_limit": None},
+            True,
+            "incomplete",
+            "item_selection_sampled",
+        ),
+        (
+            [{"item_id": "1"}],
+            [{"item_id": "1", "item_page": {}}],
+            {"status": "complete", "stop_reason": "bottom_stable"},
             {"source": "items_file", "sample_per_section": None, "item_limit": None},
             True,
             "incomplete",
@@ -177,7 +197,7 @@ def test_fetch_item_page_accepts_trimmed_recorded_payload(recorded_item_page: di
             "no_items_selected",
         ),
     ],
-    ids=["clean", "pending", "scroll_cap", "limit", "items_file", "empty_selection"],
+    ids=["clean", "pending", "failed_capture", "scroll_cap", "limit", "sample", "items_file", "empty_selection"],
 )
 def test_harvest_status_completeness_gates(
     selected_items, results, discovery, selection, finished, expected_state, expected_reason
@@ -314,6 +334,10 @@ def test_resume_rejects_mismatched_or_precontract_checkpoints(tmp_path: Path) ->
     assert set(previous) == {"1"}
     assert reason is None
 
+    written = json.loads(capture_path.read_text(encoding="utf-8"))
+    assert written["complete"] is False
+    assert written["harvest"]["state"] == "in_progress"
+
     _, reason = spike.load_previous(
         capture_path,
         store_url="https://www.doordash.com/store/test-store-1/",
@@ -322,6 +346,15 @@ def test_resume_rejects_mismatched_or_precontract_checkpoints(tmp_path: Path) ->
         selected_items=selected_items,
     )
     assert reason == "checkpoint_store_id_mismatch"
+
+    _, reason = spike.load_previous(
+        capture_path,
+        store_url="https://www.doordash.com/store/a-different-store-1/",
+        store_id="1",
+        selection=selection,
+        selected_items=selected_items,
+    )
+    assert reason == "checkpoint_store_url_mismatch"
 
     _, reason = spike.load_previous(
         capture_path,
