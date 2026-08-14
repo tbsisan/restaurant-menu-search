@@ -39,6 +39,7 @@ import argparse
 import importlib.util
 import json
 import re
+import unicodedata
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
@@ -106,8 +107,30 @@ def extract_menu_code(item: dict[str, Any]) -> bool:
     if not residual:
         return False
     item["menu_code"] = match.group(1) or match.group(2) or match.group(3)
-    item["original_title"] = item["title"]
+    # `original_title` may already hold the exact DoorDash string when display
+    # normalization changed Unicode punctuation before the code was removed.
+    item.setdefault("original_title", item["title"])
     item["title"] = residual
+    return True
+
+
+def normalize_display_title(item: dict[str, Any]) -> bool:
+    """Normalize compatibility-width title glyphs without altering source text.
+
+    Some DoorDash merchants use full-width CJK punctuation in otherwise Latin
+    menu titles, for example ``Egg Foo Young（4pc）`` and ``Soup (32 quart）``.
+    NFKC makes those titles compare and search consistently (``(4pc)``), while
+    preserving actual Han/Kana/Hangul characters.  Keep the untouched scraped
+    value in ``original_title`` for traceability.
+    """
+    title = item.get("title")
+    if not title:
+        return False
+    normalized = unicodedata.normalize("NFKC", title).strip()
+    if normalized == title:
+        return False
+    item.setdefault("original_title", title)
+    item["title"] = normalized
     return True
 
 
@@ -206,6 +229,23 @@ def merge_group(items: list[dict[str, Any]], residual: str, sizes: list[str]) ->
         "size_normalized": True,
         "merged_from": [i["title"] for _, i in paired],
     }
+    source_item_ids = list(dict.fromkeys(
+        str(item["source_item_id"])
+        for _, item in paired
+        if item.get("source_item_id") is not None
+    ))
+    if source_item_ids:
+        # A normalized size family no longer has one DoorDash item ID, but its
+        # source lineage must remain inspectable.
+        merged["source_item_ids"] = source_item_ids
+    section_memberships = list(dict.fromkeys(
+        section
+        for _, item in paired
+        for section in (item.get("section_memberships") or [])
+        if isinstance(section, str) and section
+    ))
+    if section_memberships:
+        merged["section_memberships"] = section_memberships
     if shared:
         # Every size had the same structure - store the modifier groups once.
         merged["options"].extend(paired[0][1].get("options") or [])
@@ -291,10 +331,13 @@ def main() -> None:
     total_merged = 0
     total_renamed = 0
     total_codes = 0
+    total_display_titles_normalized = 0
     all_notes: list[str] = []
 
     for section in doc.get("menu_sections") or []:
         for item in section["items"]:
+            if normalize_display_title(item):
+                total_display_titles_normalized += 1
             if rename_variant_groups(item):
                 total_renamed += 1
             # Before bucketing: codes differ between sizes of one dish and
@@ -309,6 +352,7 @@ def main() -> None:
         "size_items_merged": total_merged,
         "variant_groups_renamed_to_size": total_renamed,
         "menu_codes_extracted": total_codes,
+        "display_titles_unicode_normalized": total_display_titles_normalized,
     }
     args.output.write_text(json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8")
 
@@ -318,7 +362,8 @@ def main() -> None:
     remaining = sum(len(s["items"]) for s in doc["menu_sections"])
     print(
         f"Wrote {args.output} ({remaining} items after merging {total_merged} size duplicates; "
-        f"{total_renamed} variant groups renamed to 'Size'; {total_codes} menu codes extracted)"
+        f"{total_renamed} variant groups renamed to 'Size'; {total_codes} menu codes extracted; "
+        f"{total_display_titles_normalized} display titles Unicode-normalized)"
     )
 
 

@@ -215,6 +215,29 @@ def build_dietary_badges(option_index: list[dict[str, Any]], item_text: str) -> 
     return badges
 
 
+def section_memberships(entry: dict[str, Any]) -> list[str]:
+    """Return every category where DoorDash rendered this item, in order.
+
+    New harvests keep a `sections` list because a virtualized revisit can show
+    one item both in its menu category and in a recommendation shelf.  Older
+    harvests have only `section`; accepting both keeps the raw-artifact schema
+    backward compatible without making collection order choose a category.
+    """
+    raw = entry.get("sections")
+    values = raw if isinstance(raw, list) else [raw] if isinstance(raw, str) else []
+    memberships: list[str] = []
+    for value in values:
+        if not isinstance(value, str):
+            continue
+        section = value.strip()
+        if section and section not in memberships:
+            memberships.append(section)
+    legacy = entry.get("section")
+    if isinstance(legacy, str) and legacy.strip() and legacy.strip() not in memberships:
+        memberships.append(legacy.strip())
+    return memberships or ["Uncategorized"]
+
+
 def parse_item(entry: dict[str, Any]) -> dict[str, Any] | None:
     page = entry.get("item_page")
     if not page:
@@ -239,12 +262,21 @@ def parse_item(entry: dict[str, Any]) -> dict[str, Any] | None:
         "price_max": round(base + high, 2),
         "options": groups,
         "option_index": option_index,
+        "section_memberships": section_memberships(entry),
     }
+    if entry.get("item_id") is not None:
+        item["source_item_id"] = str(entry["item_id"])
     if cross_sell:
         item["cross_sell"] = cross_sell
     badges = build_dietary_badges(option_index, f"{title} {description}")
     if badges:
         item["dietary_badges"] = badges
+    # Card-level sentiment is collected separately from itemPage because the
+    # GraphQL response contains option trees but not visible item ratings.
+    # Preserve null when DoorDash does not display an item score for a store.
+    if "like_percent" in entry:
+        item["like_percent"] = entry.get("like_percent")
+        item["like_review_count"] = entry.get("like_review_count")
     return item
 
 
@@ -261,10 +293,27 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("input", type=Path, help="harvest output from spike_doordash_network_capture.py")
     parser.add_argument("output", type=Path)
+    parser.add_argument(
+        "--ratings",
+        type=Path,
+        help="Optional raw card collection from the same store, matched by item_id for like ratings.",
+    )
+    parser.add_argument(
+        "--restaurant-ratings",
+        type=Path,
+        help="Optional captured restaurant-level rating/review metadata JSON.",
+    )
     args = parser.parse_args()
 
     payload = json.loads(args.input.read_text())
     entries, source_url = load_entries(payload)
+    if args.ratings:
+        ratings = json.loads(args.ratings.read_text(encoding="utf-8"))
+        ratings_by_id = {entry.get("item_id"): entry for entry in ratings if entry.get("item_id")}
+        entries = [{**entry, **{
+            "like_percent": ratings_by_id.get(entry.get("item_id"), {}).get("like_percent"),
+            "like_review_count": ratings_by_id.get(entry.get("item_id"), {}).get("like_review_count"),
+        }} for entry in entries]
 
     sections: dict[str, list[dict[str, Any]]] = {}
     order: list[str] = []
@@ -276,11 +325,15 @@ def main() -> None:
         if item is None:
             skipped += 1
             continue
-        section = entry.get("section") or "Uncategorized"
-        if section not in sections:
-            sections[section] = []
-            order.append(section)
-        sections[section].append(item)
+        for section in item["section_memberships"]:
+            if section not in sections:
+                sections[section] = []
+                order.append(section)
+            # One source item is intentionally emitted under every DoorDash
+            # category where it appeared.  Its source ID and complete
+            # memberships remain on each placement, so this is not a
+            # collection-order-dependent duplicate.
+            sections[section].append(item)
         for badge in item.get("dietary_badges") or []:
             badge_counts[badge["tag"]] = badge_counts.get(badge["tag"], 0) + 1
 
@@ -293,9 +346,16 @@ def main() -> None:
         },
         "menu_sections": [{"section": name, "items": sections[name]} for name in order],
     }
+    if args.restaurant_ratings:
+        output["restaurant"] = json.loads(args.restaurant_ratings.read_text(encoding="utf-8"))
     args.output.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    item_count = sum(len(s["items"]) for s in output["menu_sections"])
+    placement_count = sum(len(s["items"]) for s in output["menu_sections"])
+    unique_item_count = len({
+        item.get("source_item_id") or f"{section['section']}:{index}"
+        for section in output["menu_sections"]
+        for index, item in enumerate(section["items"])
+    })
     nested = sum(
         1
         for s in output["menu_sections"]
@@ -306,7 +366,8 @@ def main() -> None:
     )
     badge_text = ", ".join(f"{k}={v}" for k, v in sorted(badge_counts.items())) or "none"
     print(
-        f"Wrote {args.output} ({len(output['menu_sections'])} sections, {item_count} items, "
+        f"Wrote {args.output} ({len(output['menu_sections'])} sections, {unique_item_count} unique items, "
+        f"{placement_count} category placements, "
         f"{nested} options with nested groups, {skipped} skipped; dietary badges: {badge_text})"
     )
 
