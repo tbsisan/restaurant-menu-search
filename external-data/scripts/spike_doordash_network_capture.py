@@ -813,11 +813,11 @@ def collect_items(
                 "eligible_cards_in_view": step.get("eligible_cards_in_view"),
                 "selector_counts": step.get("selector_counts"),
             })
-            # Rapid scrolling/page-down is normal when scanning a menu. This pause
-            # is only enough to let DoorDash's virtualized grid mount the next
-            # cards; it is intentionally distinct from the slower itemPage request
-            # pacing used during a full modifier harvest.
-            time.sleep(random.uniform(0.08, 0.22))
+            # Advance roughly one viewport at a time, then allow DoorDash's
+            # virtualized grid to mount the next cards.  This is intentionally
+            # slower than a bare page-down loop but capped well below the
+            # longer pauses used between itemPage option-data requests.
+            time.sleep(random.uniform(0.6, 1.5))
             if total == last_total:
                 stable += 1
                 if stable >= 4 and at_bottom:

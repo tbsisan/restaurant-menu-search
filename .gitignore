@@ -21,3 +21,6 @@ __pycache__/
 # SessionStart hook that keeps .claude/skills symlinked to .agents/skills.
 .claude/*
 !.claude/settings.json
+
+# Local proxy credential snippets.
+/webshare-start.py

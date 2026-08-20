@@ -62,6 +62,9 @@ def main() -> None:
         "source": {
             "response_path": str(args.input),
             "url": capture.get("final_url") or capture.get("source_url") or "",
+            # Card-level scrape; no item is emitted with an `options` key at
+            # all, so an absent key means "never captured", not "none exist".
+            "options_captured": capture.get("options_captured", False),
         },
         "menu_sections": [{"section": name, "items": sections[name]} for name in order],
     }

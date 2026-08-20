@@ -15,7 +15,8 @@ reused on the duplicate card in the item's real category - so matching is
 still id-based, not name-based.
 
 The whole menu is small enough that Toast mounts every item card at once
-(no virtualized/lazy scrolling observed), so extraction is a single DOM pass.
+(no virtualized/lazy scrolling observed). The companion scraper then opens each
+distinct item card and records `option_groups` from its configuration modal.
 
 Availability (sold-out) isn't handled here - only relevant once we add
 ordering, not for a menu scrape - but see
@@ -43,6 +44,10 @@ def main() -> None:
 
     response = json.loads(args.input.read_text())
     entries = response.get("result") or []
+    # Older artifacts predate the flag and always captured options, so absent
+    # means True.  When False, `options` is omitted entirely rather than
+    # emitted empty - an empty list would claim the item has no modifiers.
+    options_captured = response.get("options_captured", True)
 
     featured_ids = {e["item_id"] for e in entries if e.get("section") == FEATURED_ITEMS and e.get("item_id")}
 
@@ -60,12 +65,16 @@ def main() -> None:
             "ingredients_or_description": entry.get("description") or "",
             "price": entry.get("price"),
         }
+        if options_captured:
+            parsed_item["options"] = entry.get("option_groups") or []
         if entry.get("item_id") in featured_ids:
             parsed_item["special"] = "featured item"
+        if entry.get("modal_error"):
+            parsed_item["configuration_error"] = entry["modal_error"]
         sections[section_name].append(parsed_item)
 
     output = {
-        "source": {"response_path": str(args.input)},
+        "source": {"response_path": str(args.input), "options_captured": options_captured},
         "menu_sections": [{"section": name, "items": sections[name]} for name in order],
     }
     args.output.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")

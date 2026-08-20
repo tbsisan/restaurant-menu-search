@@ -56,6 +56,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 import sys
 import time
 from pathlib import Path
@@ -97,6 +98,95 @@ EXTRACT_MENU_JS = r"""
 """.strip()
 
 ITEM_COUNT_JS = 'document.querySelectorAll(\'[data-testid="menu-item-card"]\').length'
+
+# --- Virtualized-list collection (2026-08 SpotOn layout) -------------------
+#
+# SpotOn moved to a Tamagui build where:
+#   * the menu scrolls inside a container div, not the window, so
+#     `window.scrollTo(0, document.body.scrollHeight)` is a no-op;
+#   * that list is virtualized - cards unmount as they leave the viewport, so a
+#     single querySelectorAll only ever sees ~23-44 of them;
+#   * the old `menu-item-card-name/-description/-price` testids are gone. Only
+#     `menu-item-card` and an inner `price` survive, and class names are
+#     content-hashed, so name/description come from the card's text lines.
+#   * section headings are no longer `h2` and are not present as text nodes
+#     inside the scroller at all - the visible section names belong to nav
+#     buttons. Section attribution is therefore NOT recovered by this path.
+#
+# Cards are accumulated across scroll steps into a page-level map, keyed by
+# name+price, exactly like the DoorDash virtualized grid.
+FIND_SCROLLER_JS = r"""
+(function() {
+  var best = null;
+  Array.from(document.querySelectorAll('*')).forEach(function(el) {
+    if (el.scrollHeight > el.clientHeight + 50 && el.clientHeight > 200) {
+      if (!best || el.scrollHeight > best.scrollHeight) { best = el; }
+    }
+  });
+  window.__spotonScroller = best;
+  window.__spotonItems = {};
+  if (!best) { return JSON.stringify({found: false}); }
+  return JSON.stringify({found: true, scroll_height: best.scrollHeight, client_height: best.clientHeight});
+})()
+""".strip()
+
+COLLECT_STEP_JS = r"""
+(function() {
+  if (!window.__spotonItems) { return JSON.stringify({error: 'collection_state_not_initialized'}); }
+  var cards = Array.from(document.querySelectorAll('[data-testid="menu-item-card"]'));
+  cards.forEach(function(card) {
+    // Prefer the legacy testids when a restaurant is still on the old layout.
+    var nameEl = card.querySelector('[data-testid="menu-item-card-name"]');
+    var descEl = card.querySelector('[data-testid="menu-item-card-description"]');
+    var priceEl = card.querySelector('[data-testid="menu-item-card-price"]')
+               || card.querySelector('[data-testid="price"]');
+    var name = nameEl ? nameEl.textContent.trim() : null;
+    var description = descEl ? descEl.textContent.trim() : '';
+    var price = priceEl ? priceEl.textContent.trim() : null;
+    if (!name) {
+      // New layout: the card's text lines are [name, description?, price].
+      var lines = (card.innerText || '').split('\n')
+        .map(function(s) { return s.trim(); })
+        .filter(Boolean);
+      var priceLines = lines.filter(function(s) { return /^\$?\d+(\.\d{2})?\+?$/.test(s); });
+      var textLines = lines.filter(function(s) { return priceLines.indexOf(s) === -1; });
+      name = textLines.length ? textLines[0] : null;
+      description = textLines.length > 1 ? textLines.slice(1).join(' ') : '';
+      if (!price && priceLines.length) { price = priceLines[priceLines.length - 1]; }
+    }
+    if (!name) { return; }
+    var soldOut = card.getAttribute('aria-disabled') === 'true'
+      || /sold out|unavailable|86'd/i.test(card.textContent || '');
+    var key = name + '||' + (price || '');
+    if (!window.__spotonItems[key]) {
+      window.__spotonItems[key] = {
+        section: null, name: name, description: description,
+        price: price, is_sold_out: soldOut,
+      };
+    }
+  });
+  return JSON.stringify({
+    total: Object.keys(window.__spotonItems).length,
+    mounted: cards.length,
+  });
+})()
+""".strip()
+
+SCROLL_STEP_JS = r"""
+(function() {
+  var s = window.__spotonScroller;
+  if (!s) { return JSON.stringify({error: 'no_scroller'}); }
+  s.scrollTop += %d;
+  return JSON.stringify({
+    top: Math.round(s.scrollTop),
+    height: s.scrollHeight,
+    client: s.clientHeight,
+    at_bottom: s.scrollTop + s.clientHeight >= s.scrollHeight - 4,
+  });
+})()
+""".strip()
+
+COLLECTED_JS = "JSON.stringify(Object.values(window.__spotonItems || {}))"
 
 
 class CamofoxClient:
@@ -198,6 +288,60 @@ def scroll_once(client: CamofoxClient, tab_id: str) -> int:
     return after
 
 
+def collect_items(
+    client: CamofoxClient, tab_id: str, max_scrolls: int = 60
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Scroll the virtualized menu container end to end, accumulating cards.
+
+    Returns the collected items plus a record of how collection ended, so an
+    artifact can state whether the menu was exhausted or the scroll cap was hit
+    rather than silently reporting a partial menu as complete.
+    """
+    found = client.evaluate(tab_id, FIND_SCROLLER_JS) or {}
+    if not isinstance(found, dict) or not found.get("found"):
+        # Older SpotOn layout: the window itself scrolls.
+        client.evaluate(tab_id, "window.scrollTo(0, document.body.scrollHeight); null")
+        time.sleep(1.0)
+        entries = client.evaluate(tab_id, EXTRACT_MENU_JS) or []
+        return entries, {"mode": "window_scroll_legacy", "stop_reason": "single_scroll"}
+
+    stable = 0
+    last_total = 0
+    stop_reason = "scroll_limit_reached"
+    steps = 0
+    for steps in range(1, max_scrolls + 1):
+        step = client.evaluate(tab_id, COLLECT_STEP_JS) or {}
+        if not isinstance(step, dict) or not isinstance(step.get("total"), int):
+            stop_reason = "collection_step_invalid"
+            break
+        total = step["total"]
+        pos = client.evaluate(tab_id, SCROLL_STEP_JS % 900) or {}
+        if not isinstance(pos, dict) or pos.get("error"):
+            stop_reason = "scroll_state_unavailable"
+            break
+        time.sleep(random.uniform(0.25, 0.55))
+        if total == last_total:
+            stable += 1
+            if stable >= 3 and pos.get("at_bottom"):
+                stop_reason = "bottom_stable"
+                break
+        else:
+            stable = 0
+        last_total = total
+    client.evaluate(tab_id, COLLECT_STEP_JS)
+    entries = client.evaluate(tab_id, COLLECTED_JS) or []
+    if not isinstance(entries, list):
+        entries = []
+        stop_reason = "collected_items_unavailable"
+    return entries, {
+        "mode": "container_scroll",
+        "stop_reason": stop_reason,
+        "scroll_steps": steps,
+        "max_scrolls": max_scrolls,
+        "sections_recovered": False,
+    }
+
+
 def scrape(args: argparse.Namespace) -> None:
     client = CamofoxClient(args.server, args.user)
     if not client.health():
@@ -210,18 +354,30 @@ def scrape(args: argparse.Namespace) -> None:
         time.sleep(2)  # let the SPA finish its initial render pass
         close_known_modals(client, tab_id)
 
-        item_count = scroll_once(client, tab_id)
-        entries = client.evaluate(tab_id, EXTRACT_MENU_JS) or []
+        entries, collection = collect_items(client, tab_id, max_scrolls=args.max_scrolls)
+        item_count = len(entries)
         final_url = client.evaluate(tab_id, "location.href")
     finally:
         client.close_tab(tab_id)
         client.close_session()
 
-    output = {"source_url": args.url, "final_url": final_url, "result": entries}
+    # This scraper is card-level only: it never opens an item's configuration
+    # view, so no modifier data is collected. Stating that explicitly keeps the
+    # artifact honest for a consumer comparing providers - "not captured" must
+    # not read as "this menu has no options".
+    output = {
+        "source_url": args.url,
+        "final_url": final_url,
+        "options_captured": False,
+        "collection": collection,
+        "result": entries,
+    }
     args.output.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     section_count = len({e["section"] for e in entries if e.get("section")})
     sold_out_count = sum(1 for e in entries if e.get("is_sold_out"))
-    print(f"Wrote {args.output} ({section_count} sections, {item_count} items, {sold_out_count} sold out)")
+    note = "" if collection.get("sections_recovered", True) else "; SECTIONS NOT RECOVERED"
+    print(f"Wrote {args.output} ({section_count} sections, {item_count} items, "
+          f"{sold_out_count} sold out; collection {collection.get('stop_reason')}{note})")
 
 
 def main() -> None:
@@ -233,6 +389,8 @@ def main() -> None:
     parser.add_argument("--timezone", default="America/Detroit")
     parser.add_argument("--server", default="http://localhost:9377")
     parser.add_argument("--user", default="spoton-scraper", help="camofox-browser profile id")
+    parser.add_argument("--max-scrolls", type=int, default=60,
+                        help="cap on scroll steps through the virtualized menu container")
     args = parser.parse_args()
     scrape(args)
 

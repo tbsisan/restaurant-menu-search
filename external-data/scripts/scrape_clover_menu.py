@@ -312,7 +312,8 @@ def scrape(args: argparse.Namespace) -> None:
         ]
 
         modifiers: dict[str, list[dict[str, Any]]] = {}
-        for it in zero_price_items:
+        capture_options = not args.no_options
+        for it in (zero_price_items if capture_options else []):
             human_delay()
             item_url = urljoin(args.url, it["href"])
             client.navigate(tab_id, item_url)
@@ -340,15 +341,27 @@ def scrape(args: argparse.Namespace) -> None:
         "source_url": args.url,
         "final_url": final_url,
         "json_ld_used": json_ld_used,
+        # An empty `modifiers` map from a --no-options run must not read as
+        # "these items have no modifiers": on Clover the $0.00 items get their
+        # real price from a modifier group, so skipping them leaves those items
+        # genuinely unpriced.
+        "options_captured": capture_options,
         "items": items,
         "modifiers": modifiers,
     }
     args.output.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     section_count = len({it["section"] for it in items if it.get("section")})
-    print(
-        f"Wrote {args.output} ({section_count} sections, {len(items)} items, "
-        f"json_ld_used={json_ld_used}, {len(zero_price_items)} $0.00 items checked for modifiers)"
-    )
+    if capture_options:
+        print(
+            f"Wrote {args.output} ({section_count} sections, {len(items)} items, "
+            f"json_ld_used={json_ld_used}, {len(zero_price_items)} $0.00 items checked for modifiers)"
+        )
+    else:
+        print(
+            f"Wrote {args.output} ({section_count} sections, {len(items)} items, "
+            f"json_ld_used={json_ld_used}; OPTIONS NOT CAPTURED (--no-options), "
+            f"{len(zero_price_items)} $0.00 items left unpriced)"
+        )
 
 
 def main() -> None:
@@ -360,6 +373,10 @@ def main() -> None:
     parser.add_argument("--timezone", default="America/Detroit")
     parser.add_argument("--server", default="http://localhost:9377")
     parser.add_argument("--user", default="clover-scraper", help="camofox-browser profile id")
+    parser.add_argument("--no-options", action="store_true",
+                        help="skip opening each $0.00 item for its modifier groups. Much faster and "
+                             "enough for a menu/price comparison of the priced items, but the $0.00 "
+                             "items stay unpriced. Artifact records options_captured: false.")
     args = parser.parse_args()
     scrape(args)
 

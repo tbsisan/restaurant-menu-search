@@ -132,6 +132,8 @@ def main() -> None:
     sections: dict[str, list[dict[str, Any]]] = {}
     order: list[str] = []
     fixed_count = 0
+    unresolved_count = 0
+    options_captured = capture.get("options_captured", True)
     still_zero_count = 0
     mismatch_count = 0
 
@@ -152,7 +154,15 @@ def main() -> None:
 
         is_zero = entry.get("price") is None or entry.get("price") == "$0.00"
         href = entry.get("href")
-        if is_zero and href is not None and href in modifiers:
+        if is_zero and not options_captured:
+            # The scrape never opened this item, so its real price - which on
+            # Clover lives in a required modifier group - was never available.
+            # Flag it rather than letting "$0.00" pass as a price.
+            parsed_item.setdefault("review_flags", []).append(
+                "price unresolved: options were not captured (--no-options)"
+            )
+            unresolved_count += 1
+        elif is_zero and href is not None and href in modifiers:
             groups = modifiers[href]
             final_price, notes, flags = resolve_item_price(0.0, groups)
             parsed_item["price"] = f"${final_price:.2f}"
@@ -176,6 +186,7 @@ def main() -> None:
             "response_path": str(args.input),
             "url": capture.get("final_url") or capture.get("source_url") or "",
             "json_ld_used": capture.get("json_ld_used", False),
+            "options_captured": options_captured,
         },
         "menu_sections": [{"section": name, "items": sections[name]} for name in order],
     }
@@ -183,10 +194,13 @@ def main() -> None:
 
     section_count = len(output["menu_sections"])
     item_count = sum(len(section["items"]) for section in output["menu_sections"])
+    suffix = ""
+    if not options_captured:
+        suffix = f"; OPTIONS NOT CAPTURED - {unresolved_count} items left unpriced"
     print(
         f"Wrote {args.output} ({section_count} sections, {item_count} items, "
         f"{fixed_count} $0.00 prices fixed, {still_zero_count} still $0.00 for review, "
-        f"{mismatch_count} rule/input-type mismatches flagged)"
+        f"{mismatch_count} rule/input-type mismatches flagged{suffix})"
     )
 
 
